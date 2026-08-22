@@ -14,5 +14,21 @@
   "generated": "2026-08-22",
   "tone": "warn",
   "file": "300308_2026中报.json"
+ },
+ {
+  "code": "00700",
+  "name": "腾讯控股",
+  "period_label": "2026Q2",
+  "generated": "2026-08-22",
+  "tone": "good",
+  "file": "00700_2026Q2.json"
+ },
+ {
+  "code": "09988",
+  "name": "阿里巴巴",
+  "period_label": "FY2027Q1(2026年4-6月)",
+  "generated": "2026-08-22",
+  "tone": "warn",
+  "file": "09988_FY2027Q1(2026年4-6月).json"
  }
 ]
