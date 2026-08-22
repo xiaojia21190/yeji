@@ -41,22 +41,31 @@ python -X utf8 "C:/Users/35033/.claude/skills/fin-report/scripts/fetch_market.py
 - 同行模块：增速/毛利率/ROE 对比表（同行数据同样用 fetch_financial.py 取）
 - 估值模块：PE-TTM、PE-2026E/2027E 逐机构
 
-### 4. 渲染（脚本）
+### 4. 发布（脚本）
 
 payload 结构：meta{code,name,period_label,generated,disclaimer} + summary{text,tone,links[{id,label}]} + cards[] + sections[]{title,intro,tables[],conclusion{tone,text},notes[]}。
 tone: good/bad/warn；表格 rows 与 row_tones 等长对齐。
 
 **summary（顶部 AI 总结横幅，必填）**：3~5 句总评——四模块各一句 + 整体判断；tone 取四模块中最差与最好综合（整体偏差 bad / 喜忧参半 warn / 全面达标 good）；links 列出全部模块的 {id: section id, label: 模块简称}，点击跳转。summary 由分析阶段 AI 撰写，不写死模板。
 
+发布到本地报告中心（默认，不再生成散装 HTML）：
+
 ```bash
-python -X utf8 "C:/Users/35033/.claude/skills/fin-report/scripts/render_report.py" finreport_work/payload.json --out "300308_中际旭创_2026中报_财报分析_YYYYMMDD.html" --open
+python -X utf8 "C:/Users/35033/.claude/skills/fin-report/scripts/render_report.py" finreport_work/payload.json
 ```
 
-文件名：`{代码}_{公司名}_{报告期label}_财报分析_{当天YYYYMMDD}.html`，输出到当前目录。
+脚本会把 JSON 落盘到 `D:\code\yeji\reports\`、更新 index.json、自动起 8765 服务并打开 `http://localhost:8765/viewer.html`（列表点选查看，支持搜索与导出单文件 HTML）。
+
+需要单发一份给他人时才导出静态版：
+
+```bash
+python -X utf8 "C:/Users/35033/.claude/skills/fin-report/scripts/render_report.py" finreport_work/payload.json --out "300308_中际旭创_2026中报_财报分析_YYYYMMDD.html"
+```
 
 ### 5. 交付
 
-- 报告路径 + 3~5 句核心结论（四模块各一句）
+- viewer 链接 `http://localhost:8765/viewer.html` + 报告文件名（reports/{code}_{period}.json）
+- 3~5 句核心结论（四模块各一句）
 - 数据全部可溯源：机构数字标来源，反推算式在附录
 
 ## 硬性纪律
