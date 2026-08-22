@@ -39,7 +39,7 @@ python -X utf8 "C:/Users/35033/.claude/skills/fin-report/scripts/fetch_market.py
 - 归母−扣非差额拆非经常性损益明细
 - 趋势模块：近 8 期序列+单季环比+质量信号（references/metrics.md 信号表）
 - 同行模块：增速/毛利率/ROE 对比表（同行数据同样用 fetch_financial.py 取）
-- 估值模块：PE-TTM、PE-2026E/2027E 逐机构
+- 估值模块：PE-TTM、PE-2026E/2027E 逐机构，**必附「合理 PE 估算」小节**（按 references/metrics.md 的 PEG/利率锚/周期法选型，输出当前 PE vs 合理区间 vs 隐含市值，只说区间位置不给买卖建议）
 
 ### 4. 发布（脚本）
 
