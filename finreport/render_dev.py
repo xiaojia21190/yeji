@@ -4,6 +4,8 @@ from __future__ import annotations
 from html import escape
 from pathlib import Path
 
+from .update_index import add_entry
+
 DEFAULT_TEMPLATE = Path(__file__).resolve().parent / "report-template.html"
 
 
@@ -87,3 +89,30 @@ def _render_table(table: dict) -> str:
         tds = "".join(f"<td>{escape(str(v))}</td>" for v in row)
         rows.append(f"<tr{cls}>{tds}</tr>")
     return f'<table><thead><tr>{cols}</tr></thead><tbody>{"".join(rows)}</tbody></table>'
+
+
+def save_payload(payload: dict, reports_dir: str = "reports") -> dict:
+    """payload JSON 落盘到 reports_dir 并更新 index.json。
+
+    文件名 {code}_{period_label}.json（period_label 去空格）。返回 {"file": 文件名}。
+    """
+    import json as _json
+
+    rd = Path(reports_dir)
+    rd.mkdir(parents=True, exist_ok=True)
+    meta = payload["meta"]
+    fname = f"{meta['code']}_{str(meta['period_label']).replace(' ', '')}.json"
+    (rd / fname).write_text(_json.dumps(payload, ensure_ascii=False, indent=1),
+                            encoding="utf-8")
+
+    index_path = rd / "index.json"
+    index = []
+    if index_path.exists():
+        try:
+            index = _json.loads(index_path.read_text(encoding="utf-8"))
+        except (ValueError, OSError):
+            index = []  # 损坏的 index 重建
+    index = add_entry(index, payload, fname)
+    index_path.write_text(_json.dumps(index, ensure_ascii=False, indent=1),
+                          encoding="utf-8")
+    return {"file": fname}
