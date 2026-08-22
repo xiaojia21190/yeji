@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>财报分析报告中心</title>
+<style>
+  :root {
+    --bg: #020617; --panel: #0F172A; --panel-2: #16213A;
+    --ink: #F8FAFC; --sub: #94A3B8; --line: #1E293B;
+    --good: #22C55E; --good-strong: #4ADE80; --good-bg: rgba(34,197,94,0.10);
+    --bad: #FB7185; --bad-bg: rgba(251,113,133,0.10);
+    --warn: #FBBF24; --warn-bg: rgba(251,191,36,0.10);
+    --accent: #38BDF8; --accent-dim: rgba(56,189,248,0.14);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "IBM Plex Sans", "Segoe UI", "Microsoft YaHei", sans-serif;
+    color: var(--ink); background: var(--bg); line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .layout { display: flex; min-height: 100vh; }
+
+  /* 侧栏 */
+  .sidebar {
+    width: 260px; flex-shrink: 0; background: var(--panel);
+    border-right: 1px solid var(--line); padding: 16px 12px;
+    position: sticky; top: 0; height: 100vh; overflow-y: auto;
+  }
+  .sidebar h1 { font-size: 16px; margin-bottom: 4px; }
+  .sidebar .sub { font-size: 12px; color: var(--sub); margin-bottom: 12px; }
+  .search {
+    width: 100%; padding: 8px 10px; border-radius: 8px; margin-bottom: 12px;
+    background: var(--panel-2); border: 1px solid var(--line);
+    color: var(--ink); font-size: 13px; outline: none;
+  }
+  .search:focus { border-color: var(--accent); }
+  .report-list { display: flex; flex-direction: column; gap: 6px; }
+  .report-item {
+    padding: 10px 12px; border-radius: 8px; cursor: pointer;
+    border: 1px solid transparent; transition: background-color 150ms ease;
+  }
+  .report-item:hover { background: var(--panel-2); }
+  .report-item.active { background: var(--accent-dim); border-color: rgba(56,189,248,0.3); }
+  .report-item .row1 { display: flex; align-items: center; gap: 8px; }
+  .report-item .name { font-size: 14px; font-weight: 600; flex: 1; }
+  .report-item .code { font-size: 11px; color: var(--accent); font-variant-numeric: tabular-nums; }
+  .report-item .row2 { display: flex; align-items: center; gap: 8px; margin-top: 2px; }
+  .report-item .period { font-size: 12px; color: var(--sub); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .dot.good { background: var(--good); } .dot.bad { background: var(--bad); } .dot.warn { background: var(--warn); }
+  .report-item .date { font-size: 11px; color: var(--sub); margin-left: auto; }
+  .report-item.broken .name { color: var(--bad); }
+
+  /* 主区 */
+  .main { flex: 1; min-width: 0; padding: 24px 28px 48px; }
+  .toolbar { display: flex; gap: 10px; align-items: center; margin-bottom: 14px; }
+  .btn {
+    font-size: 13px; color: var(--accent); background: var(--accent-dim);
+    border: 1px solid rgba(56,189,248,0.25); border-radius: 8px;
+    padding: 6px 14px; cursor: pointer; transition: background-color 200ms ease;
+  }
+  .btn:hover { background: rgba(56,189,248,0.22); }
+  .btn:focus-visible, .report-item:focus-visible, .search:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .hint {
+    background: var(--warn-bg); border: 1px solid rgba(251,191,36,0.3);
+    color: var(--warn); border-radius: 8px; padding: 10px 14px;
+    font-size: 13px; margin-bottom: 14px; display: none;
+  }
+  .hint code { background: rgba(0,0,0,0.3); padding: 1px 6px; border-radius: 4px; font-size: 12px; }
+
+  .empty { color: var(--sub); text-align: center; padding: 80px 20px; font-size: 14px; }
+
+  /* ===== 报告样式（自 report-template.html 原样翻译） ===== */
+  .report { max-width: 980px; }
+  .report header { border-bottom: 1px solid var(--line); padding-bottom: 16px; margin-bottom: 16px; }
+  .crumb { color: var(--sub); font-size: 13px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .code-badge {
+    color: var(--accent); background: var(--accent-dim); font-variant-numeric: tabular-nums;
+    border: 1px solid rgba(56,189,248,0.25); border-radius: 6px; padding: 1px 8px; font-weight: 600;
+  }
+  .report h1.report-title { font-size: 24px; font-weight: 700; margin: 10px 0 4px; }
+  .report h1 .period { color: var(--accent); }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .chip { font-size: 12px; color: #CBD5E1; border: 1px solid var(--line); background: var(--panel); border-radius: 999px; padding: 3px 12px; }
+
+  .summary {
+    background: linear-gradient(135deg, var(--panel-2) 0%, var(--panel) 100%);
+    border: 1px solid var(--line); border-left: 3px solid var(--sum-tone, var(--accent));
+    border-radius: 12px; padding: 18px 20px; margin: 18px 0 8px;
+  }
+  .summary[data-tone="good"] { --sum-tone: var(--good); }
+  .summary[data-tone="bad"] { --sum-tone: var(--bad); }
+  .summary[data-tone="warn"] { --sum-tone: var(--warn); }
+  .summary .summary-head { font-size: 13px; font-weight: 600; color: var(--sub); letter-spacing: 0.08em; margin-bottom: 8px; }
+  .summary .summary-text { font-size: 14.5px; line-height: 1.8; }
+  .summary .summary-links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+  .summary .summary-links a { font-size: 12.5px; color: var(--accent); background: var(--accent-dim); border: 1px solid rgba(56,189,248,0.25); border-radius: 999px; padding: 3px 12px; text-decoration: none; }
+  .summary .summary-links a:hover { background: rgba(56,189,248,0.22); }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(165px, 1fr)); gap: 12px; margin: 16px 0 8px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px; position: relative; overflow: hidden; }
+  .card::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--card-tone, var(--line)); }
+  .card[data-tone="good"] { --card-tone: var(--good); }
+  .card[data-tone="bad"] { --card-tone: var(--bad); }
+  .card[data-tone="warn"] { --card-tone: var(--warn); }
+  .card .label { font-size: 12.5px; color: var(--sub); font-weight: 500; }
+  .card .value { font-size: 22px; font-weight: 700; margin: 6px 0 8px; font-variant-numeric: tabular-nums; }
+  .tag { display: inline-block; font-size: 12px; font-weight: 600; border-radius: 6px; padding: 2px 9px; }
+  .tag.good { color: var(--good-strong); background: var(--good-bg); border: 1px solid rgba(34,197,94,0.25); }
+  .tag.bad { color: var(--bad); background: var(--bad-bg); border: 1px solid rgba(251,113,133,0.25); }
+  .tag.warn { color: var(--warn); background: var(--warn-bg); border: 1px solid rgba(251,191,36,0.25); }
+
+  section.rpt { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 20px 22px; margin: 16px 0; scroll-margin-top: 16px; }
+  section.rpt h2 { font-size: 17px; font-weight: 700; margin-bottom: 10px; padding-left: 10px; border-left: 3px solid var(--accent); line-height: 1.4; }
+  section.rpt .intro { color: var(--sub); font-size: 13.5px; margin-bottom: 12px; }
+  .table-scroll { overflow-x: auto; border-radius: 8px; border: 1px solid var(--line); }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin: 8px 0; }
+  th { text-align: left; color: var(--sub); font-weight: 600; background: var(--panel-2); border-bottom: 1px solid var(--line); padding: 8px 12px; white-space: nowrap; font-size: 12.5px; }
+  td { border-bottom: 1px solid rgba(30,41,59,0.6); padding: 8px 12px; font-variant-numeric: tabular-nums; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: rgba(56,189,248,0.05); }
+  tr.row-good td { background: var(--good-bg); }
+  tr.row-bad td { background: var(--bad-bg); }
+  tr.row-warn td { background: var(--warn-bg); }
+  .conclusion { border-radius: 8px; padding: 12px 14px; font-size: 14px; margin-top: 10px; border: 1px solid transparent; line-height: 1.7; }
+  .conclusion.good { background: var(--good-bg); color: var(--good-strong); border-color: rgba(34,197,94,0.25); }
+  .conclusion.bad { background: var(--bad-bg); color: var(--bad); border-color: rgba(251,113,133,0.25); }
+  .conclusion.warn { background: var(--warn-bg); color: var(--warn); border-color: rgba(251,191,36,0.25); }
+  .note { color: var(--sub); font-size: 12.5px; margin-top: 8px; padding-left: 12px; border-left: 2px solid var(--line); line-height: 1.7; }
+  footer.rpt-footer { color: var(--sub); font-size: 12px; border-top: 1px solid var(--line); margin-top: 24px; padding-top: 12px; line-height: 1.8; }
+  a { color: var(--accent); }
+
+  @media (max-width: 760px) {
+    .layout { flex-direction: column; }
+    .sidebar { width: 100%; height: auto; position: static; border-right: none; border-bottom: 1px solid var(--line); }
+    .main { padding: 16px 14px 40px; }
+  }
+</style>
+</head>
+<body>
+<div class="hint" id="cors-hint">
+  直接打开的本地文件无法读取报告数据。请在 <b>D:\code\yeji</b> 目录运行
+  <code>python -m http.server 8765</code>，然后访问
+  <code>http://localhost:8765/viewer.html</code>
+</div>
+<div class="layout">
+  <aside class="sidebar">
+    <h1>财报分析报告中心</h1>
+    <div class="sub">fin-report · 本地报告</div>
+    <input class="search" id="search" type="search" placeholder="搜索代码 / 名称 / 报告期" aria-label="搜索报告">
+    <div class="report-list" id="report-list"></div>
+  </aside>
+  <main class="main">
+    <div class="toolbar">
+      <button class="btn" id="btn-export" title="把当前报告导出为可分享的单文件 HTML">导出单文件 HTML</button>
+    </div>
+    <div id="report-area"><div class="empty">加载中…</div></div>
+  </main>
+</div>
+<script>
+"use strict";
+
+// ===== 工具 =====
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c =>
+    ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+// ===== 渲染函数（自 render_dev.py 逐块翻译） =====
+function renderReport(p) {
+  const meta = p.meta;
+  return `
+    <div class="report">
+      <header>
+        <div class="crumb"><span class="code-badge">${escapeHtml(meta.code)}</span>
+          <span>${escapeHtml(meta.period_label)}</span><span>·</span><span>业绩符合预期情况</span></div>
+        <h1 class="report-title">${escapeHtml(meta.name)} <span class="period">${escapeHtml(meta.period_label)}</span> 财报分析</h1>
+        <div class="chips">
+          <span class="chip">只列事实与数字</span><span class="chip">机构预测逐家溯源</span>
+          <span class="chip">反推算式可查</span><span class="chip">已剔除无原文依据机构</span>
+        </div>
+      </header>
+      ${renderSummary(p.summary)}
+      <div class="cards">${renderCards(p.cards || [])}</div>
+      ${renderSections(p.sections || [])}
+      <footer class="rpt-footer">生成于 ${escapeHtml(meta.generated)} · ${escapeHtml(meta.disclaimer)}</footer>
+    </div>`;
+}
+
+function renderSummary(s) {
+  if (!s) return "";
+  const tone = escapeHtml(s.tone || "warn");
+  let links = "";
+  if (Array.isArray(s.links) && s.links.length) {
+    const anchors = s.links.filter(l => l && l.id)
+      .map(l => `<a href="#${escapeHtml(l.id)}">${escapeHtml(l.label)}</a>`).join(" ");
+    if (anchors) links = `<div class="summary-links">${anchors}</div>`;
+  }
+  return `<div class="summary" data-tone="${tone}">
+    <div class="summary-head">AI 总结</div>
+    <div class="summary-text">${escapeHtml(s.text || "")}</div>${links}</div>`;
+}
+
+function renderCards(cards) {
+  return cards.map(c => {
+    const tone = escapeHtml(c.tone || "warn");
+    return `<div class="card" data-tone="${tone}">
+      <div class="label">${escapeHtml(c.label)}</div>
+      <div class="value">${escapeHtml(c.value)}</div>
+      <span class="tag ${tone}">${escapeHtml(c.tag || "")}</span></div>`;
+  }).join("\n");
+}
+
+function renderSections(sections) {
+  return sections.map(s => {
+    const body = [`<section class="rpt" id="${escapeHtml(s.id || "")}">
+      <h2>${escapeHtml(s.title)}</h2>`];
+    if (s.intro) body.push(`<div class="intro">${escapeHtml(s.intro)}</div>`);
+    (s.tables || []).forEach(t => body.push(
+      `<div class="table-scroll">${renderTable(t)}</div>`));
+    if (s.conclusion) {
+      const tone = escapeHtml(s.conclusion.tone || "warn");
+      body.push(`<div class="conclusion ${tone}">${escapeHtml(s.conclusion.text)}</div>`);
+    }
+    (s.notes || []).forEach(n => body.push(`<div class="note">${escapeHtml(n)}</div>`));
+    body.push("</section>");
+    return body.join("\n");
+  }).join("\n");
+}
+
+function renderTable(t) {
+  const cols = t.columns.map(c => `<th>${escapeHtml(c)}</th>`).join("");
+  const tones = t.row_tones || [];
+  const rows = t.rows.map((r, i) => {
+    const tone = tones[i];
+    const cls = tone ? ` class="row-${escapeHtml(tone)}"` : "";
+    return `<tr${cls}>${r.map(v => `<td>${escapeHtml(v)}</td>`).join("")}</tr>`;
+  }).join("");
+  return `<table><thead><tr>${cols}</tr></thead><tbody>${rows}</tbody></table>`;
+}
+
+// ===== 应用状态与交互 =====
+const state = { index: [], current: null };
+
+async function loadIndex() {
+  const resp = await fetch("reports/index.json");
+  if (!resp.ok) throw new Error("index " + resp.status);
+  state.index = await resp.json();
+}
+
+function renderList(filter) {
+  const list = document.getElementById("report-list");
+  const kw = (filter || "").trim().toLowerCase();
+  const items = state.index.filter(e =>
+    !kw || [e.code, e.name, e.period_label].join(" ").toLowerCase().includes(kw));
+  if (!items.length) {
+    list.innerHTML = `<div class="empty" style="padding:30px 6px;font-size:13px;">${state.index.length ? "无匹配报告" : "暂无报告，运行 /fin-report 生成第一份"}</div>`;
+    return;
+  }
+  list.innerHTML = items.map(e => `
+    <div class="report-item${state.current === e.file ? " active" : ""}${e.broken ? " broken" : ""}" data-file="${escapeHtml(e.file)}" role="button" tabindex="0">
+      <div class="row1"><span class="name">${escapeHtml(e.name)}</span><span class="code">${escapeHtml(e.code)}</span></div>
+      <div class="row2"><span class="dot ${escapeHtml(e.tone)}"></span><span class="period">${escapeHtml(e.period_label)}</span><span class="date">${escapeHtml(e.generated)}</span></div>
+    </div>`).join("");
+  list.querySelectorAll(".report-item").forEach(el => {
+    const open = () => openReport(el.dataset.file);
+    el.addEventListener("click", open);
+    el.addEventListener("keydown", ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); open(); } });
+  });
+}
+
+async function openReport(file) {
+  state.current = file;
+  renderList(document.getElementById("search").value);
+  const area = document.getElementById("report-area");
+  area.innerHTML = `<div class="empty">加载中…</div>`;
+  try {
+    const resp = await fetch("reports/" + encodeURIComponent(file));
+    if (!resp.ok) throw new Error(resp.status);
+    const payload = await resp.json();
+    area.innerHTML = renderReport(payload);
+    area.querySelectorAll('.summary-links a[href^="#"]').forEach(a => {
+      a.addEventListener("click", ev => {
+        const target = document.getElementById(a.getAttribute("href").slice(1));
+        if (target) { ev.preventDefault(); target.scrollIntoView({behavior: "smooth"}); }
+      });
+    });
+  } catch (err) {
+    const entry = state.index.find(e => e.file === file);
+    if (entry) entry.broken = true;
+    area.innerHTML = `<div class="empty">报告加载失败（${escapeHtml(String(err))}）</div>`;
+    renderList(document.getElementById("search").value);
+  }
+}
+
+function exportHtml() {
+  if (!state.current) { alert("请先选择一份报告"); return; }
+  const reportNode = document.querySelector(".report");
+  if (!reportNode) { alert("当前无可导出的报告内容"); return; }
+  const doc = `<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>${escapeHtml(state.current)}</title>
+<style>${document.querySelector("style").textContent}</style></head>
+<body><div class="main">${reportNode.outerHTML}</div></body></html>`;
+  const blob = new Blob([doc], { type: "text/html" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = state.current.replace(/\.json$/, "") + "_导出.html";
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+async function main() {
+  document.getElementById("search").addEventListener("input", e => renderList(e.target.value));
+  document.getElementById("btn-export").addEventListener("click", exportHtml);
+  try {
+    await loadIndex();
+  } catch (err) {
+    document.getElementById("cors-hint").style.display = "block";
+    document.getElementById("report-area").innerHTML =
+      `<div class="empty">无法读取 reports/index.json<br><br>${escapeHtml(String(err))}</div>`;
+    renderList("");
+    return;
+  }
+  renderList("");
+  if (state.index.length) await openReport(state.index[0].file);
+}
+
+main();
+</script>
+</body>
+</html>
