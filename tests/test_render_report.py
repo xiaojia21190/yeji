@@ -38,5 +38,8 @@ def test_render_contains_all_blocks():
 
 def test_render_table_row_tones():
     html = render_report(MINIMAL, template_path=str(TPL))
-    assert 'tone="bad"' not in html  # tone 已转成 class，不泄漏原属性
+    # tone 只作为 data-tone 样式钩子出现在卡片上，行内 tone 转成 row-* class
+    assert 'class="row-bad"' in html
     assert html.count("<table") >= 1
+    # data-tone 与 tag class 成对出现
+    assert 'data-tone="bad"' in html and 'class="tag bad"' in html

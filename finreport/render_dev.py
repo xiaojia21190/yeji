@@ -25,11 +25,12 @@ def render_report(data: dict, template_path: str | None = None) -> str:
 def _render_cards(cards: list[dict]) -> str:
     parts = []
     for c in cards:
+        tone = escape(str(c.get("tone", "warn")))
         parts.append(
-            f'<div class="card"><div class="label">{escape(str(c["label"]))}</div>'
+            f'<div class="card" data-tone="{tone}">'
+            f'<div class="label">{escape(str(c["label"]))}</div>'
             f'<div class="value">{escape(str(c["value"]))}</div>'
-            f'<span class="tag {escape(str(c.get("tone", "warn")))}">'
-            f'{escape(str(c.get("tag", "")))}</span></div>'
+            f'<span class="tag {tone}">{escape(str(c.get("tag", "")))}</span></div>'
         )
     return "\n".join(parts)
 
@@ -42,7 +43,7 @@ def _render_sections(sections: list[dict]) -> str:
         if s.get("intro"):
             body.append(f'<div class="intro">{escape(str(s["intro"]))}</div>')
         for table in s.get("tables", []):
-            body.append(_render_table(table))
+            body.append(f'<div class="table-scroll">{_render_table(table)}</div>')
         if s.get("conclusion"):
             tone = escape(str(s["conclusion"].get("tone", "warn")))
             body.append(f'<div class="conclusion {tone}">'

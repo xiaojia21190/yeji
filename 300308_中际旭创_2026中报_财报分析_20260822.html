@@ -6,54 +6,196 @@
 <title>中际旭创 2026 中报 财报分析</title>
 <style>
   :root {
-    --ink: #1f2430; --sub: #6b7280; --line: #e5e7eb; --bg: #f7f8fa;
-    --good: #0b7a3e; --good-bg: #e8f6ee; --bad: #b3123f; --bad-bg: #fdeef2;
-    --accent: #1d4ed8;
+    --bg: #020617;
+    --panel: #0F172A;
+    --panel-2: #16213A;
+    --ink: #F8FAFC;
+    --sub: #94A3B8;
+    --line: #1E293B;
+    --good: #22C55E;
+    --good-strong: #4ADE80;
+    --good-bg: rgba(34, 197, 94, 0.10);
+    --bad: #FB7185;
+    --bad-bg: rgba(251, 113, 133, 0.10);
+    --warn: #FBBF24;
+    --warn-bg: rgba(251, 191, 36, 0.10);
+    --accent: #38BDF8;
+    --accent-dim: rgba(56, 189, 248, 0.14);
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: "Segoe UI", "Microsoft YaHei", sans-serif; color: var(--ink);
-         background: var(--bg); line-height: 1.6; padding: 24px; }
-  .wrap { max-width: 1080px; margin: 0 auto; }
-  header { border-bottom: 2px solid var(--ink); padding-bottom: 12px; margin-bottom: 16px; }
-  .crumb { color: var(--sub); font-size: 13px; }
-  h1 { font-size: 26px; margin: 6px 0; }
-  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
-  .chip { font-size: 12px; color: var(--accent); border: 1px solid #c7d7f8;
-          border-radius: 999px; padding: 2px 10px; background: #fff; }
-  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-           gap: 12px; margin: 16px 0; }
-  .card { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
-  .card .label { font-size: 13px; color: var(--sub); }
-  .card .value { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; margin: 4px 0; }
-  .tag { display: inline-block; font-size: 12px; border-radius: 6px; padding: 2px 8px; }
-  .tag.good { color: var(--good); background: var(--good-bg); }
-  .tag.bad { color: var(--bad); background: var(--bad-bg); }
-  .tag.warn { color: #8a6d00; background: #fdf6e3; }
-  section { background: #fff; border: 1px solid var(--line); border-radius: 10px;
-            padding: 18px; margin: 14px 0; }
-  section h2 { font-size: 17px; margin-bottom: 8px; }
-  section .intro { color: var(--sub); font-size: 13px; margin-bottom: 10px; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "IBM Plex Sans", "Segoe UI", "Microsoft YaHei", -apple-system, sans-serif;
+    color: var(--ink); background: var(--bg);
+    line-height: 1.65; padding: 0 0 48px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+
+  /* ===== 头部 ===== */
+  header {
+    background: linear-gradient(180deg, #0B1226 0%, var(--bg) 100%);
+    border-bottom: 1px solid var(--line);
+    padding: 28px 0 20px; margin-bottom: 20px;
+  }
+  .crumb {
+    color: var(--sub); font-size: 13px; letter-spacing: 0.02em;
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  }
+  .crumb .code-badge {
+    font-variant-numeric: tabular-nums;
+    color: var(--accent); background: var(--accent-dim);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    border-radius: 6px; padding: 1px 8px; font-weight: 600;
+  }
+  h1 { font-size: 26px; font-weight: 700; margin: 10px 0 4px; letter-spacing: -0.01em; }
+  h1 .period { color: var(--accent); }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+  .chip {
+    font-size: 12px; color: #CBD5E1;
+    border: 1px solid var(--line); background: var(--panel);
+    border-radius: 999px; padding: 3px 12px;
+  }
+
+  /* ===== 指标卡片 ===== */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+    gap: 12px; margin: 20px 0 8px;
+  }
+  .card {
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: 12px; padding: 16px;
+    position: relative; overflow: hidden;
+    transition: border-color 200ms ease;
+  }
+  .card:hover { border-color: #334155; }
+  .card::before {
+    content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+    background: var(--card-tone, var(--line));
+  }
+  .card[data-tone="good"] { --card-tone: var(--good); }
+  .card[data-tone="bad"]  { --card-tone: var(--bad); }
+  .card[data-tone="warn"] { --card-tone: var(--warn); }
+  .card .label { font-size: 12.5px; color: var(--sub); font-weight: 500; }
+  .card .value {
+    font-size: 24px; font-weight: 700; margin: 6px 0 8px;
+    font-variant-numeric: tabular-nums; letter-spacing: -0.01em;
+  }
+  .tag {
+    display: inline-block; font-size: 12px; font-weight: 600;
+    border-radius: 6px; padding: 2px 9px;
+  }
+  .tag.good { color: var(--good-strong); background: var(--good-bg); border: 1px solid rgba(34,197,94,0.25); }
+  .tag.bad  { color: var(--bad);       background: var(--bad-bg);  border: 1px solid rgba(251,113,133,0.25); }
+  .tag.warn { color: var(--warn);      background: var(--warn-bg); border: 1px solid rgba(251,191,36,0.25); }
+
+  /* ===== 章节 ===== */
+  section {
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: 12px; padding: 20px 22px; margin: 16px 0;
+    scroll-margin-top: 16px;
+  }
+  section h2 {
+    font-size: 17px; font-weight: 700; margin-bottom: 10px;
+    padding-left: 10px; border-left: 3px solid var(--accent);
+    line-height: 1.4;
+  }
+  section .intro { color: var(--sub); font-size: 13.5px; margin-bottom: 12px; }
+
+  /* ===== 表格 ===== */
+  .table-scroll { overflow-x: auto; border-radius: 8px; border: 1px solid var(--line); }
   table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin: 8px 0; }
-  th { text-align: left; color: var(--sub); font-weight: 600; border-bottom: 1px solid var(--ink);
-       padding: 6px 8px; white-space: nowrap; }
-  td { border-bottom: 1px solid var(--line); padding: 6px 8px;
-       font-variant-numeric: tabular-nums; }
-  tr.row-bad td { background: var(--bad-bg); }
+  th {
+    text-align: left; color: var(--sub); font-weight: 600;
+    background: var(--panel-2); border-bottom: 1px solid var(--line);
+    padding: 8px 12px; white-space: nowrap; font-size: 12.5px;
+    letter-spacing: 0.02em;
+  }
+  td {
+    border-bottom: 1px solid rgba(30, 41, 59, 0.6);
+    padding: 8px 12px; font-variant-numeric: tabular-nums;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr { transition: background-color 150ms ease; }
+  tbody tr:hover { background: rgba(56, 189, 248, 0.05); }
   tr.row-good td { background: var(--good-bg); }
-  .conclusion { border-radius: 8px; padding: 10px 12px; font-size: 14px; margin-top: 8px; }
-  .conclusion.good { background: var(--good-bg); color: var(--good); }
-  .conclusion.bad { background: var(--bad-bg); color: var(--bad); }
-  .conclusion.warn { background: #fdf6e3; color: #8a6d00; }
-  .note { color: var(--sub); font-size: 12.5px; margin-top: 6px; }
-  footer { color: var(--sub); font-size: 12px; border-top: 1px solid var(--line);
-           margin-top: 20px; padding-top: 10px; }
+  tr.row-good:hover td { background: rgba(34, 197, 94, 0.16); }
+  tr.row-bad td { background: var(--bad-bg); }
+  tr.row-bad:hover td { background: rgba(251, 113, 133, 0.16); }
+  tr.row-warn td { background: var(--warn-bg); }
+
+  /* ===== 结论与注释 ===== */
+  .conclusion {
+    border-radius: 8px; padding: 12px 14px; font-size: 14px; margin-top: 10px;
+    border: 1px solid transparent; line-height: 1.7;
+  }
+  .conclusion.good { background: var(--good-bg); color: var(--good-strong); border-color: rgba(34,197,94,0.25); }
+  .conclusion.bad  { background: var(--bad-bg);  color: var(--bad);       border-color: rgba(251,113,133,0.25); }
+  .conclusion.warn { background: var(--warn-bg); color: var(--warn);      border-color: rgba(251,191,36,0.25); }
+  .note {
+    color: var(--sub); font-size: 12.5px; margin-top: 8px;
+    padding-left: 12px; border-left: 2px solid var(--line);
+    line-height: 1.7;
+  }
+
+  /* ===== 页脚 ===== */
+  footer {
+    color: var(--sub); font-size: 12px; border-top: 1px solid var(--line);
+    margin-top: 28px; padding-top: 14px; line-height: 1.8;
+  }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  a:focus-visible, .chip:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px;
+  }
+
+  @media (max-width: 640px) {
+    h1 { font-size: 21px; }
+    .card .value { font-size: 20px; }
+    section { padding: 16px 14px; }
+  }
+
+  /* 打印：转亮色（财报常另存 PDF） */
+  @media print {
+    body { background: #fff; color: #111827; }
+    header { background: #fff; border-bottom: 2px solid #111; }
+    .crumb, .note, footer { color: #4B5563; }
+    h1 .period { color: #1D4ED8; }
+    .chip { background: #fff; border-color: #D1D5DB; color: #374151; }
+    .crumb .code-badge { background: #EFF6FF; color: #1D4ED8; border-color: #BFDBFE; }
+    section, .card { background: #fff; border-color: #E5E7EB; }
+    section h2 { border-left-color: #1D4ED8; color: #111827; }
+    th { background: #F3F4F6; color: #374151; }
+    td { border-bottom-color: #E5E7EB; }
+    tbody tr:hover { background: transparent; }
+    .tag.good, .conclusion.good { color: #15803D; background: #F0FDF4; border-color: #BBF7D0; }
+    .tag.bad, .conclusion.bad { color: #BE123C; background: #FFF1F2; border-color: #FECDD3; }
+    .tag.warn, .conclusion.warn { color: #A16207; background: #FEFCE8; border-color: #FEF08A; }
+    tr.row-good td { background: #F0FDF4; }
+    tr.row-bad td { background: #FFF1F2; }
+    tr.row-warn td { background: #FEFCE8; }
+    .table-scroll { overflow: visible; }
+    section { break-inside: avoid-page; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    tbody tr, .card { transition: none; }
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <div class="crumb">300308 · 2026 中报 · 业绩符合预期情况</div>
-    <h1>中际旭创 2026 中报 财报分析</h1>
+    <div class="crumb">
+      <span class="code-badge">300308</span>
+      <span>2026 中报</span>
+      <span>·</span>
+      <span>业绩符合预期情况</span>
+    </div>
+    <h1>中际旭创 <span class="period">2026 中报</span> 财报分析</h1>
     <div class="chips">
       <span class="chip">只列事实与数字</span>
       <span class="chip">机构预测逐家溯源</span>
@@ -63,18 +205,18 @@
   </header>
 
   <div class="cards">
-    <div class="card"><div class="label">Q2 归母净利</div><div class="value">79.17 亿</div><span class="tag good">符合预期</span></div>
-<div class="card"><div class="label">Q2 扣非净利</div><div class="value">73.74 亿</div><span class="tag bad">不符合预期</span></div>
-<div class="card"><div class="label">Q2 营收</div><div class="value">222.81 亿</div><span class="tag bad">不符合预期</span></div>
-<div class="card"><div class="label">Q2 毛利率</div><div class="value">46.42%</div><span class="tag good">符合区间</span></div>
-<div class="card"><div class="label">H1 归母净利</div><div class="value">136.51 亿</div><span class="tag good">同比 +241.7%</span></div>
-<div class="card"><div class="label">H1 经营现金流</div><div class="value">18.00 亿</div><span class="tag warn">同比 -44.08%</span></div>
+    <div class="card" data-tone="good"><div class="label">Q2 归母净利</div><div class="value">79.17 亿</div><span class="tag good">符合预期</span></div>
+<div class="card" data-tone="bad"><div class="label">Q2 扣非净利</div><div class="value">73.74 亿</div><span class="tag bad">不符合预期</span></div>
+<div class="card" data-tone="bad"><div class="label">Q2 营收</div><div class="value">222.81 亿</div><span class="tag bad">不符合预期</span></div>
+<div class="card" data-tone="good"><div class="label">Q2 毛利率</div><div class="value">46.42%</div><span class="tag good">符合区间</span></div>
+<div class="card" data-tone="good"><div class="label">H1 归母净利</div><div class="value">136.51 亿</div><span class="tag good">同比 +241.7%</span></div>
+<div class="card" data-tone="warn"><div class="label">H1 经营现金流</div><div class="value">18.00 亿</div><span class="tag warn">同比 -44.08%</span></div>
   </div>
 
   <section id="expectation">
 <h2>1 业绩 vs 机构预期对照</h2>
 <div class="intro">将机构全年净利预测按季节系数反推至 Q2，与实际披露值逐一对照。反推算式：Q2 反推 = 全年预测 × 37.0%（2025 年 H1/全年净利占比）− Q1 实际 57.35 亿。国内卖方净利预测 = EPS 预测 × 总股本 11.1523 亿股。数据截至 2026-08-21。</div>
-<table><thead><tr><th>机构</th><th>评级</th><th>口径</th><th>26E 全年净利</th><th>反推 Q2 净利</th><th>实际 79.17 亿 差额</th><th>是否达标</th></tr></thead><tbody><tr class="row-bad"><td>高盛</td><td>买入</td><td>新闻稿</td><td>384.0 亿</td><td>84.7 亿</td><td>-5.5 亿</td><td>× 未达到</td></tr><tr class="row-bad"><td>国金证券</td><td>买入</td><td>研报EPS×股本</td><td>406.8 亿</td><td>93.2 亿</td><td>-14.0 亿</td><td>× 未达到</td></tr><tr class="row-bad"><td>山西证券</td><td>买入</td><td>研报EPS×股本</td><td>369.5 亿</td><td>79.4 亿</td><td>-0.2 亿</td><td>× 未达到</td></tr><tr class="row-good"><td>野村</td><td>买入</td><td>新闻稿</td><td>336.5 亿</td><td>67.2 亿</td><td>+12.0 亿</td><td>✓ 达标</td></tr><tr class="row-good"><td>开源证券</td><td>买入</td><td>研报EPS×股本</td><td>358.9 亿</td><td>75.4 亿</td><td>+3.8 亿</td><td>✓ 达标</td></tr><tr class="row-good"><td>太平洋</td><td>买入</td><td>研报EPS×股本</td><td>350.5 亿</td><td>72.4 亿</td><td>+6.8 亿</td><td>✓ 达标</td></tr><tr class="row-good"><td>摩根士丹利</td><td>增持</td><td>新闻稿</td><td>332.0 亿</td><td>65.5 亿</td><td>+13.7 亿</td><td>✓ 达标</td></tr><tr class="row-good"><td>交银国际</td><td>买入</td><td>研报EPS×股本</td><td>324.7 亿</td><td>62.8 亿</td><td>+16.4 亿</td><td>✓ 达标</td></tr><tr class="row-good"><td>华龙证券</td><td>买入</td><td>研报EPS×股本</td><td>299.7 亿</td><td>53.5 亿</td><td>+25.7 亿</td><td>✓ 达标</td></tr><tr class="row-good"><td>东吴证券</td><td>买入</td><td>研报EPS×股本</td><td>293.9 亿</td><td>51.4 亿</td><td>+27.8 亿</td><td>✓ 达标</td></tr></tbody></table>
+<div class="table-scroll"><table><thead><tr><th>机构</th><th>评级</th><th>口径</th><th>26E 全年净利</th><th>反推 Q2 净利</th><th>实际 79.17 亿 差额</th><th>是否达标</th></tr></thead><tbody><tr class="row-bad"><td>高盛</td><td>买入</td><td>新闻稿</td><td>384.0 亿</td><td>84.7 亿</td><td>-5.5 亿</td><td>× 未达到</td></tr><tr class="row-bad"><td>国金证券</td><td>买入</td><td>研报EPS×股本</td><td>406.8 亿</td><td>93.2 亿</td><td>-14.0 亿</td><td>× 未达到</td></tr><tr class="row-bad"><td>山西证券</td><td>买入</td><td>研报EPS×股本</td><td>369.5 亿</td><td>79.4 亿</td><td>-0.2 亿</td><td>× 未达到</td></tr><tr class="row-good"><td>野村</td><td>买入</td><td>新闻稿</td><td>336.5 亿</td><td>67.2 亿</td><td>+12.0 亿</td><td>✓ 达标</td></tr><tr class="row-good"><td>开源证券</td><td>买入</td><td>研报EPS×股本</td><td>358.9 亿</td><td>75.4 亿</td><td>+3.8 亿</td><td>✓ 达标</td></tr><tr class="row-good"><td>太平洋</td><td>买入</td><td>研报EPS×股本</td><td>350.5 亿</td><td>72.4 亿</td><td>+6.8 亿</td><td>✓ 达标</td></tr><tr class="row-good"><td>摩根士丹利</td><td>增持</td><td>新闻稿</td><td>332.0 亿</td><td>65.5 亿</td><td>+13.7 亿</td><td>✓ 达标</td></tr><tr class="row-good"><td>交银国际</td><td>买入</td><td>研报EPS×股本</td><td>324.7 亿</td><td>62.8 亿</td><td>+16.4 亿</td><td>✓ 达标</td></tr><tr class="row-good"><td>华龙证券</td><td>买入</td><td>研报EPS×股本</td><td>299.7 亿</td><td>53.5 亿</td><td>+25.7 亿</td><td>✓ 达标</td></tr><tr class="row-good"><td>东吴证券</td><td>买入</td><td>研报EPS×股本</td><td>293.9 亿</td><td>51.4 亿</td><td>+27.8 亿</td><td>✓ 达标</td></tr></tbody></table></div>
 <div class="conclusion good">Q2 归母净利符合预期：10 家可追溯机构中 7 家达标、3 家未达。未达的 3 家（高盛 384 / 国金 406.8 / 山西 369.5）全年预测偏高（反推 Q2 79.4~93.2 亿，均高于实际 79.17 亿），其余机构反推值低于实际值，实际表现位于预测中枢偏上。</div>
 <div class="note">季节系数取 2025 年历史节奏 37.0%（39.95/107.97 亿）；参考报告用交银研报校准的 39.2%，系数口径差异导致反推值整体偏低约 8%，本报告统一用可复算的历史同期法。</div>
 <div class="note">高盛/大摩/野村数字溯源：雪球 2026-07-19《近期有49家机构上调中际旭创目标价》引述高盛 7/17 研报（2026E 净利 384 亿、目标价 1187→2581 元）、大摩（26E 净利 332 亿、目标价 1720 元）、野村（26E 净利 336.5 亿、目标价 1325 元）；花旗未披露单一 26E 净利（2027 基准 970 亿），未纳入。</div>
@@ -83,7 +225,7 @@
 <section id="nonrecurring">
 <h2>2 归母与扣非为何相差 5.43 亿</h2>
 <div class="intro">差额来自非经常性损益。Q2 归母 79.17 亿 − 扣非 73.74 亿 = 5.43 亿（H1 合计 5.59 亿，其中 Q1 仅 0.17 亿）。</div>
-<table><thead><tr><th>科目（利润表，H1 披露）</th><th>H1 金额</th><th>Q2 单季（H1−Q1）</th></tr></thead><tbody><tr><td>公允价值变动收益（股权投资）</td><td>5.37 亿</td><td>≈5.37 亿（Q1 为 0）</td></tr><tr><td>投资收益（含委托理财）</td><td>1.90 亿</td><td>1.60 亿</td></tr><tr><td>其他收益（政府补助为主）</td><td>0.14 亿</td><td>-0.03 亿</td></tr><tr><td>营业外收支净额</td><td>-0.01 亿</td><td>-0.01 亿</td></tr></tbody></table>
+<div class="table-scroll"><table><thead><tr><th>科目（利润表，H1 披露）</th><th>H1 金额</th><th>Q2 单季（H1−Q1）</th></tr></thead><tbody><tr><td>公允价值变动收益（股权投资）</td><td>5.37 亿</td><td>≈5.37 亿（Q1 为 0）</td></tr><tr><td>投资收益（含委托理财）</td><td>1.90 亿</td><td>1.60 亿</td></tr><tr><td>其他收益（政府补助为主）</td><td>0.14 亿</td><td>-0.03 亿</td></tr><tr><td>营业外收支净额</td><td>-0.01 亿</td><td>-0.01 亿</td></tr></tbody></table></div>
 <div class="conclusion bad">Q2 扣非净利不符合预期：对照归母口径的机构预期线，10 家中仅野村/大摩（反推 65.5~67.2 亿）与实际扣非 73.74 亿仍算达标，高盛/国金/山西/开源等 6 家未达。扣非 73.74 亿比归母 79.17 亿低 5.43 亿，差额主要来自公允价值变动收益（5.37 亿）与投资收益（1.60 亿）——是理财与股权投资收益，而非光模块主营业务利润。</div>
 <div class="note">新浪源 Q1 公允价值变动收益缺失，按 Q1 非经常合计仅 0.17 亿推定 Q1 公允价值变动≈0，Q2 ≈ H1 全额 5.37 亿。</div>
 <div class="note">参考报告的科目拆分（委托理财 5.67 亿 + 股权投资公允价值/处置 1.25 亿 + 政府补助 0.15 亿 − 税与少数股东影响 1.46 亿 = 5.60 亿）取自财报附注，与利润表科目口径一致、量级吻合。</div>
@@ -91,7 +233,7 @@
 <section id="revenue">
 <h2>3 Q2 营收是否符合预期</h2>
 <div class="intro">实际 Q2 营收 = H1 营收 417.78 − Q1 营收 194.96 = 222.81 亿。反推：机构全年营收预测 × 38.7%（2025 年 H1/全年营收占比）− Q1 实际。</div>
-<table><thead><tr><th>口径</th><th>26E 全年营收</th><th>反推 Q2 营收</th><th>实际 222.81 亿 差额</th><th>是否达标</th></tr></thead><tbody><tr class="row-bad"><td>高盛（新闻稿）</td><td>1236 亿</td><td>284.1 亿</td><td>-61.3 亿</td><td>× 未达到</td></tr><tr class="row-good"><td>交银国际（研报原文营收）</td><td>972.2 亿</td><td>181.6 亿</td><td>+41.2 亿</td><td>✓ 达标</td></tr></tbody></table>
+<div class="table-scroll"><table><thead><tr><th>口径</th><th>26E 全年营收</th><th>反推 Q2 营收</th><th>实际 222.81 亿 差额</th><th>是否达标</th></tr></thead><tbody><tr class="row-bad"><td>高盛（新闻稿）</td><td>1236 亿</td><td>284.1 亿</td><td>-61.3 亿</td><td>× 未达到</td></tr><tr class="row-good"><td>交银国际（研报原文营收）</td><td>972.2 亿</td><td>181.6 亿</td><td>+41.2 亿</td><td>✓ 达标</td></tr></tbody></table></div>
 <div class="conclusion bad">Q2 营收不符合预期：可追溯的营收预测仅高盛（1236 亿）与交银国际（972.2 亿）两家口径，实际 222.81 亿低于高盛反推值 61.3 亿（-21.6%）；虽高于交银反推值，但交银营收预测本身偏保守（对应全年增速 156% vs 实际 H1 增速 182%）。整体营收兑现度弱于净利兑现度。</div>
 <div class="note">国内卖方研报列表不披露营收预测（仅 EPS），营收对照口径天然少于净利口径。</div>
 <div class="note">参考报告的 43.4% 营收系数为交银研报校准值；本报告用历史同期 38.7%（147.89/382.40 亿），两口径均列出供对照：高盛反推值区间 284.1~299.2 亿，实际均未达到。</div>
@@ -99,22 +241,22 @@
 <section id="gross-margin">
 <h2>4 Q2 毛利率是否符合预期</h2>
 <div class="intro">实际 Q2 毛利率（差额法）= (H1 毛利 − Q1 毛利) / (H1 营收 − Q1 营收) = 46.42%（Q1 46.06% → Q2 46.42%，环比 +0.36 pct）。</div>
-<table><thead><tr><th>口径</th><th>预期</th><th>实际 46.42%</th><th>是否达标</th></tr></thead><tbody><tr class="row-good"><td>市场区间标准</td><td>45% ~ 47%</td><td>区间内</td><td>✓ 符合</td></tr><tr><td>高盛（2028 年口径）</td><td>2028 年看到 50%</td><td>方向一致，未到</td><td>— 中性</td></tr><tr class="row-good"><td>公司自身节奏</td><td>Q1 46.06%</td><td>环比 +0.36 pct</td><td>✓ 改善</td></tr></tbody></table>
+<div class="table-scroll"><table><thead><tr><th>口径</th><th>预期</th><th>实际 46.42%</th><th>是否达标</th></tr></thead><tbody><tr class="row-good"><td>市场区间标准</td><td>45% ~ 47%</td><td>区间内</td><td>✓ 符合</td></tr><tr><td>高盛（2028 年口径）</td><td>2028 年看到 50%</td><td>方向一致，未到</td><td>— 中性</td></tr><tr class="row-good"><td>公司自身节奏</td><td>Q1 46.06%</td><td>环比 +0.36 pct</td><td>✓ 改善</td></tr></tbody></table></div>
 <div class="conclusion good">Q2 毛利率 46.42% 符合 45~47% 市场区间，环比微升 0.36 pct，趋势健康。高盛毛利率 50% 目标为 2028 年远期口径，不构成当期对照。</div>
 <div class="note">参考报告另列交银隐含 47% 与野村全年 46.9% 两个口径（实际略低 0.58/0.48 pct）；该两口径依赖研报原文毛利率预测，本报告未能从可追溯公开数字复算，未纳入，特此说明。</div>
 </section>
 <section id="trend">
 <h2>5 财务趋势与质量</h2>
 <div class="intro">近 8 个报告期核心指标走势与质量信号（单位：亿元，累计口径）。</div>
-<table><thead><tr><th>报告期</th><th>归母净利(累计)</th><th>营收(累计)</th><th>毛利率</th><th>备注</th></tr></thead><tbody><tr><td>2026H1</td><td>136.51</td><td>417.78</td><td>46.25%</td><td>净利同比 +241.7%</td></tr><tr><td>2026Q1</td><td>57.35</td><td>194.96</td><td>46.06%</td><td>净利同比 +262.5%</td></tr><tr><td>2025 年报</td><td>107.97</td><td>382.40</td><td>—</td><td>全年同比 +108.8%</td></tr><tr><td>2025Q3</td><td>71.32</td><td>249.99</td><td>—</td><td>—</td></tr><tr><td>2025H1</td><td>39.95</td><td>147.89</td><td>—</td><td>—</td></tr><tr><td>2025Q1</td><td>15.83</td><td>66.69</td><td>—</td><td>—</td></tr><tr><td>2024 年报</td><td>51.71</td><td>238.60</td><td>—</td><td>—</td></tr><tr><td>2024Q3</td><td>37.53</td><td>173.06</td><td>—</td><td>—</td></tr></tbody></table>
-<table><thead><tr><th>质量信号</th><th>数值</th><th>判定</th></tr></thead><tbody><tr class="row-warn"><td>经营现金流/归母净利（H1）</td><td>0.13（18.00/136.51）</td><td>⚠ 低于 0.5 预警线</td></tr><tr class="row-bad"><td>H1 经营现金流同比</td><td>-44.08%（18.00 vs 32.18）</td><td>⚠ 大幅恶化</td></tr><tr class="row-good"><td>毛利率单季环比变动</td><td>+0.36 pct</td><td>✓ 平稳</td></tr></tbody></table>
+<div class="table-scroll"><table><thead><tr><th>报告期</th><th>归母净利(累计)</th><th>营收(累计)</th><th>毛利率</th><th>备注</th></tr></thead><tbody><tr><td>2026H1</td><td>136.51</td><td>417.78</td><td>46.25%</td><td>净利同比 +241.7%</td></tr><tr><td>2026Q1</td><td>57.35</td><td>194.96</td><td>46.06%</td><td>净利同比 +262.5%</td></tr><tr><td>2025 年报</td><td>107.97</td><td>382.40</td><td>—</td><td>全年同比 +108.8%</td></tr><tr><td>2025Q3</td><td>71.32</td><td>249.99</td><td>—</td><td>—</td></tr><tr><td>2025H1</td><td>39.95</td><td>147.89</td><td>—</td><td>—</td></tr><tr><td>2025Q1</td><td>15.83</td><td>66.69</td><td>—</td><td>—</td></tr><tr><td>2024 年报</td><td>51.71</td><td>238.60</td><td>—</td><td>—</td></tr><tr><td>2024Q3</td><td>37.53</td><td>173.06</td><td>—</td><td>—</td></tr></tbody></table></div>
+<div class="table-scroll"><table><thead><tr><th>质量信号</th><th>数值</th><th>判定</th></tr></thead><tbody><tr class="row-warn"><td>经营现金流/归母净利（H1）</td><td>0.13（18.00/136.51）</td><td>⚠ 低于 0.5 预警线</td></tr><tr class="row-bad"><td>H1 经营现金流同比</td><td>-44.08%（18.00 vs 32.18）</td><td>⚠ 大幅恶化</td></tr><tr class="row-good"><td>毛利率单季环比变动</td><td>+0.36 pct</td><td>✓ 平稳</td></tr></tbody></table></div>
 <div class="conclusion warn">成长性极强（H1 净利 +241.7%、营收 +182.4%），毛利率稳中有升；但盈利质量亮黄灯——H1 经营现金流 18.00 亿仅为归母净利的 13%，同比下滑 44%，净利高增与现金流背离，需关注应收账款与备货占用（算力产业链扩张期常见特征，参考报告同样单列提示）。</div>
 <div class="note">现金流信号口径：经营现金流量净额取新浪财务摘要累计值，上年同期 32.18 亿。</div>
 </section>
 <section id="peers">
 <h2>6 同行横向对比</h2>
 <div class="intro">光模块可比公司 2026H1 对比（同花顺/公开数据，取自新浪财务摘要接口；新易盛中报未披露，列 Q1）。</div>
-<table><thead><tr><th>公司</th><th>报告期</th><th>归母净利(累计)</th><th>同比</th><th>营收(累计)</th><th>同比</th><th>毛利率</th><th>ROE</th></tr></thead><tbody><tr><td>中际旭创</td><td>2026H1</td><td>136.51 亿</td><td>+241.7%</td><td>417.78 亿</td><td>+182.4%</td><td>46.25%</td><td>37.6%</td></tr><tr><td>新易盛</td><td>2026Q1</td><td>27.8 亿</td><td>+384%*</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>天孚通信</td><td>2026H1</td><td>12.0 亿</td><td>+34%</td><td>28.3 亿</td><td>+15%</td><td>60.9%</td><td>19.6%</td></tr><tr><td>光迅科技</td><td>2026H1</td><td>5.8 亿</td><td>+56%</td><td>66.1 亿</td><td>+26%</td><td>25.5%</td><td>5.2%</td></tr></tbody></table>
+<div class="table-scroll"><table><thead><tr><th>公司</th><th>报告期</th><th>归母净利(累计)</th><th>同比</th><th>营收(累计)</th><th>同比</th><th>毛利率</th><th>ROE</th></tr></thead><tbody><tr><td>中际旭创</td><td>2026H1</td><td>136.51 亿</td><td>+241.7%</td><td>417.78 亿</td><td>+182.4%</td><td>46.25%</td><td>37.6%</td></tr><tr><td>新易盛</td><td>2026Q1</td><td>27.8 亿</td><td>+384%*</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>天孚通信</td><td>2026H1</td><td>12.0 亿</td><td>+34%</td><td>28.3 亿</td><td>+15%</td><td>60.9%</td><td>19.6%</td></tr><tr><td>光迅科技</td><td>2026H1</td><td>5.8 亿</td><td>+56%</td><td>66.1 亿</td><td>+26%</td><td>25.5%</td><td>5.2%</td></tr></tbody></table></div>
 <div class="conclusion good">中际旭创在规模（136.5 亿 H1 净利 ≈ 天孚+光迅+新易盛之和的 2.6 倍）与增速（+241.7%，仅次于新易盛）上均为行业龙头；毛利率 46.25% 低于天孚的 60.9%（天孚为无源器件+精密光学，业务结构不同），显著高于光迅的 25.5%（自研芯片+系统集成为主）。</div>
 <div class="note">* 新易盛 2026Q1 归母 27.8 亿、2025 年报 95.3 亿；其中报截至 2026-08-22 尚未在新浪源披露，报告期内无可比数据。</div>
 <div class="note">同行清单依据：高盛 7/17 研报新闻稿与雪球引述均将新易盛、天孚通信列为光模块可比公司（新浪财经 7/20 报道同）。</div>
@@ -122,7 +264,7 @@
 <section id="valuation">
 <h2>7 估值水平评估</h2>
 <div class="intro">现价 943.00 元（2026-08-21 收盘），总股本 11.1523 亿股，总市值 10517 亿。PE = 总市值 / 对应口径净利。</div>
-<table><thead><tr><th>口径</th><th>净利基数</th><th>PE</th></tr></thead><tbody><tr><td>PE-TTM（近四季归母 204.5 亿）</td><td>204.5 亿</td><td>51.4x</td></tr><tr><td>PE-2026E（高盛 384 亿）</td><td>384.0 亿</td><td>27.4x</td></tr><tr><td>PE-2026E（国金 406.8 亿）</td><td>406.8 亿</td><td>25.9x</td></tr><tr><td>PE-2026E（山西 369.5 亿）</td><td>369.5 亿</td><td>28.5x</td></tr><tr><td>PE-2026E（太平洋 350.5 亿）</td><td>350.5 亿</td><td>30.0x</td></tr><tr><td>PE-2026E（交银国际 324.7 亿）</td><td>324.7 亿</td><td>32.4x</td></tr><tr><td>PE-2027E（高盛 801 亿）</td><td>801.0 亿</td><td>13.1x</td></tr></tbody></table>
+<div class="table-scroll"><table><thead><tr><th>口径</th><th>净利基数</th><th>PE</th></tr></thead><tbody><tr><td>PE-TTM（近四季归母 204.5 亿）</td><td>204.5 亿</td><td>51.4x</td></tr><tr><td>PE-2026E（高盛 384 亿）</td><td>384.0 亿</td><td>27.4x</td></tr><tr><td>PE-2026E（国金 406.8 亿）</td><td>406.8 亿</td><td>25.9x</td></tr><tr><td>PE-2026E（山西 369.5 亿）</td><td>369.5 亿</td><td>28.5x</td></tr><tr><td>PE-2026E（太平洋 350.5 亿）</td><td>350.5 亿</td><td>30.0x</td></tr><tr><td>PE-2026E（交银国际 324.7 亿）</td><td>324.7 亿</td><td>32.4x</td></tr><tr><td>PE-2027E（高盛 801 亿）</td><td>801.0 亿</td><td>13.1x</td></tr></tbody></table></div>
 <div class="conclusion warn">现价对应 2026E 净利预测区间（324.7~406.8 亿）约 25.9~32.4 倍 PE，对应高盛 2027E（801 亿）仅 13.1 倍——估值是否合理取决于 2026-27 年高增长预测能否兑现；参考报告口径（934 元、1.09 万亿市值、328 亿预测 33 倍）与本报告一致。仅列事实，不构成投资建议。</div>
 <div class="note">TTM 归母 = 2026H1 136.51 + 2025 年报 107.97 − 2025H1 39.95 = 204.5 亿。</div>
 <div class="note">高盛 2027E 801 亿（7/17 研报上调 108% 后）；大摩 2027E 约 700 亿、花旗基准 970 亿，详见雪球引述原文。</div>
@@ -130,7 +272,7 @@
 <section id="appendix">
 <h2>附 反推方法与数据来源</h2>
 <div class="intro">每个反推数字的计算方法与出处，全部可复算。</div>
-<table><thead><tr><th>数据</th><th>值</th><th>来源</th></tr></thead><tbody><tr><td>H1/Q1/Q2 实际值</td><td>136.51 / 57.35 / 79.17 亿</td><td>新浪财务摘要（akshare stock_financial_abstract）</td></tr><tr><td>扣非 H1/Q1/Q2</td><td>130.92 / 57.18 / 73.74 亿</td><td>同上</td></tr><tr><td>季节系数（净利）</td><td>37.0% = 39.95/107.97</td><td>2025 年报与 2025H1，新浪源</td></tr><tr><td>季节系数（营收）</td><td>38.7% = 147.89/382.40</td><td>同上</td></tr><tr><td>总股本</td><td>11.1523 亿股</td><td>资产负债表实收资本（2026-06-30）</td></tr><tr><td>现价/总市值</td><td>943.00 元 / 10517 亿</td><td>新浪实时行情（2026-08-21）</td></tr><tr><td>国内卖方 EPS 预测</td><td>10 家机构</td><td>东财研报列表（akshare stock_research_report_em），每机构取最新一条</td></tr><tr><td>高盛/大摩/野村预测</td><td>384/332/336.5 亿</td><td>雪球 2026-07-19 引述研报新闻稿（高盛 7/17 研报）</td></tr><tr><td>非经常性损益科目</td><td>公允价值变动 5.37 亿等</td><td>新浪利润表（akshare stock_financial_report_sina）</td></tr><tr><td>同行数据</td><td>天孚/光迅/新易盛</td><td>新浪财务摘要接口，同口径取数</td></tr></tbody></table>
+<div class="table-scroll"><table><thead><tr><th>数据</th><th>值</th><th>来源</th></tr></thead><tbody><tr><td>H1/Q1/Q2 实际值</td><td>136.51 / 57.35 / 79.17 亿</td><td>新浪财务摘要（akshare stock_financial_abstract）</td></tr><tr><td>扣非 H1/Q1/Q2</td><td>130.92 / 57.18 / 73.74 亿</td><td>同上</td></tr><tr><td>季节系数（净利）</td><td>37.0% = 39.95/107.97</td><td>2025 年报与 2025H1，新浪源</td></tr><tr><td>季节系数（营收）</td><td>38.7% = 147.89/382.40</td><td>同上</td></tr><tr><td>总股本</td><td>11.1523 亿股</td><td>资产负债表实收资本（2026-06-30）</td></tr><tr><td>现价/总市值</td><td>943.00 元 / 10517 亿</td><td>新浪实时行情（2026-08-21）</td></tr><tr><td>国内卖方 EPS 预测</td><td>10 家机构</td><td>东财研报列表（akshare stock_research_report_em），每机构取最新一条</td></tr><tr><td>高盛/大摩/野村预测</td><td>384/332/336.5 亿</td><td>雪球 2026-07-19 引述研报新闻稿（高盛 7/17 研报）</td></tr><tr><td>非经常性损益科目</td><td>公允价值变动 5.37 亿等</td><td>新浪利润表（akshare stock_financial_report_sina）</td></tr><tr><td>同行数据</td><td>天孚/光迅/新易盛</td><td>新浪财务摘要接口，同口径取数</td></tr></tbody></table></div>
 <div class="note">反推公式：Q2 反推 = 全年预测 × 季节系数 − Q1 实际；净利预测 = EPS × 11.1523 亿股。</div>
 <div class="note">剔除说明：花旗（未披露单一 26E 净利）、中金（无公开数字）未纳入对照；东财研报列表 293 条中仅取有 2026 EPS 预测的最新 10 家。</div>
 <div class="note">本报告由 fin-report skill 生成，方法论详见 skill references/methodology.md。</div>
