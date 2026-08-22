@@ -57,6 +57,39 @@
     border-radius: 999px; padding: 3px 12px;
   }
 
+  /* ===== AI 总结横幅 ===== */
+  .summary {
+    background: linear-gradient(135deg, var(--panel-2) 0%, var(--panel) 100%);
+    border: 1px solid var(--line); border-left: 3px solid var(--sum-tone, var(--accent));
+    border-radius: 12px; padding: 18px 20px; margin: 20px 0 8px;
+  }
+  .summary[data-tone="good"] { --sum-tone: var(--good); }
+  .summary[data-tone="bad"]  { --sum-tone: var(--bad); }
+  .summary[data-tone="warn"] { --sum-tone: var(--warn); }
+  .summary .summary-head {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 13px; font-weight: 600; color: var(--sub);
+    text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px;
+  }
+  .summary .summary-text { font-size: 14.5px; line-height: 1.8; }
+  .summary .summary-links {
+    display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px;
+    padding-top: 12px; border-top: 1px solid var(--line);
+  }
+  .summary .summary-links a {
+    font-size: 12.5px; color: var(--accent);
+    background: var(--accent-dim); border: 1px solid rgba(56,189,248,0.25);
+    border-radius: 999px; padding: 3px 12px;
+    transition: background-color 200ms ease;
+  }
+  .summary .summary-links a:hover { background: rgba(56,189,248,0.22); }
+
+  @media print {
+    .summary { background: #F8FAFC; border-color: #E5E7EB; border-left-color: #1D4ED8; }
+    .summary .summary-head { color: #6B7280; }
+    .summary .summary-links a { color: #1D4ED8; background: #EFF6FF; border-color: #BFDBFE; }
+  }
+
   /* ===== 指标卡片 ===== */
   .cards {
     display: grid;
@@ -203,6 +236,8 @@
       <span class="chip">已剔除无原文依据机构</span>
     </div>
   </header>
+
+  {{SUMMARY}}
 
   <div class="cards">
     {{CARDS}}

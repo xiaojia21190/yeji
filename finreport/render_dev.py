@@ -19,7 +19,30 @@ def render_report(data: dict, template_path: str | None = None) -> str:
     html = html.replace("{{META.disclaimer}}", escape(str(meta["disclaimer"])))
     html = html.replace("{{CARDS}}", _render_cards(data.get("cards", [])))
     html = html.replace("{{SECTIONS}}", _render_sections(data.get("sections", [])))
+    html = html.replace("{{SUMMARY}}", _render_summary(data.get("summary")))
     return html
+
+
+def _render_summary(summary: dict | None) -> str:
+    """顶部 AI 总结横幅：总评段落 + 模块锚点导航。payload 无 summary 时输出空。"""
+    if not summary:
+        return ""
+    tone = escape(str(summary.get("tone", "warn")))
+    parts = [
+        f'<div class="summary" data-tone="{tone}">',
+        '<div class="summary-head">AI 总结</div>',
+        f'<div class="summary-text">{escape(str(summary.get("text", "")))}</div>',
+    ]
+    links = summary.get("links") or []
+    if links:
+        anchors = " ".join(
+            f'<a href="#{escape(str(l["id"]))}">{escape(str(l["label"]))}</a>'
+            for l in links if l.get("id")
+        )
+        if anchors:
+            parts.append(f'<div class="summary-links">{anchors}</div>')
+    parts.append("</div>")
+    return "\n".join(parts)
 
 
 def _render_cards(cards: list[dict]) -> str:

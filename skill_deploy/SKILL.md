@@ -43,8 +43,10 @@ python -X utf8 "C:/Users/35033/.claude/skills/fin-report/scripts/fetch_market.py
 
 ### 4. 渲染（脚本）
 
-payload 结构：meta{code,name,period_label,generated,disclaimer} + cards[] + sections[]{title,intro,tables[],conclusion{tone,text},notes[]}。
+payload 结构：meta{code,name,period_label,generated,disclaimer} + summary{text,tone,links[{id,label}]} + cards[] + sections[]{title,intro,tables[],conclusion{tone,text},notes[]}。
 tone: good/bad/warn；表格 rows 与 row_tones 等长对齐。
+
+**summary（顶部 AI 总结横幅，必填）**：3~5 句总评——四模块各一句 + 整体判断；tone 取四模块中最差与最好综合（整体偏差 bad / 喜忧参半 warn / 全面达标 good）；links 列出全部模块的 {id: section id, label: 模块简称}，点击跳转。summary 由分析阶段 AI 撰写，不写死模板。
 
 ```bash
 python -X utf8 "C:/Users/35033/.claude/skills/fin-report/scripts/render_report.py" finreport_work/payload.json --out "300308_中际旭创_2026中报_财报分析_YYYYMMDD.html" --open

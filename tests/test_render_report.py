@@ -8,6 +8,14 @@ TPL = Path(__file__).resolve().parents[1] / "finreport" / "report-template.html"
 MINIMAL = {
     "meta": {"code": "300308", "name": "中际旭创", "period_label": "2026 中报",
              "generated": "2026-08-22", "disclaimer": "仅列事实与数字，不构成任何投资建议。"},
+    "summary": {
+        "tone": "good",
+        "text": "归母净利符合预期；扣非与营收低于机构预期；毛利率符合区间，整体喜忧参半。",
+        "links": [
+            {"id": "expectation", "label": "预期对照"},
+            {"id": "trend", "label": "趋势质量"},
+        ],
+    },
     "cards": [
         {"label": "Q2 归母净利", "value": "79.16 亿", "tag": "符合预期", "tone": "good"},
         {"label": "Q2 扣非净利", "value": "73.73 亿", "tag": "不符合预期", "tone": "bad"},
@@ -43,3 +51,22 @@ def test_render_table_row_tones():
     assert html.count("<table") >= 1
     # data-tone 与 tag class 成对出现
     assert 'data-tone="bad"' in html and 'class="tag bad"' in html
+
+
+def test_render_summary():
+    html = render_report(MINIMAL, template_path=str(TPL))
+    # 总结横幅：标题、正文、语气 data-tone、锚点链接
+    assert "AI 总结" in html
+    assert "归母净利符合预期" in html
+    assert 'class="summary" data-tone="good"' in html
+    assert 'href="#expectation"' in html and "预期对照" in html
+    # summary 无链接字段时不渲染导航条（查 HTML 元素，排除 CSS 定义）
+    no_links = dict(MINIMAL)
+    no_links["summary"] = {"tone": "warn", "text": "仅趋势与估值可产出。"}
+    html2 = render_report(no_links, template_path=str(TPL))
+    assert 'class="summary-links"' not in html2
+    # payload 无 summary 时整个横幅不出现（查 HTML 元素，排除 CSS 定义）
+    no_sum = dict(MINIMAL)
+    no_sum.pop("summary")
+    html3 = render_report(no_sum, template_path=str(TPL))
+    assert 'class="summary"' not in html3
