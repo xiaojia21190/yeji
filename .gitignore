@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+finreport_work/*.png
+finreport_work/*.pdf
+finreport_work/ddg.html
+finreport_work/zj_preview.html

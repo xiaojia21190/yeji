@@ -64,18 +64,54 @@ def _daily_last_price(code: str) -> tuple[float, str]:
 
 
 def _total_shares(code: str, latest_period: str | None) -> float | None:
-    """总股本 = 资产负债表最新一期「实收资本(或股本)」(元面值 1 元即股数)。"""
-    df = ak.stock_financial_report_sina(stock=_prefix(code), symbol="资产负债表")
+    """总股本 = 资产负债表最新一期「实收资本(或股本)」。
+
+    该口径默认 1 元面值（元数即股数）。与 EPS 隐含股本（归母净利/基本EPS）偏差 >5%
+    时按 EPS 隐含股本——面值≠1 的公司（如紫金矿业 0.1 元面值）实收资本元数≠股数。
+    """
+    prefix = _prefix(code)
+    df = ak.stock_financial_report_sina(stock=prefix, symbol="资产负债表")
+    row = None
     if latest_period:
         hit = df[df["报告日"] == latest_period]
         if not hit.empty:
-            v = hit.iloc[0].get("实收资本(或股本)")
-            try:
-                return float(v)
-            except (TypeError, ValueError):
-                pass
-    v = df.iloc[0].get("实收资本(或股本)")
+            row = hit.iloc[0]
+    if row is None:
+        row = df.iloc[0]
+    registered = None
     try:
-        return float(v)
+        registered = float(row.get("实收资本(或股本)"))
     except (TypeError, ValueError):
+        pass
+    implied = _eps_implied_shares(code, latest_period)
+    if implied and (registered is None or abs(registered - implied) / implied > 0.05):
+        return implied
+    return registered
+
+
+def _eps_implied_shares(code: str, latest_period: str | None) -> float | None:
+    """EPS 隐含总股本 = 报告期归母净利 / 基本每股收益（加权平均口径）。"""
+    try:
+        ab = ak.stock_financial_abstract(symbol=code)
+    except Exception:
         return None
+    period = latest_period
+    if period not in set(ab.columns.astype(str)):
+        numeric = [c for c in ab.columns if c not in ("选项", "指标") and str(c).isdigit()]
+        period = max(numeric) if numeric else None
+    if period is None:
+        return None
+
+    def _val(metric: str) -> float | None:
+        rows = ab[ab["指标"] == metric]
+        if rows.empty:
+            return None
+        try:
+            return float(rows.iloc[0][period])
+        except (TypeError, ValueError, KeyError):
+            return None
+
+    np_profit, eps = _val("归母净利润"), _val("基本每股收益")
+    if not np_profit or not eps:
+        return None
+    return np_profit / eps
