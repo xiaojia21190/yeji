@@ -1,4 +1,5 @@
-"""auto_brief 离线测试：报告期标签 + 评分卡数值规则（performance.md 阈值代码化）。"""
+"""auto_brief 离线测试：报告期标签 + 评分卡数值规则 + 全市场扫描的纯函数部分。"""
+import datetime as dt
 import sys
 from pathlib import Path
 
@@ -7,7 +8,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from finreport.auto_brief_dev import (
     growth_tone, health_tone, profitability_tone, quality_tone,
 )
-from finreport.scan_dev import period_label
+from finreport.scan_dev import market_periods, period_label
 
 
 class TestPeriodLabel:
@@ -63,6 +64,22 @@ class TestQualityTone:
 
     def test_warn_mid(self):
         assert quality_tone(0.65, 0.30, []) == "warn"
+
+    def test_loss_ignores_cov_and_nonrec(self):
+        # 亏损期净现比/非经常占比口径失真，不参与打分
+        assert quality_tone(-4.64, -0.03, [], loss=True) == "warn"
+        assert quality_tone(-4.64, -0.03, ["应收预警"], loss=True) == "bad"
+        # 不带 loss 标志时负净现比仍判 bad（盈利公司现金流弱）
+        assert quality_tone(-4.64, -0.03, []) == "bad"
+
+
+class TestMarketPeriods:
+    def test_windows(self):
+        # 披露窗口交叉期（1-4 月）查两个期；巨潮参数一季/三季不带「报」
+        assert market_periods(dt.date(2026, 4, 15)) == ["2025年报", "2026一季"]
+        assert market_periods(dt.date(2026, 8, 29)) == ["2026一季", "2026半年报"]
+        assert market_periods(dt.date(2026, 10, 30)) == ["2026半年报", "2026三季"]
+        assert market_periods(dt.date(2026, 12, 1)) == ["2026三季"]
 
 
 class TestHealthTone:

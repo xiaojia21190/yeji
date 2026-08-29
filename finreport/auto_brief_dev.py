@@ -74,12 +74,14 @@ def profitability_tone(mg: float | None, mg_median: float | None,
 
 
 def quality_tone(cov: float | None, nonrec: float | None,
-                 warnings: list[str]) -> str:
-    if (cov is not None and cov < 0.5) or (nonrec is not None and nonrec > 0.5):
-        return "bad"
+                 warnings: list[str], loss: bool = False) -> str:
+    # 亏损期净现比/非经常占比口径失真（分母为负），不参与打分，仅看预警
+    if not loss:
+        if (cov is not None and cov < 0.5) or (nonrec is not None and nonrec > 0.5):
+            return "bad"
     if warnings:
         return "bad"
-    if cov is not None and cov >= 0.8 and (nonrec is None or nonrec <= 0.15):
+    if not loss and cov is not None and cov >= 0.8 and (nonrec is None or nonrec <= 0.15):
         return "good"
     return "warn"
 
@@ -99,10 +101,13 @@ def health_tone(gear: float | None, ibd_over_cash: float | None,
 # ---------- 快报构建 ----------
 
 def build_brief(code: str, name: str, peers: list[str] | None = None,
-                use_ai: bool = True) -> dict:
+                use_ai: bool = True, period: str | None = None) -> dict:
     fin = fetch_abstract_dict(code)
     periods, S = fin["periods"], fin["series"]
-    period = periods[0]
+    if period is None:
+        period = periods[0]
+    elif period not in periods:
+        raise ValueError(f"新浪摘要未同步该期（{period}），确认后下一轮重试")
     label = f"{period[:4]} {SEASON[period[4:]]}"
     p_prev = prev_cum_period(period)
     p_py = prior_year_period(period)
@@ -159,16 +164,19 @@ def build_brief(code: str, name: str, peers: list[str] | None = None,
     rev_yoy_cum = yoy(rev_cum, rev_py)
     warnings = []
     mg_drop = mg is not None and mg_prev is not None and mg < mg_prev - 0.01
-    ar_cur, ar_base = bal.get("应收账款"), bal_py.get("应收账款")
-    if ar_cur is not None and ar_base and rev_yoy_cum is not None:
-        gr = ar_cur / ar_base - 1
-        if gr > rev_yoy_cum * 1.5:
-            warnings.append(f"应收较年初{pct(gr)} 快于营收同比{pct(rev_yoy_cum)}×1.5，回款恶化")
-    inv_cur, inv_base = bal.get("存货"), bal_py.get("存货")
-    if inv_cur is not None and inv_base and rev_yoy_cum is not None:
-        gr = inv_cur / inv_base - 1
-        if gr > rev_yoy_cum * 2 and mg_drop:
-            warnings.append(f"存货较年初{pct(gr)} 高增且毛利率下行，滞销风险")
+    # 增速对比预警只在营收正增长时有意义（负增长时阈值为负，形同虚设）
+    if rev_yoy_cum is not None and rev_yoy_cum > 0:
+        ar_cur, ar_base = bal.get("应收账款"), bal_py.get("应收账款")
+        if ar_cur is not None and ar_base:
+            gr = ar_cur / ar_base - 1
+            if gr > rev_yoy_cum * 1.5:
+                warnings.append(f"应收较年初{pct(gr)} 快于营收同比{pct(rev_yoy_cum)}×1.5，回款恶化")
+        inv_cur, inv_base = bal.get("存货"), bal_py.get("存货")
+        if inv_cur is not None and inv_base:
+            gr = inv_cur / inv_base - 1
+            if gr > rev_yoy_cum * 2 and mg_drop:
+                warnings.append(f"存货较年初{pct(gr)} 高增且毛利率下行，滞销风险")
+    loss = cum is not None and cum < 0
 
     dims = {
         "growth": {"tone": growth_tone(rev_y, np_y, turned),
@@ -177,9 +185,10 @@ def build_brief(code: str, name: str, peers: list[str] | None = None,
         "profitability": {"tone": profitability_tone(mg, mg_median, mg_prev is None or (mg is not None and mg >= mg_prev), roe),
                           "value": f"毛利率 {pct(mg)} / ROE-TTM {pct(roe)}",
                           "basis": f"近 8 期毛利率中位数 {pct(mg_median)}；四费率 {pct(four_expense_rate(inc.get('销售费用'), inc.get('管理费用'), inc.get('研发费用'), inc.get('财务费用'), inc.get('营业总收入')), 2)}"},
-        "quality": {"tone": quality_tone(cov, nonrec, warnings),
+        "quality": {"tone": quality_tone(cov, nonrec, warnings, loss=loss),
                     "value": f"净现比 {cov:.2f}" if cov is not None else "净现比 —",
-                    "basis": f"OCF {yi(ocf)} 亿 vs 归母 {yi(cum)} 亿；非经常占比 {pct(nonrec)}；预警 {'、'.join(warnings) if warnings else '无'}"},
+                    "basis": ("本期亏损，净现比/非经常占比口径不适用；" if loss else "")
+                             + f"OCF {yi(ocf)} 亿 vs 归母 {yi(cum)} 亿；非经常占比 {pct(nonrec)}；预警 {'、'.join(warnings) if warnings else '无'}"},
         "health": {"tone": health_tone(gear, ibd_over, gw_over),
                    "value": f"资产负债率 {pct(gear)}",
                    "basis": (f"有息负债 {yi(ibd)} 亿 / 货币资金 {yi(cash)} 亿 = {ibd_over:.2f}；"

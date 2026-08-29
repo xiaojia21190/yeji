@@ -16,6 +16,22 @@
   "file": "600547_2026中报.json"
  },
  {
+  "code": "000006",
+  "name": "深振业Ａ",
+  "period_label": "2026 中报",
+  "generated": "2026-08-29",
+  "tone": "warn",
+  "file": "000006_2026中报.json"
+ },
+ {
+  "code": "000007",
+  "name": "全新好",
+  "period_label": "2026 中报",
+  "generated": "2026-08-29",
+  "tone": "warn",
+  "file": "000007_2026中报.json"
+ },
+ {
   "code": "002714",
   "name": "牧原股份",
   "period_label": "2026 中报",

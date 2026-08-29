@@ -25,10 +25,11 @@ skill 安装位置：`C:\Users\35033\.claude\skills\fin-report\`（镜像入库�
 
 ## 自动化（GitHub Actions）
 
-`.github/workflows/scan_earnings.yml` 每天北京 10/18/22 点扫描 `watchlist.json`：
-新披露自动生成「量化快报 + AI 撰写」发布到 `reports/`（Pages 自动更新）并开 issue 通知。
-AI 走仓库 Secrets（`AI_API_KEY` / `AI_BASE_URL` / `AI_MODEL`，OpenAI 兼容协议），不配置则降级纯量化。
-手动触发：Actions → scan-earnings → Run workflow；本地调试：`python automation/scan_and_brief.py`。
+`.github/workflows/scan_earnings.yml` 每天北京 10/18/22 点做**全 A 股财报监听**：
+巨潮预约披露表 1 次调用筛出回看窗口（3 天）内新披露的公司 → watchlist 优先（带 AI 撰写+同行），
+其余按单次上限 60 份生成纯量化快报（积压顺延下一轮）→ 提交进仓库（Pages 自动更新）→ issue 通知。
+AI 走仓库 Secrets（`AI_API_KEY` / `AI_BASE_URL` / `AI_MODEL`，OpenAI 兼容协议），不配置则全部纯量化。
+手动触发：Actions → scan-earnings → Run workflow；本地调试：`python automation/scan_and_brief.py --max-briefs 2`。
 详见 `docs/specs/2026-08-29-auto-brief.md`。
 
 ## 结构

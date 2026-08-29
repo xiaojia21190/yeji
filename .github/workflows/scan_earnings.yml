@@ -17,7 +17,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -33,7 +33,8 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
           AI_MODEL: ${{ secrets.AI_MODEL }}
-        run: python automation/scan_and_brief.py --watchlist watchlist.json --reports-dir reports
+          MAX_BRIEFS: 60
+        run: python automation/scan_and_brief.py --watchlist watchlist.json --reports-dir reports --max-briefs "$MAX_BRIEFS"
 
       - name: commit & push
         run: |
@@ -57,10 +58,17 @@ jobs:
             BODY=$(python -c "
           import json
           d = json.load(open('finreport_work/scan_result.json'))
-          lines = ['## 自动业绩快报', '']
-          for b in d['briefs']:
-              lines += [f\"### {b['name']} ({b['code']}) {b['period']} — 评级 {b['grade']}\", '', b['summary'], '', f\"报告：reports/{b['file']}（Pages 更新后见 viewer）\", '']
-          lines.append('> AI 量化快报，无人工复核；完整分析请本地运行 /fin-report <code>')
+          lines = ['## 自动业绩快报', '',
+                   f\"模式：{d['mode']} ｜ 全市场候选 {d['market_candidates']} ｜ 生成 {len(d['briefs'])} ｜ 积压顺延 {d['backlog']} ｜ 新浪未同步跳过 {d['skipped_sync']}\", '']
+          wl = [b for b in d['briefs'] if b['watchlist']]
+          if wl:
+              lines.append('**Watchlist 命中：**')
+              for b in wl:
+                  lines += [f\"- {b['name']} ({b['code']}) {b['period']} — 评级 {b['grade']}\", '', b['summary'], '']
+          rest = [b for b in d['briefs'] if not b['watchlist']]
+          if rest:
+              lines.append('**全市场新披露（纯量化快报）：** ' + '、'.join(f\"{b['name']}({b['grade']})\" for b in rest[:20]) + ('…' if len(rest) > 20 else ''))
+          lines += ['', '> AI 量化快报，无人工复核；完整分析请本地运行 /fin-report <code>']
           print('\n'.join(lines))
           ")
             gh issue create --title "📈 新财报快报：$COUNT 家公司已发布" --body "$BODY"
