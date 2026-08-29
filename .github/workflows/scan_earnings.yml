@@ -1,0 +1,69 @@
+name: scan-earnings
+
+on:
+  schedule:
+    # UTC 2:00 / 10:00 / 14:00 = 北京 10:00 / 18:00 / 22:00，覆盖盘后与晚间披露
+    - cron: "0 2,10,14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: scan-earnings
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: install deps
+        run: pip install -r requirements-automation.txt
+
+      - name: scan & build briefs
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}
+        run: python automation/scan_and_brief.py --watchlist watchlist.json --reports-dir reports
+
+      - name: commit & push
+        run: |
+          git config user.name "yeji-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "无新快报"
+          else
+            git commit -m "auto: 业绩快报更新 $(date -u +%F)"
+            git push
+          fi
+
+      - name: notify issue
+        if: hashFiles('finreport_work/scan_result.json') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          COUNT=$(python -c "import json;print(len(json.load(open('finreport_work/scan_result.json'))['briefs']))")
+          if [ "$COUNT" -gt 0 ]; then
+            BODY=$(python -c "
+          import json
+          d = json.load(open('finreport_work/scan_result.json'))
+          lines = ['## 自动业绩快报', '']
+          for b in d['briefs']:
+              lines += [f\"### {b['name']} ({b['code']}) {b['period']} — 评级 {b['grade']}\", '', b['summary'], '', f\"报告：reports/{b['file']}（Pages 更新后见 viewer）\", '']
+          lines.append('> AI 量化快报，无人工复核；完整分析请本地运行 /fin-report <code>')
+          print('\n'.join(lines))
+          ")
+            gh issue create --title "📈 新财报快报：$COUNT 家公司已发布" --body "$BODY"
+          else
+            echo "无新披露，不建 issue"
+          fi

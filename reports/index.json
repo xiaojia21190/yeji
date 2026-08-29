@@ -8,6 +8,14 @@
   "file": "601899_2026中报.json"
  },
  {
+  "code": "600547",
+  "name": "山东黄金",
+  "period_label": "2026 中报",
+  "generated": "2026-08-29",
+  "tone": "bad",
+  "file": "600547_2026中报.json"
+ },
+ {
   "code": "002714",
   "name": "牧原股份",
   "period_label": "2026 中报",

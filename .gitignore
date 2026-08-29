@@ -2,5 +2,5 @@ __pycache__/
 *.pyc
 finreport_work/*.png
 finreport_work/*.pdf
-finreport_work/ddg.html
-finreport_work/zj_preview.html
+finreport_work/*.html
+finreport_work/scan_result.json

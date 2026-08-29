@@ -139,6 +139,13 @@ def fetch_statements(code: str, max_periods: int = 10) -> dict:
         try:
             df = ak.stock_financial_report_sina(stock=prefix, symbol=stmt)
             result[key] = _normalize(df, fields, max_periods)
+            if key == "income" and "公告日期" in df.columns:
+                ann: dict[str, str] = {}
+                for _, r in df.iterrows():
+                    d = str(r.get("公告日期", ""))[:10]
+                    if d and d not in ("", "nan", "NaT"):
+                        ann[str(r["报告日"])] = d
+                result["announced"] = ann
         except Exception as exc:
             result[key] = {"error": str(exc)[:200]}
     try:

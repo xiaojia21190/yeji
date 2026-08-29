@@ -23,6 +23,14 @@ skill 安装位置：`C:\Users\35033\.claude\skills\fin-report\`（镜像入库�
 
 港股（5 位代码）走变通模式：财报 PDF/雪球 + WebSearch 溯源，评分卡照常。
 
+## 自动化（GitHub Actions）
+
+`.github/workflows/scan_earnings.yml` 每天北京 10/18/22 点扫描 `watchlist.json`：
+新披露自动生成「量化快报 + AI 撰写」发布到 `reports/`（Pages 自动更新）并开 issue 通知。
+AI 走仓库 Secrets（`AI_API_KEY` / `AI_BASE_URL` / `AI_MODEL`，OpenAI 兼容协议），不配置则降级纯量化。
+手动触发：Actions → scan-earnings → Run workflow；本地调试：`python automation/scan_and_brief.py`。
+详见 `docs/specs/2026-08-29-auto-brief.md`。
+
 ## 结构
 
 - `finreport/` 取数与分析纯函数库（skill 脚本依赖）
