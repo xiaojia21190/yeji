@@ -8,6 +8,8 @@ fin-report skill 的开发、测试与报告产出。
 
 skill 安装位置：`C:\Users\35033\.claude\skills\fin-report\`（镜像入库于 `skill_deploy/`）。
 
+在线报告中心（GitHub Pages）：https://xiaojia21190.github.io/yeji/
+
 ## 能力
 
 六模块报告，判断「公司完整业绩」而不只是「是否超预期」：
