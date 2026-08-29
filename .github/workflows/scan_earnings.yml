@@ -33,7 +33,7 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
           AI_MODEL: ${{ secrets.AI_MODEL }}
-          MAX_BRIEFS: 60
+          MAX_BRIEFS: 40
         run: python automation/scan_and_brief.py --watchlist watchlist.json --reports-dir reports --max-briefs "$MAX_BRIEFS"
 
       - name: commit & push

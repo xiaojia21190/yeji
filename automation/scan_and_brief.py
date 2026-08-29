@@ -29,7 +29,7 @@ def main() -> None:
     ap.add_argument("--reports-dir", default="reports")
     ap.add_argument("--force", default=None,
                     help="强制为指定代码生成快报（跳过已存在检查），测试用")
-    ap.add_argument("--max-briefs", type=int, default=60,
+    ap.add_argument("--max-briefs", type=int, default=40,
                     help="单次生成上限（watchlist 不受限），积压顺延下一轮")
     ap.add_argument("--lookback-days", type=int, default=3,
                     help="日历回看窗口（覆盖周末与停摆日）")
@@ -72,13 +72,11 @@ def main() -> None:
     produced, skipped_sync = [], 0
     for item in pending:
         code, name = item["code"], item["name"]
-        use_ai_item = ai_on and (item.get("watchlist") or
-                                 os.environ.get("AI_ALL") == "1")
         print(f"[brief] {code} {name}（{'watchlist' if item.get('watchlist') else '全市场'}"
-              f"{'/AI' if use_ai_item else '/纯量化'}）生成中……")
+              f"{'/AI' if ai_on else '/纯量化'}）生成中……")
         try:
             payload = build_brief(code, name, peers=item.get("peers"),
-                                  use_ai=use_ai_item, period=item.get("period"))
+                                  use_ai=ai_on, period=item.get("period"))
         except ValueError as exc:
             skipped_sync += 1
             print(f"[brief] {code} 跳过：{exc}")

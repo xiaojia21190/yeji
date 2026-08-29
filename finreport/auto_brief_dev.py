@@ -10,7 +10,7 @@ from __future__ import annotations
 import datetime as dt
 import os
 
-from .ai_summary_dev import enrich_brief
+from .ai_summary_dev import enrich_report
 from .fetch_dev import fetch_abstract_dict
 from .fetch_forecast_dev import fetch_reports
 from .fetch_market_dev import fetch_market
@@ -240,7 +240,55 @@ def build_brief(code: str, name: str, peers: list[str] | None = None,
                    f"{mcap/(med*shares):.1f}x",
                    f"{len(eps_preds)} 家 EPS：{'/'.join(f'{e:.2f}' for e in sorted(eps_preds))}"])
 
-    # 同行（watchlist 配置，自动取数）
+    # AI 撰写（可选；缺席则纯量化 + drivers 缺省）
+    ai_used = False
+    ai_full = None
+    dims["drivers"] = {"tone": "warn", "value": "待 AI 定性",
+                       "basis": "无 AI 模式：驱动维缺省中性（评级按四维量化初判）"}
+    ai_model = os.environ.get("AI_MODEL", "deepseek-v4-flash")
+    ai_note = "驱动维缺省，评级为四维量化初判。深度分析请本地运行 /fin-report " + code + "。"
+    peers_source = "watchlist 配置"
+    if use_ai:
+        vr_med = vr[1][2] if len(vr) > 1 else "—"
+        datapack = {
+            "code": code, "name": name, "period": label,
+            "单季": {"营收亿": yi(q2_rev), "营收同比": pct(rev_y), "归母亿": yi(q2),
+                    "归母同比": pct(np_y) if np_y is not None else ("扭亏" if turned else "—"),
+                    "扣非同比": pct(de_y), "毛利率": pct(mg)},
+            "累计": {"营收亿": yi(rev_cum), "归母亿": yi(cum), "扣非亿": yi(de_cum),
+                    "OCF亿": yi(ocf), "ROE-TTM": pct(roe)},
+            "评分卡": {k: {"tone": v["tone"], "值": v["value"]} for k, v in dims.items()
+                    if k != "drivers"},
+            "资产负债表": {"货币资金亿": yi(cash), "有息负债亿": yi(ibd), "存货亿": yi(bal.get("存货")),
+                        "应收亿": yi(bal.get("应收账款")),
+                        "预收类负债亿": yi(advance_liabilities(bal.get("合同负债"), bal.get("预收款项"))),
+                        "固定资产净额亿": yi(bal.get("固定资产净额")), "在建工程亿": yi(bal.get("在建工程"))},
+            "非经常占比": pct(nonrec), "capex强度": capex_ratio(capex, ocf), "预警": warnings,
+            "估值": {"现价": price, "市值亿": yi(mcap, 0), "PE-TTM": vr[0][2],
+                    "PE-2026E研报中值": vr_med},
+        }
+        segs = stmt.get("segments")
+        if isinstance(segs, dict) and segs:
+            latest_seg = sorted(segs.keys())[-1]
+            datapack["主营构成"] = {t: [{"name": x["name"], "收入亿": yi(x["revenue"]),
+                                     "占比": pct(x["revenue_ratio"])}
+                                    for x in items[:6]]
+                                 for t, items in segs[latest_seg].items()}
+        ai_full = enrich_report(datapack)
+        if ai_full:
+            ai_used = True
+            dims["drivers"] = {"tone": ai_full["drivers"]["tone"], "value": "AI 定性",
+                               "basis": ai_full["drivers"]["rationale"]}
+            if not peers and ai_full["peers"]:
+                peers = ai_full["peers"]
+                peers_source = "AI 提名"
+            ai_note = (f"summary/驱动维/前景与催化/同行提名/估值判断由 AI（{ai_model}）"
+                       f"基于脚本量化数据包与行业知识生成，未经搜索溯源。深度分析请本地运行 "
+                       f"/fin-report {code}。")
+
+    tones_map = {k: v["tone"] for k, v in dims.items()}
+
+    # 同行取数（watchlist 配置或 AI 提名，在 AI 块之后执行）
     peer_rows = []
     for pc in (peers or [])[:3]:
         try:
@@ -257,42 +305,6 @@ def build_brief(code: str, name: str, peers: list[str] | None = None,
                               yi(pm.get("total_shares") * pm.get("price"), 0) if (pm.get("total_shares") and pm.get("price")) else "—"])
         except Exception as exc:
             peer_rows.append([pc, "取数失败", str(exc)[:40], "—", "—", "—"])
-
-    # AI 撰写（可选；缺席则纯量化 + drivers 缺省）
-    ai_used = False
-    dims["drivers"] = {"tone": "warn", "value": "待 AI 定性",
-                       "basis": "自动快报无 AI/无 WebSearch，驱动维缺省中性（评级按四维初判）"}
-    ai_model = os.environ.get("AI_MODEL", "deepseek-v4-flash")
-    ai_note = f"驱动维缺省，评级为四维量化初判。完整六模块分析请本地运行 /fin-report {code}。"
-    if use_ai:
-        datapack = {
-            "code": code, "name": name, "period": label,
-            "单季": {"营收亿": yi(q2_rev), "营收同比": pct(rev_y), "归母亿": yi(q2),
-                    "归母同比": pct(np_y) if np_y is not None else ("扭亏" if turned else "—"),
-                    "扣非同比": pct(de_y), "毛利率": pct(mg)},
-            "累计": {"营收亿": yi(rev_cum), "归母亿": yi(cum), "扣非亿": yi(de_cum), "OCF亿": yi(ocf)},
-            "评分卡": {k: {"tone": v["tone"], "值": v["value"]} for k, v in dims.items() if k != "drivers"},
-            "资产负债表": {"货币资金亿": yi(cash), "有息负债亿": yi(ibd), "存货亿": yi(bal.get("存货")),
-                        "应收亿": yi(bal.get("应收账款")),
-                        "预收类负债亿": yi(advance_liabilities(bal.get("合同负债"), bal.get("预收款项"))),
-                        "固定资产净额亿": yi(bal.get("固定资产净额")), "在建工程亿": yi(bal.get("在建工程"))},
-            "非经常占比": pct(nonrec), "capex强度": capex_ratio(capex, ocf), "预警": warnings,
-        }
-        segs = stmt.get("segments")
-        if isinstance(segs, dict) and segs:
-            latest_seg = sorted(segs.keys())[-1]
-            datapack["主营构成"] = {t: [{"name": x["name"], "收入亿": yi(x["revenue"]),
-                                     "占比": pct(x["revenue_ratio"])}
-                                    for x in items[:6]]
-                                 for t, items in segs[latest_seg].items()}
-        ai = enrich_brief(datapack)
-        if ai:
-            ai_used = True
-            dims["drivers"] = {"tone": ai["drivers"]["tone"], "value": "AI 定性",
-                               "basis": ai["drivers"]["rationale"]}
-            ai_note = f"summary 与驱动维由 AI（{ai_model}）基于脚本量化数据撰写，未经 WebSearch 溯源。完整六模块分析请本地运行 /fin-report {code}。"
-
-    tones_map = {k: v["tone"] for k, v in dims.items()}
     grade = grade_from_tones(tones_map)
     grade_label = {"A": "业绩优秀", "B": "业绩良好", "C": "业绩承压", "D": "业绩恶化"}[grade]
     grade_tone = {"A": "good", "B": "good", "C": "warn", "D": "bad"}[grade]
@@ -300,7 +312,7 @@ def build_brief(code: str, name: str, peers: list[str] | None = None,
 
     if ai_used:
         # tone 按合成规则可复算（performance.md），AI 只撰写文字不改判定
-        summary_text = ai["summary"]["text"]
+        summary_text = ai_full["summary"]["text"]
     else:
         ng = sum(1 for v in dims.values() if v["tone"] == "good")
         nw = sum(1 for v in dims.values() if v["tone"] == "warn")
@@ -333,9 +345,31 @@ def build_brief(code: str, name: str, peers: list[str] | None = None,
          "conclusion": {"tone": grade_tone,
                         "text": f"综合评级 {grade}（{grade_label}）：五维 tone {tones_map}。"
                                 f"规则 good=+1/warn=0/bad=−1 求和：≥3→A、1~2→B、−2~0→C、≤−3→D。"}}]
+    if ai_full:
+        ol = ai_full["outlook"]
+        ol_tables = []
+        if ol["advantages"]:
+            ol_tables.append({"columns": ["核心优势与依据（AI 推断·未经搜索溯源）"],
+                              "rows": [[a] for a in ol["advantages"]], "row_tones": []})
+        if ol["orders"]:
+            ol_tables.append({"columns": ["订单与需求前瞻（AI 推断·未经搜索溯源）"],
+                              "rows": [[ol["orders"]]], "row_tones": []})
+        if ol["factors"]:
+            ol_tables.append({"columns": ["影响走势因素（AI 推断·未经搜索溯源）"],
+                              "rows": [[f] for f in ol["factors"]], "row_tones": []})
+        if ol_tables:
+            sections.append(
+                {"id": "outlook", "title": f"{len(sections)+1} 前景与催化（AI 推断）",
+                 "intro": "本模块由 AI 基于脚本量化数据包与行业知识生成，未经搜索溯源；"
+                          "引用数字可复算，事件性表述需自行验证。",
+                 "tables": ol_tables,
+                 "conclusion": {"tone": tones_map.get("drivers", "warn"),
+                                "text": "前瞻判断为 AI 推断口径；深度版含 WebSearch 溯源"
+                                        "（本地 /fin-report）。"}})
+    n = len(sections) + 1
     if fc_rows:
         sections.append(
-            {"id": "expectation", "title": "2 业绩 vs 机构预期（自动反推，单季口径）",
+            {"id": "expectation", "title": f"{n} 业绩 vs 机构预期（自动反推，单季口径）",
              "intro": f"披露日 {announced} 前的最新研报；反推 = EPS26E × 总股本 {shares/1e8:.2f} 亿股 × 季节系数 {pct(ratio_np)}（上年实际）− 上期累计实际。季节系数为公司历史节奏，非机构校准。",
              "tables": [{"columns": ["机构", "日期", "评级", "EPS26E", "全年净利(亿)", "反推单季(亿)", "实际单季(亿)", "差额", "判定"],
                          "rows": fc_rows, "row_tones": tones_fc}],
@@ -343,22 +377,26 @@ def build_brief(code: str, name: str, peers: list[str] | None = None,
                             "text": f"{hit}/{len(fc_rows)} 家口径达标；未达标 = 实际低于反推值超容差 2%。"}})
     else:
         sections.append(
-            {"id": "expectation", "title": "2 预期对照（跳过）",
+            {"id": "expectation", "title": f"{n} 预期对照（跳过）",
              "intro": "无可溯源的披露前机构预测，预期对照降级跳过。", "tables": []})
+    valuation_text = ("只列倍数与基数，不构成投资建议；周期股 PE 失效场景见完整报告。")
+    if ai_full and ai_full["valuation_note"]:
+        valuation_text = ai_full["valuation_note"] + "（AI 判断·未经搜索溯源；不构成投资建议）"
+    n2 = len(sections) + 1
     sections += [
-        {"id": "trend", "title": f"{len(sections)+1} 财务趋势（近 8 期累计）",
+        {"id": "trend", "title": f"{n2} 财务趋势（近 8 期累计）",
          "intro": "新浪源，金额亿元；毛利率/ROE 为累计百分数。",
          "tables": [{"columns": ["报告期", "营收", "归母", "扣非", "毛利率", "ROE累计", "经营现金流"],
                      "rows": trend_rows, "row_tones": []}],
          "conclusion": {"tone": dims["quality"]["tone"], "text": dims["quality"]["basis"]}},
-        {"id": "valuation", "title": f"{len(sections)+2} 估值（量化口径）",
-         "intro": "自动快报仅列事实倍数；合理 PE 估算与行业画像调整请跑完整 skill。",
+        {"id": "valuation", "title": f"{n2+1} 估值（量化口径）",
+         "intro": "自动报告仅列事实倍数与 AI 区间判断；行业画像调整请跑完整 skill。",
          "tables": [{"columns": ["口径", "基数", "PE", "说明"], "rows": vr, "row_tones": []}],
-         "conclusion": {"tone": "warn", "text": "只列倍数与基数，不构成投资建议；周期股 PE 失效场景见完整报告。"}}]
+         "conclusion": {"tone": "warn", "text": valuation_text}}]
     if peer_rows:
         sections.append(
-            {"id": "peers", "title": f"{len(sections)+1} 同行对比（最新累计期）",
-             "intro": "同行清单由 watchlist 配置，自动取数。",
+            {"id": "peers", "title": f"{n2+2} 同行对比（最新累计期）",
+             "intro": f"同行清单来源：{peers_source}；自动取数。",
              "tables": [{"columns": ["代码", "归母(亿)", "同比", "毛利率", "ROE", "市值(亿)"],
                          "rows": peer_rows, "row_tones": []}],
              "conclusion": {"tone": "warn", "text": "同行定位为量化快照；深度对比见完整报告。"}})
@@ -369,15 +407,20 @@ def build_brief(code: str, name: str, peers: list[str] | None = None,
                               ["财务数据", "新浪财经（akshare），脚本抓取"],
                               ["机构预测", "东财研报列表（仅披露日之前口径参与反推）"],
                               ["AI 撰写", ai_note],
-                              ["边界", "自动化产物：无 WebSearch 溯源、无前景与催化模块；不构成投资建议，数字以公司公告为准"]],
+                              ["同行来源", peers_source if peer_rows else "—（无配置且 AI 未提名）"],
+                              ["边界", "自动化产物：无 WebSearch 溯源，AI 定性段落需自行验证；不构成投资建议，数字以公司公告为准"]],
                      "row_tones": []}],
          "notes": ["快报由 fin-report skill 的自动化管线生成，深度分析请以完整 skill 报告为准。"]})
 
     today = dt.date.today().isoformat()
+    if ai_used:
+        disclaimer = ("自动完整报告（GitHub Actions 定时扫描生成）：数字脚本可复算；"
+                      "定性段落由 AI 生成、未经搜索溯源与人工复核，不构成任何投资建议。")
+    else:
+        disclaimer = "自动量化快报（GitHub Actions 定时扫描生成）：无 AI 撰写、无人工复核，不构成任何投资建议。"
     return {
         "meta": {"code": code, "name": name, "period_label": label, "generated": today,
-                 "disclaimer": "自动业绩快报（GitHub Actions 定时扫描生成）：脚本量化"
-                               + ("+AI 撰写" if ai_used else "") + "，无人工复核，不构成任何投资建议。"},
+                 "disclaimer": disclaimer},
         "summary": {"tone": summary_tone, "text": summary_text,
                     "links": [{"id": s["id"], "label": s["title"].split(" ", 1)[-1]}
                               for s in sections if s["id"] != "appendix"]},
