@@ -24,6 +24,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+          cache: "pip"   # 缓存依赖：恢复几十秒，避免裸装 stall 到 1 小时
+          cache-dependency-path: requirements-automation.txt
 
       - name: install deps
         run: pip install -r requirements-automation.txt
