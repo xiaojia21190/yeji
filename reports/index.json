@@ -400,6 +400,86 @@
   "file": "000928_2026中报.json"
  },
  {
+  "code": "000930",
+  "name": "中粮科技",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000930_2026中报.json"
+ },
+ {
+  "code": "000936",
+  "name": "华西股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000936_2026中报.json"
+ },
+ {
+  "code": "000952",
+  "name": "广济药业",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000952_2026中报.json"
+ },
+ {
+  "code": "000957",
+  "name": "中通客车",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000957_2026中报.json"
+ },
+ {
+  "code": "000958",
+  "name": "电投产融",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000958_2026中报.json"
+ },
+ {
+  "code": "000967",
+  "name": "盈峰环境",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000967_2026中报.json"
+ },
+ {
+  "code": "000973",
+  "name": "佛塑科技",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000973_2026中报.json"
+ },
+ {
+  "code": "000983",
+  "name": "山西焦煤",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000983_2026中报.json"
+ },
+ {
+  "code": "001213",
+  "name": "中铁特货",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "001213_2026中报.json"
+ },
+ {
+  "code": "001222",
+  "name": "源飞宠物",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "001222_2026中报.json"
+ },
+ {
   "code": "601899",
   "name": "紫金矿业",
   "period_label": "2026 中报",
