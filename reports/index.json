@@ -160,6 +160,86 @@
   "file": "000561_2026中报.json"
  },
  {
+  "code": "000564",
+  "name": "供销大集",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000564_2026中报.json"
+ },
+ {
+  "code": "000567",
+  "name": "海德股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000567_2026中报.json"
+ },
+ {
+  "code": "000591",
+  "name": "太阳能",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000591_2026中报.json"
+ },
+ {
+  "code": "000617",
+  "name": "中油资本",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000617_2026中报.json"
+ },
+ {
+  "code": "000619",
+  "name": "海螺新材",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000619_2026中报.json"
+ },
+ {
+  "code": "000630",
+  "name": "铜陵有色",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000630_2026中报.json"
+ },
+ {
+  "code": "000636",
+  "name": "风华高科",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000636_2026中报.json"
+ },
+ {
+  "code": "000637",
+  "name": "茂化实华",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000637_2026中报.json"
+ },
+ {
+  "code": "000663",
+  "name": "永安林业",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000663_2026中报.json"
+ },
+ {
+  "code": "000679",
+  "name": "大连友谊",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000679_2026中报.json"
+ },
+ {
   "code": "601899",
   "name": "紫金矿业",
   "period_label": "2026 中报",
