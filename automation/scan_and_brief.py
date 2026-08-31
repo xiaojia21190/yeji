@@ -12,6 +12,7 @@ import datetime as dt
 import json
 import os
 from pathlib import Path
+import subprocess
 import sys
 
 LIB = Path(__file__).resolve().parents[1]
@@ -23,7 +24,32 @@ from finreport.render_dev import save_payload  # noqa: E402
 from finreport.scan_dev import scan, scan_full_market  # noqa: E402
 
 
+def _flush_logs() -> None:
+    """CI 下 stdout 默认块缓冲，日志会几分钟后才刷出，看起来像卡死；改为行缓冲。"""
+    try:
+        sys.stdout.reconfigure(line_buffering=True)
+    except Exception:
+        pass
+
+
+def _commit_push(n_new: int) -> None:
+    """中途提交并推送已生成的快报：job 被取消/超时也不丢已完成的工作。"""
+    for cmd in (["git", "add", "reports"],
+                ["git", "commit", "-m", f"auto: 业绩快报批次 +{n_new}（中途落盘）"],
+                ["git", "push"]):
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True)
+        except OSError as exc:
+            print(f"[git] {cmd[0]} 失败：{exc}")
+            return
+        if r.returncode != 0:
+            print(f"[git] {' '.join(cmd)} 失败：{(r.stderr or r.stdout or '').strip()[:150]}")
+            return
+    print(f"[git] 已中途提交并推送 {n_new} 份快报")
+
+
 def main() -> None:
+    _flush_logs()
     ap = argparse.ArgumentParser(description="财报披露扫描 + 自动快报（全市场）")
     ap.add_argument("--watchlist", default="watchlist.json")
     ap.add_argument("--reports-dir", default="reports")
@@ -31,6 +57,8 @@ def main() -> None:
                     help="强制为指定代码生成快报（跳过已存在检查），测试用")
     ap.add_argument("--max-briefs", type=int, default=40,
                     help="单次生成上限（watchlist 不受限），积压顺延下一轮")
+    ap.add_argument("--commit-every", type=int, default=0,
+                    help="每生成 N 份中途 git 提交并推送（0=不中途提交，由 workflow 收尾）")
     ap.add_argument("--lookback-days", type=int, default=3,
                     help="日历回看窗口（覆盖周末与停摆日）")
     ap.add_argument("--no-ai", action="store_true", help="禁用 AI，纯量化快报")
@@ -70,6 +98,18 @@ def main() -> None:
             print(f"[scan] 降级模式：watchlist 待生成 {len(pending)}")
 
     produced, skipped_sync = [], 0
+
+    def write_result(partial: bool) -> None:
+        out = {"generated": dt.datetime.now().isoformat(timespec="seconds"), "ai": ai_on,
+               "mode": "market" if cal else "watchlist",
+               "market_candidates": cal["candidates"] if cal else None,
+               "backlog": backlog if cal else 0, "skipped_sync": skipped_sync,
+               "partial": partial, "briefs": produced}
+        Path("finreport_work").mkdir(exist_ok=True)
+        Path("finreport_work/scan_result.json").write_text(
+            json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    committed = 0
     for item in pending:
         code, name = item["code"], item["name"]
         print(f"[brief] {code} {name}（{'watchlist' if item.get('watchlist') else '全市场'}"
@@ -92,15 +132,12 @@ def main() -> None:
                          "watchlist": bool(item.get("watchlist")),
                          "summary": payload["summary"]["text"][:200]})
         print(f"[brief] {code} → reports/{result['file']} 评级 {grade}")
+        write_result(partial=True)  # 增量落盘：被取消也能留下进度痕迹
+        if args.commit_every and len(produced) - committed >= args.commit_every:
+            _commit_push(len(produced) - committed)
+            committed = len(produced)
 
-    out = {"generated": dt.datetime.now().isoformat(timespec="seconds"), "ai": ai_on,
-           "mode": "market" if cal else "watchlist",
-           "market_candidates": cal["candidates"] if cal else None,
-           "backlog": backlog if cal else 0, "skipped_sync": skipped_sync,
-           "briefs": produced}
-    Path("finreport_work").mkdir(exist_ok=True)
-    Path("finreport_work/scan_result.json").write_text(
-        json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    write_result(partial=False)
     print(f"[done] 新快报 {len(produced)} 份（跳过未同步 {skipped_sync}）"
           f"；结果已写 finreport_work/scan_result.json")
 

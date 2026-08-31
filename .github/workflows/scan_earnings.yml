@@ -17,7 +17,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
 
@@ -28,21 +28,27 @@ jobs:
       - name: install deps
         run: pip install -r requirements-automation.txt
 
+      - name: git identity（供中途分批提交）
+        run: |
+          git config user.name "yeji-bot"
+          git config user.email "actions@users.noreply.github.com"
+
       - name: scan & build briefs
         env:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
           AI_MODEL: ${{ secrets.AI_MODEL }}
           MAX_BRIEFS: 40
-        run: python automation/scan_and_brief.py --watchlist watchlist.json --reports-dir reports --max-briefs "$MAX_BRIEFS"
+          PYTHONUNBUFFERED: "1"   # 日志实时刷出，避免看起来卡死被误取消
+          AI_TIMEOUT: "60"        # 批处理模式收紧单次读超时（默认 120）
+          AI_RETRIES: "2"         # 批处理模式减少重试轮数，连续失败由熔断兕底
+        run: python automation/scan_and_brief.py --watchlist watchlist.json --reports-dir reports --max-briefs "$MAX_BRIEFS" --commit-every 10
 
       - name: commit & push
         run: |
-          git config user.name "yeji-bot"
-          git config user.email "actions@users.noreply.github.com"
           git add reports/
           if git diff --cached --quiet; then
-            echo "无新快报"
+            echo "无新快报（或已由中途分批提交覆盖）"
           else
             git commit -m "auto: 业绩快报更新 $(date -u +%F)"
             git push
