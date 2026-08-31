@@ -480,6 +480,86 @@
   "file": "001222_2026中报.json"
  },
  {
+  "code": "600547",
+  "name": "山东黄金",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "600547_2026中报.json"
+ },
+ {
+  "code": "000886",
+  "name": "海南高速",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000886_2026中报.json"
+ },
+ {
+  "code": "001225",
+  "name": "和泰机电",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "001225_2026中报.json"
+ },
+ {
+  "code": "001226",
+  "name": "拓山重工",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "001226_2026中报.json"
+ },
+ {
+  "code": "001228",
+  "name": "永泰运",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "001228_2026中报.json"
+ },
+ {
+  "code": "001230",
+  "name": "劲旅环境",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "001230_2026中报.json"
+ },
+ {
+  "code": "001231",
+  "name": "农心科技",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "001231_2026中报.json"
+ },
+ {
+  "code": "001237",
+  "name": "惠康科技",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "001237_2026中报.json"
+ },
+ {
+  "code": "001279",
+  "name": "强邦新材",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "001279_2026中报.json"
+ },
+ {
+  "code": "001288",
+  "name": "运机集团",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "001288_2026中报.json"
+ },
+ {
   "code": "000006",
   "name": "深振业Ａ",
   "period_label": "2026 中报",
