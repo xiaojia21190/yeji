@@ -379,6 +379,65 @@ def build_brief(code: str, name: str, peers: list[str] | None = None,
         sections.append(
             {"id": "expectation", "title": f"{n} 预期对照（跳过）",
              "intro": "无可溯源的披露前机构预测，预期对照降级跳过。", "tables": []})
+
+    # ---- 纯量化深度模块（无需 AI/搜索，脚本可复算） ----
+    n_sq = len(sections) + 1
+    # 单季拆解：本期单季 vs 去年同期单季（累计相减）
+    sq_rows = [
+        ["单季营收(亿)", yi(q2_rev), yi(q2_rev_py) if q2_rev_py is not None else "—",
+         pct(rev_y) if rev_y is not None else "—"],
+        ["单季归母(亿)", yi(q2), yi(q2_py) if q2_py is not None else "—",
+         pct(np_y) if np_y is not None else ("扭亏" if turned else "—")],
+        ["单季扣非(亿)", yi(q2_de), yi(q2_de_py) if q2_de_py is not None else "—",
+         pct(de_y) if de_y is not None else "—"],
+    ]
+    sections.append(
+        {"id": "quarter", "title": f"{n_sq} 单季拆解（本期单季 vs 去年同期）",
+         "intro": "单季 = 本期累计 − 上期累计；同比基期为上年同期单季。纯量化拆解，可复算。",
+         "tables": [{"columns": ["指标", "本期单季", "去年同期单季", "同比"],
+                     "rows": sq_rows, "row_tones": []}],
+         "conclusion": {"tone": dims["growth"]["tone"],
+                        "text": f"单季归母 {yi(q2)} 亿（{pct(np_y) if np_y is not None else ('扭亏' if turned else '—')}），"
+                                f"扣非 {yi(q2_de)} 亿（{pct(de_y)}）；剪刀差 {pct(growth_gap(np_y, rev_y)) if (np_y is not None and rev_y is not None) else '—'}。"}})
+
+    # 非经常损益：扣非 vs 归母、非经常占比
+    nr_gap = (cum - de_cum) if (cum is not None and de_cum is not None) else None
+    nr_rows = [
+        ["累计归母(亿)", yi(cum)],
+        ["累计扣非(亿)", yi(de_cum)],
+        ["非经常损益(亿)", yi(nr_gap) if nr_gap is not None else "—"],
+        ["非经常占归母比例", pct(nonrec) if nonrec is not None else "—"],
+    ]
+    nr_concl = ("本期归母为负，非经常占比口径失真，仅列事实。" if loss
+                else (f"非经常占比 {pct(nonrec)}：" + (">50% 时利润主要靠一次性项目，可持续性弱。" if (nonrec is not None and nonrec > 0.5)
+                   else "盈利主要来自主营，口径健康。" if (nonrec is not None and nonrec <= 0.15) else "介于中性区间。"))
+                if nonrec is not None else "非经常占比缺失。")
+    nr_tone = "bad" if (not loss and nonrec is not None and nonrec > 0.5) else ("good" if (not loss and nonrec is not None and nonrec <= 0.15) else "warn")
+    sections.append(
+        {"id": "nonrecurring", "title": f"{n_sq+1} 非经常损益（盈利质量）",
+         "intro": "非经常损益 = 归母 − 扣非；占比高则利润依赖一次性项目。纯量化，可复算。",
+         "tables": [{"columns": ["项", "金额"], "rows": nr_rows, "row_tones": []}],
+         "conclusion": {"tone": nr_tone, "text": nr_concl}})
+
+    # 主营构成（分产品/分地区，取最新累计期）
+    segs = stmt.get("segments")
+    seg_tables = []
+    if isinstance(segs, dict) and segs:
+        latest_seg = sorted(segs.keys())[-1]
+        for t, items in segs[latest_seg].items():
+            seg_tables.append({"columns": ["构成项", "收入(亿)", "占比", "毛利率"],
+                               "rows": [[x["name"], yi(x["revenue"]),
+                                         pct(x["revenue_ratio"]),
+                                         pct(x["gross_margin"]) if x.get("gross_margin") is not None else "—"]
+                                        for x in items[:8]],
+                               "row_tones": []})
+    if seg_tables:
+        sections.append(
+            {"id": "segments", "title": f"{n_sq+2} 主营构成（{latest_seg[:4]}年{SEASON.get(latest_seg[4:], '报告期')}）",
+             "intro": "新浪主营构成，金额亿元；占比与毛利率为源数据。",
+             "tables": seg_tables,
+             "conclusion": {"tone": "warn", "text": "构成为最新累计期事实，结构变化需结合趋势判断。"}})
+
     valuation_text = ("只列倍数与基数，不构成投资建议；周期股 PE 失效场景见完整报告。")
     if ai_full and ai_full["valuation_note"]:
         valuation_text = ai_full["valuation_note"] + "（AI 判断·未经搜索溯源；不构成投资建议）"
