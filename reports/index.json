@@ -720,6 +720,86 @@
   "file": "002140_2026中报.json"
  },
  {
+  "code": "002152",
+  "name": "广电运通",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002152_2026中报.json"
+ },
+ {
+  "code": "002158",
+  "name": "汉钟精机",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002158_2026中报.json"
+ },
+ {
+  "code": "002160",
+  "name": "常铝股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002160_2026中报.json"
+ },
+ {
+  "code": "002165",
+  "name": "红 宝 丽",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "002165_2026中报.json"
+ },
+ {
+  "code": "002170",
+  "name": "芭田股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002170_2026中报.json"
+ },
+ {
+  "code": "002171",
+  "name": "楚江新材",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002171_2026中报.json"
+ },
+ {
+  "code": "002174",
+  "name": "游族网络",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "002174_2026中报.json"
+ },
+ {
+  "code": "002183",
+  "name": "怡 亚 通",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002183_2026中报.json"
+ },
+ {
+  "code": "002195",
+  "name": "岩山科技",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "002195_2026中报.json"
+ },
+ {
+  "code": "002203",
+  "name": "海亮股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002203_2026中报.json"
+ },
+ {
   "code": "000006",
   "name": "深振业Ａ",
   "period_label": "2026 中报",
