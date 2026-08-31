@@ -320,6 +320,86 @@
   "file": "000852_2026中报.json"
  },
  {
+  "code": "000878",
+  "name": "云南铜业",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000878_2026中报.json"
+ },
+ {
+  "code": "000880",
+  "name": "潍柴重机",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000880_2026中报.json"
+ },
+ {
+  "code": "000887",
+  "name": "中鼎股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000887_2026中报.json"
+ },
+ {
+  "code": "000888",
+  "name": "峨眉山Ａ",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000888_2026中报.json"
+ },
+ {
+  "code": "000893",
+  "name": "亚钾国际",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000893_2026中报.json"
+ },
+ {
+  "code": "000898",
+  "name": "鞍钢股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000898_2026中报.json"
+ },
+ {
+  "code": "000900",
+  "name": "现代投资",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000900_2026中报.json"
+ },
+ {
+  "code": "000910",
+  "name": "大亚圣象",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000910_2026中报.json"
+ },
+ {
+  "code": "000913",
+  "name": "钱江摩托",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000913_2026中报.json"
+ },
+ {
+  "code": "000928",
+  "name": "中钢国际",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000928_2026中报.json"
+ },
+ {
   "code": "601899",
   "name": "紫金矿业",
   "period_label": "2026 中报",
