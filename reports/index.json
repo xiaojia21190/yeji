@@ -560,6 +560,86 @@
   "file": "001288_2026中报.json"
  },
  {
+  "code": "001289",
+  "name": "龙源电力",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "001289_2026中报.json"
+ },
+ {
+  "code": "001298",
+  "name": "好上好",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "001298_2026中报.json"
+ },
+ {
+  "code": "001309",
+  "name": "德明利",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "001309_2026中报.json"
+ },
+ {
+  "code": "001331",
+  "name": "胜通能源",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "001331_2026中报.json"
+ },
+ {
+  "code": "001358",
+  "name": "兴欣新材",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "001358_2026中报.json"
+ },
+ {
+  "code": "001369",
+  "name": "双欣材料",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "001369_2026中报.json"
+ },
+ {
+  "code": "001376",
+  "name": "百通能源",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "001376_2026中报.json"
+ },
+ {
+  "code": "001386",
+  "name": "马可波罗",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "001386_2026中报.json"
+ },
+ {
+  "code": "002010",
+  "name": "传化智联",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002010_2026中报.json"
+ },
+ {
+  "code": "002015",
+  "name": "协鑫能科",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002015_2026中报.json"
+ },
+ {
   "code": "000006",
   "name": "深振业Ａ",
   "period_label": "2026 中报",
