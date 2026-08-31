@@ -240,6 +240,86 @@
   "file": "000679_2026中报.json"
  },
  {
+  "code": "000338",
+  "name": "潍柴动力",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000338_2026中报.json"
+ },
+ {
+  "code": "000751",
+  "name": "锌业股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000751_2026中报.json"
+ },
+ {
+  "code": "000758",
+  "name": "中色股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000758_2026中报.json"
+ },
+ {
+  "code": "000796",
+  "name": "凯撒旅业",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000796_2026中报.json"
+ },
+ {
+  "code": "000807",
+  "name": "云铝股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "good",
+  "file": "000807_2026中报.json"
+ },
+ {
+  "code": "000810",
+  "name": "创维数字",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000810_2026中报.json"
+ },
+ {
+  "code": "000820",
+  "name": "神雾节能",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000820_2026中报.json"
+ },
+ {
+  "code": "000826",
+  "name": "*ST启环",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000826_2026中报.json"
+ },
+ {
+  "code": "000829",
+  "name": "天音控股",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000829_2026中报.json"
+ },
+ {
+  "code": "000852",
+  "name": "石化机械",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000852_2026中报.json"
+ },
+ {
   "code": "601899",
   "name": "紫金矿业",
   "period_label": "2026 中报",
