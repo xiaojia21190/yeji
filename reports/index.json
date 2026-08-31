@@ -1,5 +1,85 @@
 [
  {
+  "code": "000002",
+  "name": "万  科Ａ",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000002_2026中报.json"
+ },
+ {
+  "code": "000012",
+  "name": "南  玻Ａ",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000012_2026中报.json"
+ },
+ {
+  "code": "000014",
+  "name": "沙河股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000014_2026中报.json"
+ },
+ {
+  "code": "000016",
+  "name": "*ST康佳A",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000016_2026中报.json"
+ },
+ {
+  "code": "000030",
+  "name": "富奥股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000030_2026中报.json"
+ },
+ {
+  "code": "000036",
+  "name": "华联控股",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000036_2026中报.json"
+ },
+ {
+  "code": "000060",
+  "name": "中金岭南",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000060_2026中报.json"
+ },
+ {
+  "code": "000062",
+  "name": "深圳华强",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000062_2026中报.json"
+ },
+ {
+  "code": "000096",
+  "name": "广聚能源",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000096_2026中报.json"
+ },
+ {
+  "code": "000153",
+  "name": "丰原药业",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000153_2026中报.json"
+ },
+ {
   "code": "601899",
   "name": "紫金矿业",
   "period_label": "2026 中报",
