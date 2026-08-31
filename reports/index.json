@@ -640,6 +640,86 @@
   "file": "002015_2026中报.json"
  },
  {
+  "code": "002022",
+  "name": "科华生物",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002022_2026中报.json"
+ },
+ {
+  "code": "002032",
+  "name": "苏 泊 尔",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002032_2026中报.json"
+ },
+ {
+  "code": "002046",
+  "name": "国机精工",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002046_2026中报.json"
+ },
+ {
+  "code": "002053",
+  "name": "云南能投",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002053_2026中报.json"
+ },
+ {
+  "code": "002058",
+  "name": "紫竹高科",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "002058_2026中报.json"
+ },
+ {
+  "code": "002061",
+  "name": "浙江交科",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002061_2026中报.json"
+ },
+ {
+  "code": "002090",
+  "name": "金智科技",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002090_2026中报.json"
+ },
+ {
+  "code": "002131",
+  "name": "利欧股份",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "002131_2026中报.json"
+ },
+ {
+  "code": "002132",
+  "name": "恒星科技",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "002132_2026中报.json"
+ },
+ {
+  "code": "002140",
+  "name": "东华科技",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "002140_2026中报.json"
+ },
+ {
   "code": "000006",
   "name": "深振业Ａ",
   "period_label": "2026 中报",
