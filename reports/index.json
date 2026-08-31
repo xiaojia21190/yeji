@@ -80,6 +80,86 @@
   "file": "000153_2026中报.json"
  },
  {
+  "code": "000157",
+  "name": "中联重科",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000157_2026中报.json"
+ },
+ {
+  "code": "000166",
+  "name": "申万宏源",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000166_2026中报.json"
+ },
+ {
+  "code": "000401",
+  "name": "金隅冀东",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000401_2026中报.json"
+ },
+ {
+  "code": "000409",
+  "name": "云鼎科技",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000409_2026中报.json"
+ },
+ {
+  "code": "000417",
+  "name": "合百集团",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000417_2026中报.json"
+ },
+ {
+  "code": "000501",
+  "name": "武商集团",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000501_2026中报.json"
+ },
+ {
+  "code": "000510",
+  "name": "新金路",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000510_2026中报.json"
+ },
+ {
+  "code": "000537",
+  "name": "绿发电力",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000537_2026中报.json"
+ },
+ {
+  "code": "000560",
+  "name": "我爱我家",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "warn",
+  "file": "000560_2026中报.json"
+ },
+ {
+  "code": "000561",
+  "name": "烽火电子",
+  "period_label": "2026 中报",
+  "generated": "2026-08-31",
+  "tone": "bad",
+  "file": "000561_2026中报.json"
+ },
+ {
   "code": "601899",
   "name": "紫金矿业",
   "period_label": "2026 中报",
