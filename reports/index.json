@@ -400,6 +400,86 @@
   "file": "000803_2026中报.json"
  },
  {
+  "code": "000813",
+  "name": "德展健康",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000813_2026中报.json"
+ },
+ {
+  "code": "000830",
+  "name": "鲁西化工",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000830_2026中报.json"
+ },
+ {
+  "code": "000837",
+  "name": "秦川机床",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000837_2026中报.json"
+ },
+ {
+  "code": "000858",
+  "name": "五 粮 液",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000858_2026中报.json"
+ },
+ {
+  "code": "000876",
+  "name": "新 希 望",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000876_2026中报.json"
+ },
+ {
+  "code": "000881",
+  "name": "中广核技",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000881_2026中报.json"
+ },
+ {
+  "code": "000883",
+  "name": "湖北能源",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000883_2026中报.json"
+ },
+ {
+  "code": "000890",
+  "name": "法尔胜",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000890_2026中报.json"
+ },
+ {
+  "code": "000895",
+  "name": "双汇发展",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000895_2026中报.json"
+ },
+ {
+  "code": "000897",
+  "name": "津滨发展",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000897_2026中报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 中报",
