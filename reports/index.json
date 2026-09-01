@@ -240,6 +240,86 @@
   "file": "000555_2026中报.json"
  },
  {
+  "code": "000566",
+  "name": "海南海药",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000566_2026中报.json"
+ },
+ {
+  "code": "000573",
+  "name": "粤宏远Ａ",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000573_2026中报.json"
+ },
+ {
+  "code": "000589",
+  "name": "贵州轮胎",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000589_2026中报.json"
+ },
+ {
+  "code": "000596",
+  "name": "古井贡酒",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000596_2026中报.json"
+ },
+ {
+  "code": "000600",
+  "name": "建投能源",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000600_2026中报.json"
+ },
+ {
+  "code": "000612",
+  "name": "焦作万方",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "good",
+  "file": "000612_2026中报.json"
+ },
+ {
+  "code": "000623",
+  "name": "吉林敖东",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000623_2026中报.json"
+ },
+ {
+  "code": "000625",
+  "name": "长安汽车",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000625_2026中报.json"
+ },
+ {
+  "code": "000676",
+  "name": "智度股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000676_2026中报.json"
+ },
+ {
+  "code": "000685",
+  "name": "中山公用",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000685_2026中报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 中报",
