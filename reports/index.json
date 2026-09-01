@@ -160,6 +160,86 @@
   "file": "000425_2026中报.json"
  },
  {
+  "code": "000426",
+  "name": "兴业银锡",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "good",
+  "file": "000426_2026中报.json"
+ },
+ {
+  "code": "000488",
+  "name": "ST晨鸣",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000488_2026中报.json"
+ },
+ {
+  "code": "000507",
+  "name": "珠海港",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000507_2026中报.json"
+ },
+ {
+  "code": "000517",
+  "name": "荣安地产",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000517_2026中报.json"
+ },
+ {
+  "code": "000525",
+  "name": "红太阳",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000525_2026中报.json"
+ },
+ {
+  "code": "000531",
+  "name": "穗恒运Ａ",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000531_2026中报.json"
+ },
+ {
+  "code": "000538",
+  "name": "云南白药",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000538_2026中报.json"
+ },
+ {
+  "code": "000543",
+  "name": "皖能电力",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000543_2026中报.json"
+ },
+ {
+  "code": "000548",
+  "name": "湖南投资",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000548_2026中报.json"
+ },
+ {
+  "code": "000555",
+  "name": "神州信息",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000555_2026中报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 中报",
