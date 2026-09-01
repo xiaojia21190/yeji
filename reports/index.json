@@ -320,6 +320,86 @@
   "file": "000685_2026中报.json"
  },
  {
+  "code": "000716",
+  "name": "黑芝麻",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000716_2026中报.json"
+ },
+ {
+  "code": "000718",
+  "name": "苏宁环球",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000718_2026中报.json"
+ },
+ {
+  "code": "000725",
+  "name": "京东方Ａ",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000725_2026中报.json"
+ },
+ {
+  "code": "000726",
+  "name": "鲁  泰Ａ",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000726_2026中报.json"
+ },
+ {
+  "code": "000750",
+  "name": "国海证券",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "good",
+  "file": "000750_2026中报.json"
+ },
+ {
+  "code": "000761",
+  "name": "本钢板材",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000761_2026中报.json"
+ },
+ {
+  "code": "000776",
+  "name": "广发证券",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "good",
+  "file": "000776_2026中报.json"
+ },
+ {
+  "code": "000800",
+  "name": "一汽解放",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000800_2026中报.json"
+ },
+ {
+  "code": "000801",
+  "name": "四川九洲",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000801_2026中报.json"
+ },
+ {
+  "code": "000803",
+  "name": "山高环能",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000803_2026中报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 中报",
