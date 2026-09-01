@@ -80,6 +80,86 @@
   "file": "000066_2026中报.json"
  },
  {
+  "code": "000069",
+  "name": "华侨城Ａ",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000069_2026中报.json"
+ },
+ {
+  "code": "000078",
+  "name": "ST海王",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000078_2026中报.json"
+ },
+ {
+  "code": "000100",
+  "name": "TCL科技",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000100_2026中报.json"
+ },
+ {
+  "code": "000156",
+  "name": "华数传媒",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000156_2026中报.json"
+ },
+ {
+  "code": "000158",
+  "name": "常山北明",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000158_2026中报.json"
+ },
+ {
+  "code": "000159",
+  "name": "国际实业",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000159_2026中报.json"
+ },
+ {
+  "code": "000301",
+  "name": "东方盛虹",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000301_2026中报.json"
+ },
+ {
+  "code": "000333",
+  "name": "美的集团",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000333_2026中报.json"
+ },
+ {
+  "code": "000410",
+  "name": "沈阳机床",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000410_2026中报.json"
+ },
+ {
+  "code": "000425",
+  "name": "徐工机械",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000425_2026中报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 中报",
