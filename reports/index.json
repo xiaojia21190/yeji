@@ -480,6 +480,86 @@
   "file": "000897_2026中报.json"
  },
  {
+  "code": "000901",
+  "name": "航天科技",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000901_2026中报.json"
+ },
+ {
+  "code": "000919",
+  "name": "金陵药业",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000919_2026中报.json"
+ },
+ {
+  "code": "000926",
+  "name": "福星股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000926_2026中报.json"
+ },
+ {
+  "code": "000935",
+  "name": "四川双马",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000935_2026中报.json"
+ },
+ {
+  "code": "000938",
+  "name": "紫光股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000938_2026中报.json"
+ },
+ {
+  "code": "000949",
+  "name": "新乡化纤",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "good",
+  "file": "000949_2026中报.json"
+ },
+ {
+  "code": "000959",
+  "name": "首钢股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000959_2026中报.json"
+ },
+ {
+  "code": "000969",
+  "name": "安泰科技",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "warn",
+  "file": "000969_2026中报.json"
+ },
+ {
+  "code": "000972",
+  "name": "中基健康",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "bad",
+  "file": "000972_2026中报.json"
+ },
+ {
+  "code": "000977",
+  "name": "浪潮信息",
+  "period_label": "2026 中报",
+  "generated": "2026-09-01",
+  "tone": "good",
+  "file": "000977_2026中报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 中报",
