@@ -160,6 +160,86 @@
   "file": "600325_2026中报.json"
  },
  {
+  "code": "600337",
+  "name": "ST美克",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600337_2026中报.json"
+ },
+ {
+  "code": "600381",
+  "name": "*ST春天",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600381_2026中报.json"
+ },
+ {
+  "code": "600397",
+  "name": "江钨装备",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600397_2026中报.json"
+ },
+ {
+  "code": "600482",
+  "name": "中国动力",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600482_2026中报.json"
+ },
+ {
+  "code": "600491",
+  "name": "ST龙元",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600491_2026中报.json"
+ },
+ {
+  "code": "600502",
+  "name": "安徽建工",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600502_2026中报.json"
+ },
+ {
+  "code": "600516",
+  "name": "方大炭素",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600516_2026中报.json"
+ },
+ {
+  "code": "600525",
+  "name": "长园集团",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600525_2026中报.json"
+ },
+ {
+  "code": "600569",
+  "name": "安阳钢铁",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600569_2026中报.json"
+ },
+ {
+  "code": "600580",
+  "name": "卧龙电驱",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600580_2026中报.json"
+ },
+ {
   "code": "000008",
   "name": "神州高铁",
   "period_label": "2026 中报",
