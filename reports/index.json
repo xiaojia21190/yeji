@@ -320,6 +320,86 @@
   "file": "600689_2026中报.json"
  },
  {
+  "code": "600694",
+  "name": "大商股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600694_2026中报.json"
+ },
+ {
+  "code": "600730",
+  "name": "*ST高科",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600730_2026中报.json"
+ },
+ {
+  "code": "600739",
+  "name": "辽宁成大",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600739_2026中报.json"
+ },
+ {
+  "code": "600743",
+  "name": "华远控股",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600743_2026中报.json"
+ },
+ {
+  "code": "600765",
+  "name": "中航重机",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600765_2026中报.json"
+ },
+ {
+  "code": "600774",
+  "name": "汉商集团",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600774_2026中报.json"
+ },
+ {
+  "code": "600793",
+  "name": "宜宾纸业",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600793_2026中报.json"
+ },
+ {
+  "code": "600800",
+  "name": "渤海化学",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600800_2026中报.json"
+ },
+ {
+  "code": "600809",
+  "name": "山西汾酒",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600809_2026中报.json"
+ },
+ {
+  "code": "600815",
+  "name": "厦工股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600815_2026中报.json"
+ },
+ {
   "code": "000008",
   "name": "神州高铁",
   "period_label": "2026 中报",
