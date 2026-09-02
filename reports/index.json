@@ -240,6 +240,86 @@
   "file": "600580_2026中报.json"
  },
  {
+  "code": "600582",
+  "name": "天地科技",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600582_2026中报.json"
+ },
+ {
+  "code": "600593",
+  "name": "大连圣亚",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600593_2026中报.json"
+ },
+ {
+  "code": "600597",
+  "name": "光明乳业",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600597_2026中报.json"
+ },
+ {
+  "code": "600619",
+  "name": "海立股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600619_2026中报.json"
+ },
+ {
+  "code": "600644",
+  "name": "乐山电力",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600644_2026中报.json"
+ },
+ {
+  "code": "600649",
+  "name": "城投控股",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600649_2026中报.json"
+ },
+ {
+  "code": "600657",
+  "name": "信达地产",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600657_2026中报.json"
+ },
+ {
+  "code": "600668",
+  "name": "尖峰集团",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600668_2026中报.json"
+ },
+ {
+  "code": "600679",
+  "name": "上海凤凰",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600679_2026中报.json"
+ },
+ {
+  "code": "600689",
+  "name": "上海三毛",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600689_2026中报.json"
+ },
+ {
   "code": "000008",
   "name": "神州高铁",
   "period_label": "2026 中报",
