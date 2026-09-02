@@ -80,6 +80,86 @@
   "file": "600098_2026中报.json"
  },
  {
+  "code": "600115",
+  "name": "中国东航",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600115_2026中报.json"
+ },
+ {
+  "code": "600128",
+  "name": "苏豪弘业",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600128_2026中报.json"
+ },
+ {
+  "code": "600150",
+  "name": "中国船舶",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600150_2026中报.json"
+ },
+ {
+  "code": "600155",
+  "name": "华创云信",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600155_2026中报.json"
+ },
+ {
+  "code": "600208",
+  "name": "衢州发展",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600208_2026中报.json"
+ },
+ {
+  "code": "600252",
+  "name": "中恒集团",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600252_2026中报.json"
+ },
+ {
+  "code": "600292",
+  "name": "电投水电",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600292_2026中报.json"
+ },
+ {
+  "code": "600299",
+  "name": "安迪苏",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600299_2026中报.json"
+ },
+ {
+  "code": "600310",
+  "name": "广西能源",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600310_2026中报.json"
+ },
+ {
+  "code": "600325",
+  "name": "华发股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600325_2026中报.json"
+ },
+ {
   "code": "000008",
   "name": "神州高铁",
   "period_label": "2026 中报",
