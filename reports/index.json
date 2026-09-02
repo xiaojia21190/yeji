@@ -400,6 +400,86 @@
   "file": "600815_2026中报.json"
  },
  {
+  "code": "600855",
+  "name": "航天长峰",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600855_2026中报.json"
+ },
+ {
+  "code": "600900",
+  "name": "长江电力",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600900_2026中报.json"
+ },
+ {
+  "code": "600916",
+  "name": "中国黄金",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600916_2026中报.json"
+ },
+ {
+  "code": "600975",
+  "name": "新五丰",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600975_2026中报.json"
+ },
+ {
+  "code": "600982",
+  "name": "宁波能源",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600982_2026中报.json"
+ },
+ {
+  "code": "600988",
+  "name": "赤峰黄金",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600988_2026中报.json"
+ },
+ {
+  "code": "600996",
+  "name": "贵广网络",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600996_2026中报.json"
+ },
+ {
+  "code": "601005",
+  "name": "重庆钢铁",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "601005_2026中报.json"
+ },
+ {
+  "code": "601012",
+  "name": "隆基绿能",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "601012_2026中报.json"
+ },
+ {
+  "code": "601058",
+  "name": "赛轮轮胎",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "601058_2026中报.json"
+ },
+ {
   "code": "000008",
   "name": "神州高铁",
   "period_label": "2026 中报",
