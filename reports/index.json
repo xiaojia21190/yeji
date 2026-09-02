@@ -480,6 +480,86 @@
   "file": "601058_2026中报.json"
  },
  {
+  "code": "601077",
+  "name": "渝农商行",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "good",
+  "file": "601077_2026中报.json"
+ },
+ {
+  "code": "601111",
+  "name": "中国国航",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "601111_2026中报.json"
+ },
+ {
+  "code": "601117",
+  "name": "中国化学",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "601117_2026中报.json"
+ },
+ {
+  "code": "601156",
+  "name": "东航物流",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "601156_2026中报.json"
+ },
+ {
+  "code": "601158",
+  "name": "重庆水务",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "601158_2026中报.json"
+ },
+ {
+  "code": "601162",
+  "name": "天风证券",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "601162_2026中报.json"
+ },
+ {
+  "code": "601236",
+  "name": "红塔证券",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "601236_2026中报.json"
+ },
+ {
+  "code": "601279",
+  "name": "英利汽车",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "601279_2026中报.json"
+ },
+ {
+  "code": "601555",
+  "name": "东吴证券",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "601555_2026中报.json"
+ },
+ {
+  "code": "601567",
+  "name": "三星电气",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "601567_2026中报.json"
+ },
+ {
   "code": "000008",
   "name": "神州高铁",
   "period_label": "2026 中报",
