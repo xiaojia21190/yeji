@@ -1,5 +1,85 @@
 [
  {
+  "code": "002044",
+  "name": "美年健康",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "002044_2026中报.json"
+ },
+ {
+  "code": "002531",
+  "name": "天顺风能",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "002531_2026中报.json"
+ },
+ {
+  "code": "002571",
+  "name": "德力股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "002571_2026中报.json"
+ },
+ {
+  "code": "300866",
+  "name": "安克创新",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "good",
+  "file": "300866_2026中报.json"
+ },
+ {
+  "code": "600007",
+  "name": "中国国贸",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600007_2026中报.json"
+ },
+ {
+  "code": "600008",
+  "name": "首创环保",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600008_2026中报.json"
+ },
+ {
+  "code": "600031",
+  "name": "三一重工",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600031_2026中报.json"
+ },
+ {
+  "code": "600061",
+  "name": "国投资本",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "warn",
+  "file": "600061_2026中报.json"
+ },
+ {
+  "code": "600085",
+  "name": "同仁堂",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600085_2026中报.json"
+ },
+ {
+  "code": "600098",
+  "name": "广州发展",
+  "period_label": "2026 中报",
+  "generated": "2026-09-02",
+  "tone": "bad",
+  "file": "600098_2026中报.json"
+ },
+ {
   "code": "000008",
   "name": "神州高铁",
   "period_label": "2026 中报",
