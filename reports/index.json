@@ -160,6 +160,86 @@
   "file": "603326_2026中报.json"
  },
  {
+  "code": "603350",
+  "name": "安乃达",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603350_2026中报.json"
+ },
+ {
+  "code": "603363",
+  "name": "傲农生物",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603363_2026中报.json"
+ },
+ {
+  "code": "603399",
+  "name": "永杉锂业",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603399_2026中报.json"
+ },
+ {
+  "code": "603429",
+  "name": "*ST集友",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603429_2026中报.json"
+ },
+ {
+  "code": "603496",
+  "name": "恒为科技",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603496_2026中报.json"
+ },
+ {
+  "code": "603520",
+  "name": "司太立",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603520_2026中报.json"
+ },
+ {
+  "code": "603557",
+  "name": "*ST起步",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603557_2026中报.json"
+ },
+ {
+  "code": "603609",
+  "name": "禾丰股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603609_2026中报.json"
+ },
+ {
+  "code": "603613",
+  "name": "国联股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "warn",
+  "file": "603613_2026中报.json"
+ },
+ {
+  "code": "603628",
+  "name": "清源股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603628_2026中报.json"
+ },
+ {
   "code": "002044",
   "name": "美年健康",
   "period_label": "2026 中报",
