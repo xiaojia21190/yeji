@@ -1,5 +1,85 @@
 [
  {
+  "code": "601618",
+  "name": "中国中冶",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "601618_2026中报.json"
+ },
+ {
+  "code": "601636",
+  "name": "旗滨集团",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "601636_2026中报.json"
+ },
+ {
+  "code": "601717",
+  "name": "中创智领",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "601717_2026中报.json"
+ },
+ {
+  "code": "601727",
+  "name": "上海电气",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "601727_2026中报.json"
+ },
+ {
+  "code": "601816",
+  "name": "京沪高铁",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "601816_2026中报.json"
+ },
+ {
+  "code": "601857",
+  "name": "中国石油",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "good",
+  "file": "601857_2026中报.json"
+ },
+ {
+  "code": "601868",
+  "name": "中国能建",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "601868_2026中报.json"
+ },
+ {
+  "code": "601872",
+  "name": "招商轮船",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "good",
+  "file": "601872_2026中报.json"
+ },
+ {
+  "code": "601880",
+  "name": "辽港股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "warn",
+  "file": "601880_2026中报.json"
+ },
+ {
+  "code": "603048",
+  "name": "浙江黎明",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603048_2026中报.json"
+ },
+ {
   "code": "002044",
   "name": "美年健康",
   "period_label": "2026 中报",
