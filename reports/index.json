@@ -80,6 +80,86 @@
   "file": "603048_2026中报.json"
  },
  {
+  "code": "603126",
+  "name": "中材节能",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603126_2026中报.json"
+ },
+ {
+  "code": "603168",
+  "name": "莎普爱思",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603168_2026中报.json"
+ },
+ {
+  "code": "603172",
+  "name": "万丰股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603172_2026中报.json"
+ },
+ {
+  "code": "603175",
+  "name": "超颖电子",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603175_2026中报.json"
+ },
+ {
+  "code": "603185",
+  "name": "弘元绿能",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "warn",
+  "file": "603185_2026中报.json"
+ },
+ {
+  "code": "603186",
+  "name": "华正新材",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "warn",
+  "file": "603186_2026中报.json"
+ },
+ {
+  "code": "603188",
+  "name": "亚邦股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603188_2026中报.json"
+ },
+ {
+  "code": "603213",
+  "name": "镇洋发展",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "warn",
+  "file": "603213_2026中报.json"
+ },
+ {
+  "code": "603316",
+  "name": "诚邦股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603316_2026中报.json"
+ },
+ {
+  "code": "603326",
+  "name": "我乐家居",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603326_2026中报.json"
+ },
+ {
   "code": "002044",
   "name": "美年健康",
   "period_label": "2026 中报",
