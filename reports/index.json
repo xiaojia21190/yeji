@@ -240,6 +240,86 @@
   "file": "603628_2026中报.json"
  },
  {
+  "code": "603638",
+  "name": "艾迪精密",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "good",
+  "file": "603638_2026中报.json"
+ },
+ {
+  "code": "603668",
+  "name": "天马科技",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603668_2026中报.json"
+ },
+ {
+  "code": "603733",
+  "name": "仙鹤股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603733_2026中报.json"
+ },
+ {
+  "code": "603800",
+  "name": "洪田股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "warn",
+  "file": "603800_2026中报.json"
+ },
+ {
+  "code": "603825",
+  "name": "ST华扬",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603825_2026中报.json"
+ },
+ {
+  "code": "603828",
+  "name": "*ST利达",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603828_2026中报.json"
+ },
+ {
+  "code": "603880",
+  "name": "南卫股份",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603880_2026中报.json"
+ },
+ {
+  "code": "603885",
+  "name": "吉祥航空",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603885_2026中报.json"
+ },
+ {
+  "code": "603949",
+  "name": "雪龙集团",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "warn",
+  "file": "603949_2026中报.json"
+ },
+ {
+  "code": "603959",
+  "name": "ST百利",
+  "period_label": "2026 中报",
+  "generated": "2026-09-03",
+  "tone": "bad",
+  "file": "603959_2026中报.json"
+ },
+ {
   "code": "002044",
   "name": "美年健康",
   "period_label": "2026 中报",
