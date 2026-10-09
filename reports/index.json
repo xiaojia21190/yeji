@@ -1,5 +1,13 @@
 [
  {
+  "code": "002107",
+  "name": "沃华医药",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-09",
+  "tone": "warn",
+  "file": "002107_2026三季报.json"
+ },
+ {
   "code": "601618",
   "name": "中国中冶",
   "period_label": "2026 中报",
