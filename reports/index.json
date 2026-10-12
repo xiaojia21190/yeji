@@ -1,5 +1,37 @@
 [
  {
+  "code": "000856",
+  "name": "冀东装备",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-12",
+  "tone": "warn",
+  "file": "000856_2026三季报.json"
+ },
+ {
+  "code": "002501",
+  "name": "*ST利源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-12",
+  "tone": "bad",
+  "file": "002501_2026三季报.json"
+ },
+ {
+  "code": "300708",
+  "name": "聚灿光电",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-12",
+  "tone": "bad",
+  "file": "300708_2026三季报.json"
+ },
+ {
+  "code": "600206",
+  "name": "有研新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-12",
+  "tone": "warn",
+  "file": "600206_2026三季报.json"
+ },
+ {
   "code": "002107",
   "name": "沃华医药",
   "period_label": "2026 三季报",
