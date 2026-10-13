@@ -1,5 +1,29 @@
 [
  {
+  "code": "000655",
+  "name": "金岭矿业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-13",
+  "tone": "warn",
+  "file": "000655_2026三季报.json"
+ },
+ {
+  "code": "600674",
+  "name": "川投能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-13",
+  "tone": "bad",
+  "file": "600674_2026三季报.json"
+ },
+ {
+  "code": "688676",
+  "name": "金盘科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-13",
+  "tone": "bad",
+  "file": "688676_2026三季报.json"
+ },
+ {
   "code": "000856",
   "name": "冀东装备",
   "period_label": "2026 三季报",
