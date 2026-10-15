@@ -1,5 +1,69 @@
 [
  {
+  "code": "001207",
+  "name": "联科科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "001207_2026三季报.json"
+ },
+ {
+  "code": "001359",
+  "name": "平安电工",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "001359_2026三季报.json"
+ },
+ {
+  "code": "002124",
+  "name": "天邦食品",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "002124_2026三季报.json"
+ },
+ {
+  "code": "002741",
+  "name": "光华科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "002741_2026三季报.json"
+ },
+ {
+  "code": "301365",
+  "name": "矩阵股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "301365_2026三季报.json"
+ },
+ {
+  "code": "600066",
+  "name": "宇通客车",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "600066_2026三季报.json"
+ },
+ {
+  "code": "600817",
+  "name": "宇通重工",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "600817_2026三季报.json"
+ },
+ {
+  "code": "605179",
+  "name": "一鸣食品",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "605179_2026三季报.json"
+ },
+ {
   "code": "000655",
   "name": "金岭矿业",
   "period_label": "2026 三季报",
