@@ -144,6 +144,30 @@
   "file": "603162_2026三季报.json"
  },
  {
+  "code": "603588",
+  "name": "高能环境",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "603588_2026三季报.json"
+ },
+ {
+  "code": "605188",
+  "name": "国光连锁",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "warn",
+  "file": "605188_2026三季报.json"
+ },
+ {
+  "code": "688779",
+  "name": "五矿新能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "warn",
+  "file": "688779_2026三季报.json"
+ },
+ {
   "code": "000655",
   "name": "金岭矿业",
   "period_label": "2026 三季报",
