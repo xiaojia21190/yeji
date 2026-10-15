@@ -64,6 +64,86 @@
   "file": "605179_2026三季报.json"
  },
  {
+  "code": "002256",
+  "name": "兆新股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "warn",
+  "file": "002256_2026三季报.json"
+ },
+ {
+  "code": "002460",
+  "name": "赣锋锂业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "warn",
+  "file": "002460_2026三季报.json"
+ },
+ {
+  "code": "300018",
+  "name": "中元股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "300018_2026三季报.json"
+ },
+ {
+  "code": "300453",
+  "name": "三鑫医疗",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "300453_2026三季报.json"
+ },
+ {
+  "code": "300610",
+  "name": "晨化股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "warn",
+  "file": "300610_2026三季报.json"
+ },
+ {
+  "code": "300688",
+  "name": "创业黑马",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "300688_2026三季报.json"
+ },
+ {
+  "code": "600605",
+  "name": "汇通能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "warn",
+  "file": "600605_2026三季报.json"
+ },
+ {
+  "code": "601015",
+  "name": "陕西黑猫",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "601015_2026三季报.json"
+ },
+ {
+  "code": "601068",
+  "name": "中铝国际",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "bad",
+  "file": "601068_2026三季报.json"
+ },
+ {
+  "code": "603162",
+  "name": "海通发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-15",
+  "tone": "good",
+  "file": "603162_2026三季报.json"
+ },
+ {
   "code": "000655",
   "name": "金岭矿业",
   "period_label": "2026 三季报",
