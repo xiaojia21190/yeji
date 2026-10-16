@@ -80,6 +80,54 @@
   "file": "300903_2026三季报.json"
  },
  {
+  "code": "301251",
+  "name": "威尔高",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "warn",
+  "file": "301251_2026三季报.json"
+ },
+ {
+  "code": "600365",
+  "name": "ST通葡",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "warn",
+  "file": "600365_2026三季报.json"
+ },
+ {
+  "code": "603132",
+  "name": "金徽股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "good",
+  "file": "603132_2026三季报.json"
+ },
+ {
+  "code": "603289",
+  "name": "泰瑞机器",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "warn",
+  "file": "603289_2026三季报.json"
+ },
+ {
+  "code": "603466",
+  "name": "风语筑",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "warn",
+  "file": "603466_2026三季报.json"
+ },
+ {
+  "code": "688508",
+  "name": "芯朋微",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "bad",
+  "file": "688508_2026三季报.json"
+ },
+ {
   "code": "001207",
   "name": "联科科技",
   "period_label": "2026 三季报",
