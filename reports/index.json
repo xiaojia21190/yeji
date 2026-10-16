@@ -1,5 +1,85 @@
 [
  {
+  "code": "000408",
+  "name": "藏格矿业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "good",
+  "file": "000408_2026三季报.json"
+ },
+ {
+  "code": "002326",
+  "name": "永太科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "good",
+  "file": "002326_2026三季报.json"
+ },
+ {
+  "code": "002415",
+  "name": "海康威视",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "good",
+  "file": "002415_2026三季报.json"
+ },
+ {
+  "code": "002416",
+  "name": "爱施德",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "bad",
+  "file": "002416_2026三季报.json"
+ },
+ {
+  "code": "002443",
+  "name": "金洲管道",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "bad",
+  "file": "002443_2026三季报.json"
+ },
+ {
+  "code": "002648",
+  "name": "卫星化学",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "good",
+  "file": "002648_2026三季报.json"
+ },
+ {
+  "code": "002909",
+  "name": "集泰股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "warn",
+  "file": "002909_2026三季报.json"
+ },
+ {
+  "code": "300507",
+  "name": "苏奥传感",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "warn",
+  "file": "300507_2026三季报.json"
+ },
+ {
+  "code": "300852",
+  "name": "四会富仕",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "bad",
+  "file": "300852_2026三季报.json"
+ },
+ {
+  "code": "300903",
+  "name": "科翔股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-16",
+  "tone": "warn",
+  "file": "300903_2026三季报.json"
+ },
+ {
   "code": "001207",
   "name": "联科科技",
   "period_label": "2026 三季报",
