@@ -1,5 +1,21 @@
 [
  {
+  "code": "002299",
+  "name": "圣农发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-17",
+  "tone": "bad",
+  "file": "002299_2026三季报.json"
+ },
+ {
+  "code": "688475",
+  "name": "萤石网络",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-17",
+  "tone": "good",
+  "file": "688475_2026三季报.json"
+ },
+ {
   "code": "000408",
   "name": "藏格矿业",
   "period_label": "2026 三季报",
