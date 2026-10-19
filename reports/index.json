@@ -240,6 +240,62 @@
   "file": "600603_2026三季报.json"
  },
  {
+  "code": "600661",
+  "name": "昂立教育",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "600661_2026三季报.json"
+ },
+ {
+  "code": "600769",
+  "name": "祥龙电业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "600769_2026三季报.json"
+ },
+ {
+  "code": "600798",
+  "name": "宁波海运",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "600798_2026三季报.json"
+ },
+ {
+  "code": "600829",
+  "name": "人民同泰",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "600829_2026三季报.json"
+ },
+ {
+  "code": "601399",
+  "name": "国机重装",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "601399_2026三季报.json"
+ },
+ {
+  "code": "601609",
+  "name": "金田股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "601609_2026三季报.json"
+ },
+ {
+  "code": "603071",
+  "name": "物产环能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "603071_2026三季报.json"
+ },
+ {
   "code": "301507",
   "name": "民生健康",
   "period_label": "2026 三季报",
