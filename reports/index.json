@@ -80,6 +80,86 @@
   "file": "002664_2026三季报.json"
  },
  {
+  "code": "002722",
+  "name": "物产金轮",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "002722_2026三季报.json"
+ },
+ {
+  "code": "002827",
+  "name": "高争民爆",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "002827_2026三季报.json"
+ },
+ {
+  "code": "002831",
+  "name": "裕同科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "002831_2026三季报.json"
+ },
+ {
+  "code": "002911",
+  "name": "佛燃能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "002911_2026三季报.json"
+ },
+ {
+  "code": "002997",
+  "name": "瑞鹄模具",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "002997_2026三季报.json"
+ },
+ {
+  "code": "300078",
+  "name": "思创智联",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "300078_2026三季报.json"
+ },
+ {
+  "code": "300082",
+  "name": "奥克股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "300082_2026三季报.json"
+ },
+ {
+  "code": "300150",
+  "name": "世纪瑞尔",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "300150_2026三季报.json"
+ },
+ {
+  "code": "300240",
+  "name": "飞力达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "300240_2026三季报.json"
+ },
+ {
+  "code": "300244",
+  "name": "迪安诊断",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "300244_2026三季报.json"
+ },
+ {
   "code": "301507",
   "name": "民生健康",
   "period_label": "2026 三季报",
