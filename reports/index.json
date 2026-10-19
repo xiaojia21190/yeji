@@ -1,5 +1,85 @@
 [
  {
+  "code": "000536",
+  "name": "华映科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "000536_2026三季报.json"
+ },
+ {
+  "code": "000933",
+  "name": "神火股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "000933_2026三季报.json"
+ },
+ {
+  "code": "002033",
+  "name": "丽江股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "002033_2026三季报.json"
+ },
+ {
+  "code": "002225",
+  "name": "濮耐股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "002225_2026三季报.json"
+ },
+ {
+  "code": "002230",
+  "name": "科大讯飞",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "002230_2026三季报.json"
+ },
+ {
+  "code": "002396",
+  "name": "星网锐捷",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "002396_2026三季报.json"
+ },
+ {
+  "code": "002469",
+  "name": "三维化学",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "002469_2026三季报.json"
+ },
+ {
+  "code": "002479",
+  "name": "富春环保",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "002479_2026三季报.json"
+ },
+ {
+  "code": "002655",
+  "name": "共达电声",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "002655_2026三季报.json"
+ },
+ {
+  "code": "002664",
+  "name": "信质集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "002664_2026三季报.json"
+ },
+ {
   "code": "301507",
   "name": "民生健康",
   "period_label": "2026 三季报",
