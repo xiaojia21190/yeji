@@ -160,6 +160,86 @@
   "file": "300244_2026三季报.json"
  },
  {
+  "code": "300401",
+  "name": "花园生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "300401_2026三季报.json"
+ },
+ {
+  "code": "300855",
+  "name": "图南股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "300855_2026三季报.json"
+ },
+ {
+  "code": "300908",
+  "name": "仲景食品",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "300908_2026三季报.json"
+ },
+ {
+  "code": "301165",
+  "name": "锐捷网络",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "301165_2026三季报.json"
+ },
+ {
+  "code": "301190",
+  "name": "善水科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "301190_2026三季报.json"
+ },
+ {
+  "code": "600176",
+  "name": "中国巨石",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "600176_2026三季报.json"
+ },
+ {
+  "code": "600203",
+  "name": "福日电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "600203_2026三季报.json"
+ },
+ {
+  "code": "600318",
+  "name": "新力金融",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "bad",
+  "file": "600318_2026三季报.json"
+ },
+ {
+  "code": "600509",
+  "name": "天富能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "600509_2026三季报.json"
+ },
+ {
+  "code": "600603",
+  "name": "广汇物流",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-19",
+  "tone": "warn",
+  "file": "600603_2026三季报.json"
+ },
+ {
   "code": "301507",
   "name": "民生健康",
   "period_label": "2026 三季报",
