@@ -384,6 +384,38 @@
   "file": "603312_2026三季报.json"
  },
  {
+  "code": "603332",
+  "name": "苏州龙杰",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "603332_2026三季报.json"
+ },
+ {
+  "code": "603407",
+  "name": "长裕集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "603407_2026三季报.json"
+ },
+ {
+  "code": "603920",
+  "name": "世运电路",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "603920_2026三季报.json"
+ },
+ {
+  "code": "605369",
+  "name": "拱东医疗",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "605369_2026三季报.json"
+ },
+ {
   "code": "000536",
   "name": "华映科技",
   "period_label": "2026 三季报",
