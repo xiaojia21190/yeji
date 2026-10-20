@@ -304,6 +304,86 @@
   "file": "600241_2026三季报.json"
  },
  {
+  "code": "600388",
+  "name": "紫金龙净",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "600388_2026三季报.json"
+ },
+ {
+  "code": "600511",
+  "name": "国药股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "600511_2026三季报.json"
+ },
+ {
+  "code": "600595",
+  "name": "中孚实业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "good",
+  "file": "600595_2026三季报.json"
+ },
+ {
+  "code": "600660",
+  "name": "福耀玻璃",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "600660_2026三季报.json"
+ },
+ {
+  "code": "600941",
+  "name": "中国移动",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "600941_2026三季报.json"
+ },
+ {
+  "code": "601606",
+  "name": "长城军工",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "601606_2026三季报.json"
+ },
+ {
+  "code": "603129",
+  "name": "春风动力",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "good",
+  "file": "603129_2026三季报.json"
+ },
+ {
+  "code": "603130",
+  "name": "云中马",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "good",
+  "file": "603130_2026三季报.json"
+ },
+ {
+  "code": "603163",
+  "name": "圣晖集成",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "good",
+  "file": "603163_2026三季报.json"
+ },
+ {
+  "code": "603312",
+  "name": "西典新能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "603312_2026三季报.json"
+ },
+ {
   "code": "000536",
   "name": "华映科技",
   "period_label": "2026 三季报",
