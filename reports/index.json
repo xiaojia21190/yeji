@@ -1,5 +1,85 @@
 [
  {
+  "code": "603193",
+  "name": "润本股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "603193_2026三季报.json"
+ },
+ {
+  "code": "603223",
+  "name": "恒通股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "603223_2026三季报.json"
+ },
+ {
+  "code": "603227",
+  "name": "雪峰科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "603227_2026三季报.json"
+ },
+ {
+  "code": "603236",
+  "name": "移远通信",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "603236_2026三季报.json"
+ },
+ {
+  "code": "603272",
+  "name": "*ST联翔",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "603272_2026三季报.json"
+ },
+ {
+  "code": "603333",
+  "name": "福华尚纬",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "603333_2026三季报.json"
+ },
+ {
+  "code": "603386",
+  "name": "骏亚科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "603386_2026三季报.json"
+ },
+ {
+  "code": "603586",
+  "name": "金麒麟",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "603586_2026三季报.json"
+ },
+ {
+  "code": "603638",
+  "name": "艾迪精密",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "603638_2026三季报.json"
+ },
+ {
+  "code": "603659",
+  "name": "璞泰来",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "good",
+  "file": "603659_2026三季报.json"
+ },
+ {
   "code": "000536",
   "name": "华映科技",
   "period_label": "2026 三季报",
