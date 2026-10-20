@@ -144,6 +144,86 @@
   "file": "688783_2026三季报.json"
  },
  {
+  "code": "000712",
+  "name": "锦龙股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "000712_2026三季报.json"
+ },
+ {
+  "code": "001301",
+  "name": "尚太科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "001301_2026三季报.json"
+ },
+ {
+  "code": "002083",
+  "name": "孚日股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "002083_2026三季报.json"
+ },
+ {
+  "code": "002137",
+  "name": "实益达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "002137_2026三季报.json"
+ },
+ {
+  "code": "002145",
+  "name": "钛能化学",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "002145_2026三季报.json"
+ },
+ {
+  "code": "002204",
+  "name": "大连重工",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "002204_2026三季报.json"
+ },
+ {
+  "code": "002217",
+  "name": "ST合力泰",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "002217_2026三季报.json"
+ },
+ {
+  "code": "002246",
+  "name": "北化股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "002246_2026三季报.json"
+ },
+ {
+  "code": "002428",
+  "name": "云南锗业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "002428_2026三季报.json"
+ },
+ {
+  "code": "002832",
+  "name": "比音勒芬",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "002832_2026三季报.json"
+ },
+ {
   "code": "000536",
   "name": "华映科技",
   "period_label": "2026 三季报",
