@@ -80,6 +80,70 @@
   "file": "603659_2026三季报.json"
  },
  {
+  "code": "603790",
+  "name": "雅运股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "603790_2026三季报.json"
+ },
+ {
+  "code": "605020",
+  "name": "永和股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "605020_2026三季报.json"
+ },
+ {
+  "code": "688041",
+  "name": "海光信息",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "688041_2026三季报.json"
+ },
+ {
+  "code": "688469",
+  "name": "芯联集成",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "688469_2026三季报.json"
+ },
+ {
+  "code": "688689",
+  "name": "银河微电",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "688689_2026三季报.json"
+ },
+ {
+  "code": "688697",
+  "name": "纽威数控",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "688697_2026三季报.json"
+ },
+ {
+  "code": "688721",
+  "name": "龙图光罩",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "688721_2026三季报.json"
+ },
+ {
+  "code": "688783",
+  "name": "西安奕材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "688783_2026三季报.json"
+ },
+ {
   "code": "000536",
   "name": "华映科技",
   "period_label": "2026 三季报",
