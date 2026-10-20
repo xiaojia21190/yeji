@@ -224,6 +224,86 @@
   "file": "002832_2026三季报.json"
  },
  {
+  "code": "300437",
+  "name": "清水源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "300437_2026三季报.json"
+ },
+ {
+  "code": "300717",
+  "name": "华信新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "300717_2026三季报.json"
+ },
+ {
+  "code": "300839",
+  "name": "博汇股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "300839_2026三季报.json"
+ },
+ {
+  "code": "300841",
+  "name": "康华生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "300841_2026三季报.json"
+ },
+ {
+  "code": "300846",
+  "name": "首都在线",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "300846_2026三季报.json"
+ },
+ {
+  "code": "300859",
+  "name": "西域旅游",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "300859_2026三季报.json"
+ },
+ {
+  "code": "600082",
+  "name": "ST海泰",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "600082_2026三季报.json"
+ },
+ {
+  "code": "600233",
+  "name": "圆通速递",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "good",
+  "file": "600233_2026三季报.json"
+ },
+ {
+  "code": "600235",
+  "name": "民丰特纸",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "bad",
+  "file": "600235_2026三季报.json"
+ },
+ {
+  "code": "600241",
+  "name": "时代万恒",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-20",
+  "tone": "warn",
+  "file": "600241_2026三季报.json"
+ },
+ {
   "code": "000536",
   "name": "华映科技",
   "period_label": "2026 三季报",
