@@ -296,6 +296,46 @@
   "file": "300389_2026三季报.json"
  },
  {
+  "code": "300416",
+  "name": "苏试试验",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "300416_2026三季报.json"
+ },
+ {
+  "code": "300480",
+  "name": "光力科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "good",
+  "file": "300480_2026三季报.json"
+ },
+ {
+  "code": "300498",
+  "name": "温氏股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "300498_2026三季报.json"
+ },
+ {
+  "code": "300505",
+  "name": "川金诺",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "300505_2026三季报.json"
+ },
+ {
+  "code": "300509",
+  "name": "新美星",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "300509_2026三季报.json"
+ },
+ {
   "code": "603193",
   "name": "润本股份",
   "period_label": "2026 三季报",
