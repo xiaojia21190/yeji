@@ -216,6 +216,86 @@
   "file": "300095_2026三季报.json"
  },
  {
+  "code": "300100",
+  "name": "双林股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "300100_2026三季报.json"
+ },
+ {
+  "code": "300127",
+  "name": "银河磁体",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "300127_2026三季报.json"
+ },
+ {
+  "code": "300187",
+  "name": "永清环保",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "300187_2026三季报.json"
+ },
+ {
+  "code": "300205",
+  "name": "*ST天喻",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "300205_2026三季报.json"
+ },
+ {
+  "code": "300226",
+  "name": "上海钢联",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "300226_2026三季报.json"
+ },
+ {
+  "code": "300265",
+  "name": "通光线缆",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "300265_2026三季报.json"
+ },
+ {
+  "code": "300290",
+  "name": "ST荣科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "300290_2026三季报.json"
+ },
+ {
+  "code": "300342",
+  "name": "天银机电",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "300342_2026三季报.json"
+ },
+ {
+  "code": "300354",
+  "name": "东华测试",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "300354_2026三季报.json"
+ },
+ {
+  "code": "300389",
+  "name": "艾比森",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "300389_2026三季报.json"
+ },
+ {
   "code": "603193",
   "name": "润本股份",
   "period_label": "2026 三季报",
