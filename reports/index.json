@@ -1,5 +1,61 @@
 [
  {
+  "code": "300750",
+  "name": "宁德时代",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "300750_2026三季报.json"
+ },
+ {
+  "code": "301200",
+  "name": "大族数控",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "good",
+  "file": "301200_2026三季报.json"
+ },
+ {
+  "code": "603729",
+  "name": "ST龙韵",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "603729_2026三季报.json"
+ },
+ {
+  "code": "688146",
+  "name": "中船特气",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "good",
+  "file": "688146_2026三季报.json"
+ },
+ {
+  "code": "688234",
+  "name": "天岳先进",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "688234_2026三季报.json"
+ },
+ {
+  "code": "688349",
+  "name": "三一重能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "688349_2026三季报.json"
+ },
+ {
+  "code": "688662",
+  "name": "富信科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "688662_2026三季报.json"
+ },
+ {
   "code": "603193",
   "name": "润本股份",
   "period_label": "2026 三季报",
