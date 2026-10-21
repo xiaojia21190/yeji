@@ -56,6 +56,86 @@
   "file": "688662_2026三季报.json"
  },
  {
+  "code": "000403",
+  "name": "派林生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "000403_2026三季报.json"
+ },
+ {
+  "code": "000516",
+  "name": "国际医学",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "000516_2026三季报.json"
+ },
+ {
+  "code": "000530",
+  "name": "冰山冷热",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "000530_2026三季报.json"
+ },
+ {
+  "code": "000948",
+  "name": "南天信息",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "000948_2026三季报.json"
+ },
+ {
+  "code": "001283",
+  "name": "豪鹏科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "001283_2026三季报.json"
+ },
+ {
+  "code": "001296",
+  "name": "长江材料",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "001296_2026三季报.json"
+ },
+ {
+  "code": "002066",
+  "name": "瑞泰科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "002066_2026三季报.json"
+ },
+ {
+  "code": "002148",
+  "name": "北纬科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "002148_2026三季报.json"
+ },
+ {
+  "code": "002302",
+  "name": "西部建设",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "002302_2026三季报.json"
+ },
+ {
+  "code": "002353",
+  "name": "杰瑞股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "002353_2026三季报.json"
+ },
+ {
   "code": "603193",
   "name": "润本股份",
   "period_label": "2026 三季报",
