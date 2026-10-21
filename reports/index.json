@@ -136,6 +136,86 @@
   "file": "002353_2026三季报.json"
  },
  {
+  "code": "002407",
+  "name": "多氟多",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "good",
+  "file": "002407_2026三季报.json"
+ },
+ {
+  "code": "002481",
+  "name": "双塔食品",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "002481_2026三季报.json"
+ },
+ {
+  "code": "002588",
+  "name": "史丹利",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "002588_2026三季报.json"
+ },
+ {
+  "code": "002841",
+  "name": "视源股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "good",
+  "file": "002841_2026三季报.json"
+ },
+ {
+  "code": "002865",
+  "name": "钧达股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "002865_2026三季报.json"
+ },
+ {
+  "code": "002988",
+  "name": "豪美新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "002988_2026三季报.json"
+ },
+ {
+  "code": "003008",
+  "name": "开普检测",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "003008_2026三季报.json"
+ },
+ {
+  "code": "300012",
+  "name": "华测检测",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "300012_2026三季报.json"
+ },
+ {
+  "code": "300075",
+  "name": "数字政通",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "warn",
+  "file": "300075_2026三季报.json"
+ },
+ {
+  "code": "300095",
+  "name": "华伍股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-21",
+  "tone": "bad",
+  "file": "300095_2026三季报.json"
+ },
+ {
   "code": "603193",
   "name": "润本股份",
   "period_label": "2026 三季报",
