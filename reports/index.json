@@ -448,6 +448,86 @@
   "file": "000711_2026三季报.json"
  },
  {
+  "code": "000739",
+  "name": "普洛药业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "000739_2026三季报.json"
+ },
+ {
+  "code": "000852",
+  "name": "石化机械",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "000852_2026三季报.json"
+ },
+ {
+  "code": "000953",
+  "name": "中哲精化",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "000953_2026三季报.json"
+ },
+ {
+  "code": "000990",
+  "name": "诚志股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "000990_2026三季报.json"
+ },
+ {
+  "code": "001218",
+  "name": "丽臣实业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "001218_2026三季报.json"
+ },
+ {
+  "code": "001230",
+  "name": "劲旅环境",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "001230_2026三季报.json"
+ },
+ {
+  "code": "001239",
+  "name": "永达股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "001239_2026三季报.json"
+ },
+ {
+  "code": "001322",
+  "name": "箭牌家居",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "001322_2026三季报.json"
+ },
+ {
+  "code": "001332",
+  "name": "锡装股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "001332_2026三季报.json"
+ },
+ {
+  "code": "001395",
+  "name": "亚联机械",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "001395_2026三季报.json"
+ },
+ {
   "code": "300750",
   "name": "宁德时代",
   "period_label": "2026 三季报",
