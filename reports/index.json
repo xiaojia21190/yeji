@@ -1,5 +1,85 @@
 [
  {
+  "code": "300212",
+  "name": "*ST易录",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "300212_2026三季报.json"
+ },
+ {
+  "code": "300557",
+  "name": "理工光科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "300557_2026三季报.json"
+ },
+ {
+  "code": "300580",
+  "name": "贝斯特",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "300580_2026三季报.json"
+ },
+ {
+  "code": "300657",
+  "name": "弘信电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "300657_2026三季报.json"
+ },
+ {
+  "code": "300678",
+  "name": "中科信息",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "300678_2026三季报.json"
+ },
+ {
+  "code": "300692",
+  "name": "中赋科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "300692_2026三季报.json"
+ },
+ {
+  "code": "300800",
+  "name": "力合科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "300800_2026三季报.json"
+ },
+ {
+  "code": "300833",
+  "name": "浩洋股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "300833_2026三季报.json"
+ },
+ {
+  "code": "300847",
+  "name": "中船汉光",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "300847_2026三季报.json"
+ },
+ {
+  "code": "301030",
+  "name": "*ST仕净",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "301030_2026三季报.json"
+ },
+ {
   "code": "300750",
   "name": "宁德时代",
   "period_label": "2026 三季报",
