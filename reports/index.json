@@ -160,6 +160,86 @@
   "file": "301632_2026三季报.json"
  },
  {
+  "code": "301677",
+  "name": "欣兴工具",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "301677_2026三季报.json"
+ },
+ {
+  "code": "301682",
+  "name": "宏明电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "301682_2026三季报.json"
+ },
+ {
+  "code": "301688",
+  "name": "格林生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "301688_2026三季报.json"
+ },
+ {
+  "code": "301707",
+  "name": "展芯股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "301707_2026三季报.json"
+ },
+ {
+  "code": "600110",
+  "name": "诺德股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "600110_2026三季报.json"
+ },
+ {
+  "code": "600312",
+  "name": "平高电气",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "600312_2026三季报.json"
+ },
+ {
+  "code": "600379",
+  "name": "宝光股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "600379_2026三季报.json"
+ },
+ {
+  "code": "600415",
+  "name": "小商品城",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "600415_2026三季报.json"
+ },
+ {
+  "code": "600610",
+  "name": "中毅达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "600610_2026三季报.json"
+ },
+ {
+  "code": "600732",
+  "name": "爱旭股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "600732_2026三季报.json"
+ },
+ {
   "code": "300750",
   "name": "宁德时代",
   "period_label": "2026 三季报",
