@@ -240,6 +240,54 @@
   "file": "600732_2026三季报.json"
  },
  {
+  "code": "600970",
+  "name": "中材国际",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "600970_2026三季报.json"
+ },
+ {
+  "code": "600976",
+  "name": "健民集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "600976_2026三季报.json"
+ },
+ {
+  "code": "600989",
+  "name": "宝丰能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "600989_2026三季报.json"
+ },
+ {
+  "code": "601168",
+  "name": "西部矿业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "601168_2026三季报.json"
+ },
+ {
+  "code": "601179",
+  "name": "中国西电",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "601179_2026三季报.json"
+ },
+ {
+  "code": "603209",
+  "name": "兴通股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "603209_2026三季报.json"
+ },
+ {
   "code": "300750",
   "name": "宁德时代",
   "period_label": "2026 三季报",
