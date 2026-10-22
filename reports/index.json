@@ -368,6 +368,86 @@
   "file": "688781_2026三季报.json"
  },
  {
+  "code": "000059",
+  "name": "华锦股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "000059_2026三季报.json"
+ },
+ {
+  "code": "000430",
+  "name": "张家界",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "000430_2026三季报.json"
+ },
+ {
+  "code": "000501",
+  "name": "武商集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "000501_2026三季报.json"
+ },
+ {
+  "code": "000543",
+  "name": "皖能电力",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "000543_2026三季报.json"
+ },
+ {
+  "code": "000550",
+  "name": "江铃汽车",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "000550_2026三季报.json"
+ },
+ {
+  "code": "000635",
+  "name": "英 力 特",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "000635_2026三季报.json"
+ },
+ {
+  "code": "000657",
+  "name": "中钨高新",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "000657_2026三季报.json"
+ },
+ {
+  "code": "000669",
+  "name": "ST金鸿",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "000669_2026三季报.json"
+ },
+ {
+  "code": "000708",
+  "name": "中信特钢",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "000708_2026三季报.json"
+ },
+ {
+  "code": "000711",
+  "name": "京蓝科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "000711_2026三季报.json"
+ },
+ {
   "code": "300750",
   "name": "宁德时代",
   "period_label": "2026 三季报",
