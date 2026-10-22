@@ -288,6 +288,86 @@
   "file": "603209_2026三季报.json"
  },
  {
+  "code": "603406",
+  "name": "天富龙",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "603406_2026三季报.json"
+ },
+ {
+  "code": "603456",
+  "name": "九洲药业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "603456_2026三季报.json"
+ },
+ {
+  "code": "603916",
+  "name": "苏博特",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "603916_2026三季报.json"
+ },
+ {
+  "code": "605033",
+  "name": "美邦股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "605033_2026三季报.json"
+ },
+ {
+  "code": "605198",
+  "name": "安德利",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "605198_2026三季报.json"
+ },
+ {
+  "code": "688285",
+  "name": "高铁电气",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "688285_2026三季报.json"
+ },
+ {
+  "code": "688313",
+  "name": "仕佳光子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "688313_2026三季报.json"
+ },
+ {
+  "code": "688334",
+  "name": "西高院",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "688334_2026三季报.json"
+ },
+ {
+  "code": "688352",
+  "name": "颀中科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "688352_2026三季报.json"
+ },
+ {
+  "code": "688781",
+  "name": "视涯科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "688781_2026三季报.json"
+ },
+ {
   "code": "300750",
   "name": "宁德时代",
   "period_label": "2026 三季报",
