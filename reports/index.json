@@ -80,6 +80,86 @@
   "file": "301030_2026三季报.json"
  },
  {
+  "code": "301033",
+  "name": "迈普医学",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "301033_2026三季报.json"
+ },
+ {
+  "code": "301118",
+  "name": "恒光股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "301118_2026三季报.json"
+ },
+ {
+  "code": "301158",
+  "name": "德石股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "301158_2026三季报.json"
+ },
+ {
+  "code": "301168",
+  "name": "通灵股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "301168_2026三季报.json"
+ },
+ {
+  "code": "301221",
+  "name": "光庭信息",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "301221_2026三季报.json"
+ },
+ {
+  "code": "301256",
+  "name": "华融化学",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "301256_2026三季报.json"
+ },
+ {
+  "code": "301371",
+  "name": "敷尔佳",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "301371_2026三季报.json"
+ },
+ {
+  "code": "301429",
+  "name": "森泰股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "301429_2026三季报.json"
+ },
+ {
+  "code": "301488",
+  "name": "豪恩汽电",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "301488_2026三季报.json"
+ },
+ {
+  "code": "301632",
+  "name": "广东建科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "301632_2026三季报.json"
+ },
+ {
   "code": "300750",
   "name": "宁德时代",
   "period_label": "2026 三季报",
