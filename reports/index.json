@@ -528,6 +528,46 @@
   "file": "001395_2026三季报.json"
  },
  {
+  "code": "002008",
+  "name": "大族激光",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "002008_2026三季报.json"
+ },
+ {
+  "code": "002014",
+  "name": "永新股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "002014_2026三季报.json"
+ },
+ {
+  "code": "002039",
+  "name": "黔源电力",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "bad",
+  "file": "002039_2026三季报.json"
+ },
+ {
+  "code": "002040",
+  "name": "南 京 港",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "002040_2026三季报.json"
+ },
+ {
+  "code": "002051",
+  "name": "中工国际",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-22",
+  "tone": "warn",
+  "file": "002051_2026三季报.json"
+ },
+ {
   "code": "300750",
   "name": "宁德时代",
   "period_label": "2026 三季报",
