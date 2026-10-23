@@ -344,6 +344,86 @@
   "file": "002639_2026三季报.json"
  },
  {
+  "code": "002682",
+  "name": "龙洲股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002682_2026三季报.json"
+ },
+ {
+  "code": "002756",
+  "name": "永兴材料",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002756_2026三季报.json"
+ },
+ {
+  "code": "002760",
+  "name": "凤形股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002760_2026三季报.json"
+ },
+ {
+  "code": "002800",
+  "name": "天顺股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002800_2026三季报.json"
+ },
+ {
+  "code": "002821",
+  "name": "凯莱英",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002821_2026三季报.json"
+ },
+ {
+  "code": "002843",
+  "name": "泰嘉股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002843_2026三季报.json"
+ },
+ {
+  "code": "002860",
+  "name": "星帅尔",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002860_2026三季报.json"
+ },
+ {
+  "code": "002912",
+  "name": "中新赛克",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002912_2026三季报.json"
+ },
+ {
+  "code": "002913",
+  "name": "奥士康",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002913_2026三季报.json"
+ },
+ {
+  "code": "002916",
+  "name": "深南电路",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002916_2026三季报.json"
+ },
+ {
   "code": "300212",
   "name": "*ST易录",
   "period_label": "2026 三季报",
