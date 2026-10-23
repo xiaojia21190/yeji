@@ -504,6 +504,22 @@
   "file": "300019_2026三季报.json"
  },
  {
+  "code": "300033",
+  "name": "同花顺",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "good",
+  "file": "300033_2026三季报.json"
+ },
+ {
+  "code": "300069",
+  "name": "金利华电",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "300069_2026三季报.json"
+ },
+ {
   "code": "300212",
   "name": "*ST易录",
   "period_label": "2026 三季报",
