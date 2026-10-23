@@ -240,6 +240,30 @@
   "file": "002445_2026三季报.json"
  },
  {
+  "code": "002448",
+  "name": "中原内配",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "good",
+  "file": "002448_2026三季报.json"
+ },
+ {
+  "code": "002454",
+  "name": "松芝股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002454_2026三季报.json"
+ },
+ {
+  "code": "002461",
+  "name": "珠江啤酒",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002461_2026三季报.json"
+ },
+ {
   "code": "300212",
   "name": "*ST易录",
   "period_label": "2026 三季报",
