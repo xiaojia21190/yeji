@@ -424,6 +424,86 @@
   "file": "002916_2026三季报.json"
  },
  {
+  "code": "002926",
+  "name": "华西证券",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002926_2026三季报.json"
+ },
+ {
+  "code": "002952",
+  "name": "亚世光电",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002952_2026三季报.json"
+ },
+ {
+  "code": "002967",
+  "name": "广电计量",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "good",
+  "file": "002967_2026三季报.json"
+ },
+ {
+  "code": "002971",
+  "name": "和远气体",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002971_2026三季报.json"
+ },
+ {
+  "code": "002979",
+  "name": "雷赛智能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "good",
+  "file": "002979_2026三季报.json"
+ },
+ {
+  "code": "002980",
+  "name": "华盛昌",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "good",
+  "file": "002980_2026三季报.json"
+ },
+ {
+  "code": "002982",
+  "name": "湘佳股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002982_2026三季报.json"
+ },
+ {
+  "code": "003002",
+  "name": "壶化股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "003002_2026三季报.json"
+ },
+ {
+  "code": "003030",
+  "name": "祖名股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "003030_2026三季报.json"
+ },
+ {
+  "code": "300019",
+  "name": "硅宝科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "300019_2026三季报.json"
+ },
+ {
   "code": "300212",
   "name": "*ST易录",
   "period_label": "2026 三季报",
