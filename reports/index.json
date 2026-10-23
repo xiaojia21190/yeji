@@ -1,5 +1,85 @@
 [
  {
+  "code": "000563",
+  "name": "陕国投Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "000563_2026三季报.json"
+ },
+ {
+  "code": "000615",
+  "name": "*ST美谷",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "000615_2026三季报.json"
+ },
+ {
+  "code": "000786",
+  "name": "北新建材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "000786_2026三季报.json"
+ },
+ {
+  "code": "000798",
+  "name": "中水渔业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "000798_2026三季报.json"
+ },
+ {
+  "code": "001258",
+  "name": "立新能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "001258_2026三季报.json"
+ },
+ {
+  "code": "001328",
+  "name": "登康口腔",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "001328_2026三季报.json"
+ },
+ {
+  "code": "001337",
+  "name": "四川黄金",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "good",
+  "file": "001337_2026三季报.json"
+ },
+ {
+  "code": "001360",
+  "name": "南矿集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "001360_2026三季报.json"
+ },
+ {
+  "code": "001367",
+  "name": "海森药业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "001367_2026三季报.json"
+ },
+ {
+  "code": "002032",
+  "name": "苏 泊 尔",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002032_2026三季报.json"
+ },
+ {
   "code": "300212",
   "name": "*ST易录",
   "period_label": "2026 三季报",
