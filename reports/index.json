@@ -80,6 +80,86 @@
   "file": "002032_2026三季报.json"
  },
  {
+  "code": "002057",
+  "name": "中钢天源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002057_2026三季报.json"
+ },
+ {
+  "code": "002111",
+  "name": "威海广泰",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002111_2026三季报.json"
+ },
+ {
+  "code": "002128",
+  "name": "电投能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002128_2026三季报.json"
+ },
+ {
+  "code": "002132",
+  "name": "恒星科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002132_2026三季报.json"
+ },
+ {
+  "code": "002150",
+  "name": "正泰电源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002150_2026三季报.json"
+ },
+ {
+  "code": "002155",
+  "name": "湖南黄金",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002155_2026三季报.json"
+ },
+ {
+  "code": "002172",
+  "name": "澳洋健康",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002172_2026三季报.json"
+ },
+ {
+  "code": "002173",
+  "name": "创新医疗",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002173_2026三季报.json"
+ },
+ {
+  "code": "002177",
+  "name": "御银股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002177_2026三季报.json"
+ },
+ {
+  "code": "002232",
+  "name": "启明信息",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002232_2026三季报.json"
+ },
+ {
   "code": "300212",
   "name": "*ST易录",
   "period_label": "2026 三季报",
