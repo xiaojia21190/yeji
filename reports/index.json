@@ -160,6 +160,86 @@
   "file": "002232_2026三季报.json"
  },
  {
+  "code": "002242",
+  "name": "九阳股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002242_2026三季报.json"
+ },
+ {
+  "code": "002243",
+  "name": "力合科创",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002243_2026三季报.json"
+ },
+ {
+  "code": "002276",
+  "name": "万马股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002276_2026三季报.json"
+ },
+ {
+  "code": "002334",
+  "name": "英威腾",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002334_2026三季报.json"
+ },
+ {
+  "code": "002373",
+  "name": "千方科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002373_2026三季报.json"
+ },
+ {
+  "code": "002379",
+  "name": "宏桥控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "good",
+  "file": "002379_2026三季报.json"
+ },
+ {
+  "code": "002391",
+  "name": "长青股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002391_2026三季报.json"
+ },
+ {
+  "code": "002410",
+  "name": "广联达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002410_2026三季报.json"
+ },
+ {
+  "code": "002434",
+  "name": "万里扬",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002434_2026三季报.json"
+ },
+ {
+  "code": "002445",
+  "name": "中南文化",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002445_2026三季报.json"
+ },
+ {
   "code": "300212",
   "name": "*ST易录",
   "period_label": "2026 三季报",
