@@ -264,6 +264,86 @@
   "file": "002461_2026三季报.json"
  },
  {
+  "code": "002484",
+  "name": "江海股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002484_2026三季报.json"
+ },
+ {
+  "code": "002494",
+  "name": "华斯股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002494_2026三季报.json"
+ },
+ {
+  "code": "002519",
+  "name": "银河电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002519_2026三季报.json"
+ },
+ {
+  "code": "002524",
+  "name": "光正眼科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002524_2026三季报.json"
+ },
+ {
+  "code": "002557",
+  "name": "洽洽食品",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "good",
+  "file": "002557_2026三季报.json"
+ },
+ {
+  "code": "002576",
+  "name": "通达动力",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002576_2026三季报.json"
+ },
+ {
+  "code": "002579",
+  "name": "中京电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002579_2026三季报.json"
+ },
+ {
+  "code": "002581",
+  "name": "*ST未名",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002581_2026三季报.json"
+ },
+ {
+  "code": "002615",
+  "name": "哈尔斯",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "bad",
+  "file": "002615_2026三季报.json"
+ },
+ {
+  "code": "002639",
+  "name": "雪人集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-23",
+  "tone": "warn",
+  "file": "002639_2026三季报.json"
+ },
+ {
   "code": "300212",
   "name": "*ST易录",
   "period_label": "2026 三季报",
