@@ -1,5 +1,85 @@
 [
  {
+  "code": "601899",
+  "name": "紫金矿业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "601899_2026三季报.json"
+ },
+ {
+  "code": "300072",
+  "name": "海新能科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300072_2026三季报.json"
+ },
+ {
+  "code": "300079",
+  "name": "数码视讯",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300079_2026三季报.json"
+ },
+ {
+  "code": "300092",
+  "name": "科新机电",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300092_2026三季报.json"
+ },
+ {
+  "code": "300099",
+  "name": "尤洛卡",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300099_2026三季报.json"
+ },
+ {
+  "code": "300106",
+  "name": "西部牧业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300106_2026三季报.json"
+ },
+ {
+  "code": "300112",
+  "name": "万讯自控",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300112_2026三季报.json"
+ },
+ {
+  "code": "300125",
+  "name": "聆达股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300125_2026三季报.json"
+ },
+ {
+  "code": "300133",
+  "name": "华策影视",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300133_2026三季报.json"
+ },
+ {
+  "code": "300160",
+  "name": "秀强股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300160_2026三季报.json"
+ },
+ {
   "code": "000563",
   "name": "陕国投Ａ",
   "period_label": "2026 三季报",
