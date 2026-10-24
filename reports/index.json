@@ -160,6 +160,86 @@
   "file": "300295_2026三季报.json"
  },
  {
+  "code": "300298",
+  "name": "三诺生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300298_2026三季报.json"
+ },
+ {
+  "code": "300299",
+  "name": "富春股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300299_2026三季报.json"
+ },
+ {
+  "code": "300304",
+  "name": "云意电气",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300304_2026三季报.json"
+ },
+ {
+  "code": "300306",
+  "name": "远方信息",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300306_2026三季报.json"
+ },
+ {
+  "code": "300311",
+  "name": "任子行",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300311_2026三季报.json"
+ },
+ {
+  "code": "300314",
+  "name": "戴维医疗",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300314_2026三季报.json"
+ },
+ {
+  "code": "300319",
+  "name": "麦捷科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300319_2026三季报.json"
+ },
+ {
+  "code": "300327",
+  "name": "中颖电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300327_2026三季报.json"
+ },
+ {
+  "code": "300341",
+  "name": "麦克奥迪",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300341_2026三季报.json"
+ },
+ {
+  "code": "300351",
+  "name": "永贵电器",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300351_2026三季报.json"
+ },
+ {
   "code": "000563",
   "name": "陕国投Ａ",
   "period_label": "2026 三季报",
