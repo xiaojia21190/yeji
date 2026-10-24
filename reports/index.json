@@ -560,6 +560,86 @@
   "file": "300871_2026三季报.json"
  },
  {
+  "code": "300873",
+  "name": "海晨股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300873_2026三季报.json"
+ },
+ {
+  "code": "300886",
+  "name": "华业香料",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300886_2026三季报.json"
+ },
+ {
+  "code": "300893",
+  "name": "松原安全",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300893_2026三季报.json"
+ },
+ {
+  "code": "300897",
+  "name": "山科智能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300897_2026三季报.json"
+ },
+ {
+  "code": "300911",
+  "name": "亿田智能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300911_2026三季报.json"
+ },
+ {
+  "code": "300960",
+  "name": "通业科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300960_2026三季报.json"
+ },
+ {
+  "code": "300967",
+  "name": "晓鸣股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300967_2026三季报.json"
+ },
+ {
+  "code": "300970",
+  "name": "华绿生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300970_2026三季报.json"
+ },
+ {
+  "code": "300971",
+  "name": "博亚精工",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300971_2026三季报.json"
+ },
+ {
+  "code": "300976",
+  "name": "达瑞电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300976_2026三季报.json"
+ },
+ {
   "code": "000563",
   "name": "陕国投Ａ",
   "period_label": "2026 三季报",
