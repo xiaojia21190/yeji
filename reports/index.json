@@ -440,6 +440,86 @@
   "file": "300697_2026三季报.json"
  },
  {
+  "code": "300703",
+  "name": "创源股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300703_2026三季报.json"
+ },
+ {
+  "code": "300709",
+  "name": "精研科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300709_2026三季报.json"
+ },
+ {
+  "code": "300727",
+  "name": "润禾材料",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300727_2026三季报.json"
+ },
+ {
+  "code": "300733",
+  "name": "西菱动力",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300733_2026三季报.json"
+ },
+ {
+  "code": "300747",
+  "name": "锐科激光",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "good",
+  "file": "300747_2026三季报.json"
+ },
+ {
+  "code": "300758",
+  "name": "七彩化学",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300758_2026三季报.json"
+ },
+ {
+  "code": "300768",
+  "name": "迪普科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300768_2026三季报.json"
+ },
+ {
+  "code": "300778",
+  "name": "新城市",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300778_2026三季报.json"
+ },
+ {
+  "code": "300814",
+  "name": "中富电路",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300814_2026三季报.json"
+ },
+ {
+  "code": "300816",
+  "name": "艾可蓝",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300816_2026三季报.json"
+ },
+ {
   "code": "000563",
   "name": "陕国投Ａ",
   "period_label": "2026 三季报",
