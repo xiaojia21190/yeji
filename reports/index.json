@@ -360,6 +360,86 @@
   "file": "300584_2026三季报.json"
  },
  {
+  "code": "300593",
+  "name": "新雷能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300593_2026三季报.json"
+ },
+ {
+  "code": "300608",
+  "name": "思特奇",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300608_2026三季报.json"
+ },
+ {
+  "code": "300620",
+  "name": "光库科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "good",
+  "file": "300620_2026三季报.json"
+ },
+ {
+  "code": "300623",
+  "name": "捷捷微电",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300623_2026三季报.json"
+ },
+ {
+  "code": "300627",
+  "name": "华测导航",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300627_2026三季报.json"
+ },
+ {
+  "code": "300683",
+  "name": "海特生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300683_2026三季报.json"
+ },
+ {
+  "code": "300685",
+  "name": "艾德生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300685_2026三季报.json"
+ },
+ {
+  "code": "300687",
+  "name": "赛意信息",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300687_2026三季报.json"
+ },
+ {
+  "code": "300693",
+  "name": "盛弘股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "good",
+  "file": "300693_2026三季报.json"
+ },
+ {
+  "code": "300697",
+  "name": "电工合金",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300697_2026三季报.json"
+ },
+ {
   "code": "000563",
   "name": "陕国投Ａ",
   "period_label": "2026 三季报",
