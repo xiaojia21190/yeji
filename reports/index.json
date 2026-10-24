@@ -520,6 +520,46 @@
   "file": "300816_2026三季报.json"
  },
  {
+  "code": "300822",
+  "name": "贝仕达克",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300822_2026三季报.json"
+ },
+ {
+  "code": "300824",
+  "name": "北鼎股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300824_2026三季报.json"
+ },
+ {
+  "code": "300845",
+  "name": "捷安高科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300845_2026三季报.json"
+ },
+ {
+  "code": "300854",
+  "name": "中兰环保",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300854_2026三季报.json"
+ },
+ {
+  "code": "300871",
+  "name": "回盛生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300871_2026三季报.json"
+ },
+ {
   "code": "000563",
   "name": "陕国投Ａ",
   "period_label": "2026 三季报",
