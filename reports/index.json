@@ -280,6 +280,86 @@
   "file": "300466_2026三季报.json"
  },
  {
+  "code": "300470",
+  "name": "中密控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300470_2026三季报.json"
+ },
+ {
+  "code": "300483",
+  "name": "首华燃气",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "good",
+  "file": "300483_2026三季报.json"
+ },
+ {
+  "code": "300499",
+  "name": "高澜股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300499_2026三季报.json"
+ },
+ {
+  "code": "300508",
+  "name": "维宏股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300508_2026三季报.json"
+ },
+ {
+  "code": "300519",
+  "name": "新光药业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300519_2026三季报.json"
+ },
+ {
+  "code": "300530",
+  "name": "领湃科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300530_2026三季报.json"
+ },
+ {
+  "code": "300549",
+  "name": "优德精密",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300549_2026三季报.json"
+ },
+ {
+  "code": "300559",
+  "name": "佳发教育",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300559_2026三季报.json"
+ },
+ {
+  "code": "300568",
+  "name": "星源材质",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300568_2026三季报.json"
+ },
+ {
+  "code": "300584",
+  "name": "海辰药业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300584_2026三季报.json"
+ },
+ {
   "code": "000563",
   "name": "陕国投Ａ",
   "period_label": "2026 三季报",
