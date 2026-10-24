@@ -240,6 +240,46 @@
   "file": "300351_2026三季报.json"
  },
  {
+  "code": "300374",
+  "name": "中铁装配",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300374_2026三季报.json"
+ },
+ {
+  "code": "300442",
+  "name": "润泽科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300442_2026三季报.json"
+ },
+ {
+  "code": "300452",
+  "name": "山河药辅",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300452_2026三季报.json"
+ },
+ {
+  "code": "300455",
+  "name": "航天智装",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300455_2026三季报.json"
+ },
+ {
+  "code": "300466",
+  "name": "赛摩智能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300466_2026三季报.json"
+ },
+ {
   "code": "000563",
   "name": "陕国投Ａ",
   "period_label": "2026 三季报",
