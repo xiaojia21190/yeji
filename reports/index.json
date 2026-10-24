@@ -80,6 +80,86 @@
   "file": "300160_2026三季报.json"
  },
  {
+  "code": "300184",
+  "name": "力源信息",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300184_2026三季报.json"
+ },
+ {
+  "code": "300193",
+  "name": "佳士科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300193_2026三季报.json"
+ },
+ {
+  "code": "300200",
+  "name": "高盟新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300200_2026三季报.json"
+ },
+ {
+  "code": "300201",
+  "name": "海伦哲",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300201_2026三季报.json"
+ },
+ {
+  "code": "300209",
+  "name": "行云科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300209_2026三季报.json"
+ },
+ {
+  "code": "300214",
+  "name": "日科化学",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300214_2026三季报.json"
+ },
+ {
+  "code": "300232",
+  "name": "洲明科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300232_2026三季报.json"
+ },
+ {
+  "code": "300258",
+  "name": "精锻科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300258_2026三季报.json"
+ },
+ {
+  "code": "300272",
+  "name": "开能健康",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "bad",
+  "file": "300272_2026三季报.json"
+ },
+ {
+  "code": "300295",
+  "name": "*ST三六五",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-24",
+  "tone": "warn",
+  "file": "300295_2026三季报.json"
+ },
+ {
   "code": "000563",
   "name": "陕国投Ａ",
   "period_label": "2026 三季报",
