@@ -160,6 +160,86 @@
   "file": "301265_2026三季报.json"
  },
  {
+  "code": "301289",
+  "name": "国缆检测",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301289_2026三季报.json"
+ },
+ {
+  "code": "301301",
+  "name": "川宁生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301301_2026三季报.json"
+ },
+ {
+  "code": "301310",
+  "name": "鑫宏业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301310_2026三季报.json"
+ },
+ {
+  "code": "301317",
+  "name": "鑫磊股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301317_2026三季报.json"
+ },
+ {
+  "code": "301363",
+  "name": "美好医疗",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301363_2026三季报.json"
+ },
+ {
+  "code": "301486",
+  "name": "致尚科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301486_2026三季报.json"
+ },
+ {
+  "code": "301509",
+  "name": "金凯生科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301509_2026三季报.json"
+ },
+ {
+  "code": "301533",
+  "name": "威马农机",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301533_2026三季报.json"
+ },
+ {
+  "code": "301577",
+  "name": "美信科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301577_2026三季报.json"
+ },
+ {
+  "code": "301584",
+  "name": "建发致新",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301584_2026三季报.json"
+ },
+ {
   "code": "601899",
   "name": "紫金矿业",
   "period_label": "2026 三季报",
