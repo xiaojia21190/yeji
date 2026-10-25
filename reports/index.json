@@ -240,6 +240,54 @@
   "file": "301584_2026三季报.json"
  },
  {
+  "code": "301613",
+  "name": "新铝时代",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301613_2026三季报.json"
+ },
+ {
+  "code": "301617",
+  "name": "博苑新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301617_2026三季报.json"
+ },
+ {
+  "code": "301683",
+  "name": "慧谷新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301683_2026三季报.json"
+ },
+ {
+  "code": "600282",
+  "name": "南钢股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "600282_2026三季报.json"
+ },
+ {
+  "code": "600310",
+  "name": "广西能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "600310_2026三季报.json"
+ },
+ {
+  "code": "600335",
+  "name": "国机汽车",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "600335_2026三季报.json"
+ },
+ {
   "code": "601899",
   "name": "紫金矿业",
   "period_label": "2026 三季报",
