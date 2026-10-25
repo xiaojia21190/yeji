@@ -1,5 +1,85 @@
 [
  {
+  "code": "301025",
+  "name": "读客文化",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301025_2026三季报.json"
+ },
+ {
+  "code": "301026",
+  "name": "浩通科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301026_2026三季报.json"
+ },
+ {
+  "code": "301050",
+  "name": "雷电微力",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301050_2026三季报.json"
+ },
+ {
+  "code": "301052",
+  "name": "果麦文化",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301052_2026三季报.json"
+ },
+ {
+  "code": "301079",
+  "name": "邵阳液压",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301079_2026三季报.json"
+ },
+ {
+  "code": "301098",
+  "name": "金埔园林",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301098_2026三季报.json"
+ },
+ {
+  "code": "301100",
+  "name": "风光股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301100_2026三季报.json"
+ },
+ {
+  "code": "301101",
+  "name": "明月镜片",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301101_2026三季报.json"
+ },
+ {
+  "code": "301106",
+  "name": "骏成科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301106_2026三季报.json"
+ },
+ {
+  "code": "301107",
+  "name": "瑜欣电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301107_2026三季报.json"
+ },
+ {
   "code": "601899",
   "name": "紫金矿业",
   "period_label": "2026 三季报",
