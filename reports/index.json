@@ -80,6 +80,86 @@
   "file": "301107_2026三季报.json"
  },
  {
+  "code": "301113",
+  "name": "雅艺科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301113_2026三季报.json"
+ },
+ {
+  "code": "301126",
+  "name": "达嘉维康",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301126_2026三季报.json"
+ },
+ {
+  "code": "301215",
+  "name": "中汽股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301215_2026三季报.json"
+ },
+ {
+  "code": "301218",
+  "name": "华是科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301218_2026三季报.json"
+ },
+ {
+  "code": "301223",
+  "name": "中荣股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301223_2026三季报.json"
+ },
+ {
+  "code": "301229",
+  "name": "纽泰格",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301229_2026三季报.json"
+ },
+ {
+  "code": "301230",
+  "name": "泓博医药",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301230_2026三季报.json"
+ },
+ {
+  "code": "301234",
+  "name": "五洲医疗",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301234_2026三季报.json"
+ },
+ {
+  "code": "301258",
+  "name": "富士莱",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "301258_2026三季报.json"
+ },
+ {
+  "code": "301265",
+  "name": "华新科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "301265_2026三季报.json"
+ },
+ {
   "code": "601899",
   "name": "紫金矿业",
   "period_label": "2026 三季报",
