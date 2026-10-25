@@ -288,6 +288,54 @@
   "file": "600335_2026三季报.json"
  },
  {
+  "code": "600419",
+  "name": "天润乳业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "600419_2026三季报.json"
+ },
+ {
+  "code": "600449",
+  "name": "宁夏建材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "600449_2026三季报.json"
+ },
+ {
+  "code": "600501",
+  "name": "航天晨光",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "600501_2026三季报.json"
+ },
+ {
+  "code": "600581",
+  "name": "*ST八钢",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "warn",
+  "file": "600581_2026三季报.json"
+ },
+ {
+  "code": "600584",
+  "name": "长电科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "good",
+  "file": "600584_2026三季报.json"
+ },
+ {
+  "code": "600673",
+  "name": "东阳光",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-25",
+  "tone": "bad",
+  "file": "600673_2026三季报.json"
+ },
+ {
   "code": "601899",
   "name": "紫金矿业",
   "period_label": "2026 三季报",
