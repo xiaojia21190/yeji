@@ -320,6 +320,86 @@
   "file": "688549_2026三季报.json"
  },
  {
+  "code": "688582",
+  "name": "芯动联科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688582_2026三季报.json"
+ },
+ {
+  "code": "688589",
+  "name": "力合微",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688589_2026三季报.json"
+ },
+ {
+  "code": "688600",
+  "name": "皖仪科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "good",
+  "file": "688600_2026三季报.json"
+ },
+ {
+  "code": "688608",
+  "name": "恒玄科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688608_2026三季报.json"
+ },
+ {
+  "code": "688722",
+  "name": "同益中",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688722_2026三季报.json"
+ },
+ {
+  "code": "688793",
+  "name": "倍轻松",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688793_2026三季报.json"
+ },
+ {
+  "code": "688835",
+  "name": "高凯技术",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "688835_2026三季报.json"
+ },
+ {
+  "code": "000001",
+  "name": "平安银行",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000001_2026三季报.json"
+ },
+ {
+  "code": "000029",
+  "name": "深深房Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "000029_2026三季报.json"
+ },
+ {
+  "code": "000056",
+  "name": "*ST皇庭",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000056_2026三季报.json"
+ },
+ {
   "code": "301025",
   "name": "读客文化",
   "period_label": "2026 三季报",
