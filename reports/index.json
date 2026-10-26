@@ -400,6 +400,86 @@
   "file": "000056_2026三季报.json"
  },
  {
+  "code": "000089",
+  "name": "深圳机场",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "000089_2026三季报.json"
+ },
+ {
+  "code": "000151",
+  "name": "中成股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "000151_2026三季报.json"
+ },
+ {
+  "code": "000404",
+  "name": "长虹华意",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000404_2026三季报.json"
+ },
+ {
+  "code": "000409",
+  "name": "云鼎科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000409_2026三季报.json"
+ },
+ {
+  "code": "000419",
+  "name": "通程控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "000419_2026三季报.json"
+ },
+ {
+  "code": "000423",
+  "name": "东阿阿胶",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000423_2026三季报.json"
+ },
+ {
+  "code": "000513",
+  "name": "丽珠集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000513_2026三季报.json"
+ },
+ {
+  "code": "000514",
+  "name": "渝 开 发",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "000514_2026三季报.json"
+ },
+ {
+  "code": "000524",
+  "name": "岭南控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000524_2026三季报.json"
+ },
+ {
+  "code": "000525",
+  "name": "红太阳",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000525_2026三季报.json"
+ },
+ {
   "code": "301025",
   "name": "读客文化",
   "period_label": "2026 三季报",
