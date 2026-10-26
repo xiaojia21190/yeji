@@ -240,6 +240,86 @@
   "file": "688139_2026三季报.json"
  },
  {
+  "code": "688158",
+  "name": "优刻得",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688158_2026三季报.json"
+ },
+ {
+  "code": "688278",
+  "name": "特宝生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688278_2026三季报.json"
+ },
+ {
+  "code": "688281",
+  "name": "华秦科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688281_2026三季报.json"
+ },
+ {
+  "code": "688295",
+  "name": "中复神鹰",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688295_2026三季报.json"
+ },
+ {
+  "code": "688328",
+  "name": "深科达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688328_2026三季报.json"
+ },
+ {
+  "code": "688336",
+  "name": "三生国健",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "688336_2026三季报.json"
+ },
+ {
+  "code": "688345",
+  "name": "博力威",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688345_2026三季报.json"
+ },
+ {
+  "code": "688368",
+  "name": "晶丰明源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688368_2026三季报.json"
+ },
+ {
+  "code": "688538",
+  "name": "和辉光电",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688538_2026三季报.json"
+ },
+ {
+  "code": "688549",
+  "name": "中巨芯",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "688549_2026三季报.json"
+ },
+ {
   "code": "301025",
   "name": "读客文化",
   "period_label": "2026 三季报",
