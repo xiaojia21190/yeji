@@ -1,5 +1,85 @@
 [
  {
+  "code": "600724",
+  "name": "宁波富达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "600724_2026三季报.json"
+ },
+ {
+  "code": "600744",
+  "name": "华银电力",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "600744_2026三季报.json"
+ },
+ {
+  "code": "600828",
+  "name": "茂业商业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "600828_2026三季报.json"
+ },
+ {
+  "code": "600865",
+  "name": "百大集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "600865_2026三季报.json"
+ },
+ {
+  "code": "601728",
+  "name": "中国电信",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "601728_2026三季报.json"
+ },
+ {
+  "code": "603021",
+  "name": "*ST华鹏",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "603021_2026三季报.json"
+ },
+ {
+  "code": "603101",
+  "name": "汇嘉时代",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "603101_2026三季报.json"
+ },
+ {
+  "code": "603153",
+  "name": "上海建科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "603153_2026三季报.json"
+ },
+ {
+  "code": "603156",
+  "name": "养元饮品",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "603156_2026三季报.json"
+ },
+ {
+  "code": "603160",
+  "name": "汇顶科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "603160_2026三季报.json"
+ },
+ {
   "code": "301025",
   "name": "读客文化",
   "period_label": "2026 三季报",
