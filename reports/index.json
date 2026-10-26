@@ -160,6 +160,86 @@
   "file": "603848_2026三季报.json"
  },
  {
+  "code": "603889",
+  "name": "新澳股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "603889_2026三季报.json"
+ },
+ {
+  "code": "603967",
+  "name": "中创物流",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "603967_2026三季报.json"
+ },
+ {
+  "code": "603990",
+  "name": "麦迪科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "603990_2026三季报.json"
+ },
+ {
+  "code": "603995",
+  "name": "甬金股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "603995_2026三季报.json"
+ },
+ {
+  "code": "605006",
+  "name": "山东玻纤",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "605006_2026三季报.json"
+ },
+ {
+  "code": "605086",
+  "name": "龙高股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "605086_2026三季报.json"
+ },
+ {
+  "code": "605128",
+  "name": "上海沿浦",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "605128_2026三季报.json"
+ },
+ {
+  "code": "688004",
+  "name": "博汇科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "688004_2026三季报.json"
+ },
+ {
+  "code": "688027",
+  "name": "国盾量子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688027_2026三季报.json"
+ },
+ {
+  "code": "688139",
+  "name": "海尔生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "688139_2026三季报.json"
+ },
+ {
   "code": "301025",
   "name": "读客文化",
   "period_label": "2026 三季报",
