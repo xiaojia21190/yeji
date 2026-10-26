@@ -80,6 +80,86 @@
   "file": "603160_2026三季报.json"
  },
  {
+  "code": "603186",
+  "name": "华正新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "603186_2026三季报.json"
+ },
+ {
+  "code": "603256",
+  "name": "宏和科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "good",
+  "file": "603256_2026三季报.json"
+ },
+ {
+  "code": "603300",
+  "name": "海南华铁",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "603300_2026三季报.json"
+ },
+ {
+  "code": "603400",
+  "name": "华之杰",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "603400_2026三季报.json"
+ },
+ {
+  "code": "603444",
+  "name": "吉比特",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "good",
+  "file": "603444_2026三季报.json"
+ },
+ {
+  "code": "603499",
+  "name": "翔港科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "good",
+  "file": "603499_2026三季报.json"
+ },
+ {
+  "code": "603600",
+  "name": "永艺股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "603600_2026三季报.json"
+ },
+ {
+  "code": "603665",
+  "name": "康隆达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "603665_2026三季报.json"
+ },
+ {
+  "code": "603713",
+  "name": "密尔克卫",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "603713_2026三季报.json"
+ },
+ {
+  "code": "603848",
+  "name": "好太太",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "603848_2026三季报.json"
+ },
+ {
   "code": "301025",
   "name": "读客文化",
   "period_label": "2026 三季报",
