@@ -480,6 +480,78 @@
   "file": "000525_2026三季报.json"
  },
  {
+  "code": "000528",
+  "name": "柳    工",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000528_2026三季报.json"
+ },
+ {
+  "code": "000548",
+  "name": "湖南投资",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "000548_2026三季报.json"
+ },
+ {
+  "code": "000559",
+  "name": "万向钱潮",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "000559_2026三季报.json"
+ },
+ {
+  "code": "000595",
+  "name": "新能股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000595_2026三季报.json"
+ },
+ {
+  "code": "000601",
+  "name": "韶能股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "000601_2026三季报.json"
+ },
+ {
+  "code": "000605",
+  "name": "渤海股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000605_2026三季报.json"
+ },
+ {
+  "code": "000610",
+  "name": "*ST西旅",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "warn",
+  "file": "000610_2026三季报.json"
+ },
+ {
+  "code": "000636",
+  "name": "风华高科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000636_2026三季报.json"
+ },
+ {
+  "code": "000682",
+  "name": "东方电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-26",
+  "tone": "bad",
+  "file": "000682_2026三季报.json"
+ },
+ {
   "code": "301025",
   "name": "读客文化",
   "period_label": "2026 三季报",
