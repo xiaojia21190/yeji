@@ -80,6 +80,86 @@
   "file": "000802_2026三季报.json"
  },
  {
+  "code": "000803",
+  "name": "山高环能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000803_2026三季报.json"
+ },
+ {
+  "code": "000810",
+  "name": "创维数字",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000810_2026三季报.json"
+ },
+ {
+  "code": "000821",
+  "name": "ST京机",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000821_2026三季报.json"
+ },
+ {
+  "code": "000848",
+  "name": "承德露露",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000848_2026三季报.json"
+ },
+ {
+  "code": "000863",
+  "name": "三湘印象",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "000863_2026三季报.json"
+ },
+ {
+  "code": "000869",
+  "name": "张  裕Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000869_2026三季报.json"
+ },
+ {
+  "code": "000877",
+  "name": "天山股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000877_2026三季报.json"
+ },
+ {
+  "code": "000899",
+  "name": "赣能股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "000899_2026三季报.json"
+ },
+ {
+  "code": "000909",
+  "name": "*ST数源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000909_2026三季报.json"
+ },
+ {
+  "code": "000920",
+  "name": "沃顿科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "000920_2026三季报.json"
+ },
+ {
   "code": "600724",
   "name": "宁波富达",
   "period_label": "2026 三季报",
