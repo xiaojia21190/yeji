@@ -1,5 +1,85 @@
 [
  {
+  "code": "000688",
+  "name": "国城矿业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000688_2026三季报.json"
+ },
+ {
+  "code": "000713",
+  "name": "国投丰乐",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "000713_2026三季报.json"
+ },
+ {
+  "code": "000715",
+  "name": "中兴商业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "000715_2026三季报.json"
+ },
+ {
+  "code": "000721",
+  "name": "西安饮食",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000721_2026三季报.json"
+ },
+ {
+  "code": "000733",
+  "name": "振华科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000733_2026三季报.json"
+ },
+ {
+  "code": "000753",
+  "name": "漳州发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000753_2026三季报.json"
+ },
+ {
+  "code": "000778",
+  "name": "新兴铸管",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000778_2026三季报.json"
+ },
+ {
+  "code": "000789",
+  "name": "万年青",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "000789_2026三季报.json"
+ },
+ {
+  "code": "000795",
+  "name": "英洛华",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000795_2026三季报.json"
+ },
+ {
+  "code": "000802",
+  "name": "北京文化",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000802_2026三季报.json"
+ },
+ {
   "code": "600724",
   "name": "宁波富达",
   "period_label": "2026 三季报",
