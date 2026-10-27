@@ -560,6 +560,86 @@
   "file": "002322_2026三季报.json"
  },
  {
+  "code": "002327",
+  "name": "富安娜",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002327_2026三季报.json"
+ },
+ {
+  "code": "002408",
+  "name": "齐翔腾达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002408_2026三季报.json"
+ },
+ {
+  "code": "002420",
+  "name": "毅昌科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002420_2026三季报.json"
+ },
+ {
+  "code": "002424",
+  "name": "ST百灵",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002424_2026三季报.json"
+ },
+ {
+  "code": "002449",
+  "name": "国星光电",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002449_2026三季报.json"
+ },
+ {
+  "code": "002468",
+  "name": "申通快递",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002468_2026三季报.json"
+ },
+ {
+  "code": "002478",
+  "name": "常宝股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002478_2026三季报.json"
+ },
+ {
+  "code": "002496",
+  "name": "辉丰股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002496_2026三季报.json"
+ },
+ {
+  "code": "002514",
+  "name": "*ST宝馨",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002514_2026三季报.json"
+ },
+ {
+  "code": "002521",
+  "name": "齐峰新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002521_2026三季报.json"
+ },
+ {
   "code": "600724",
   "name": "宁波富达",
   "period_label": "2026 三季报",
