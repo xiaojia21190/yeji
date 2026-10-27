@@ -400,6 +400,86 @@
   "file": "002186_2026三季报.json"
  },
  {
+  "code": "002200",
+  "name": "交投生态",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002200_2026三季报.json"
+ },
+ {
+  "code": "002202",
+  "name": "金风科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002202_2026三季报.json"
+ },
+ {
+  "code": "002210",
+  "name": "飞马国际",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002210_2026三季报.json"
+ },
+ {
+  "code": "002213",
+  "name": "大为股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002213_2026三季报.json"
+ },
+ {
+  "code": "002223",
+  "name": "鱼跃医疗",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002223_2026三季报.json"
+ },
+ {
+  "code": "002229",
+  "name": "鸿博股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002229_2026三季报.json"
+ },
+ {
+  "code": "002236",
+  "name": "大华股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002236_2026三季报.json"
+ },
+ {
+  "code": "002237",
+  "name": "恒邦股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002237_2026三季报.json"
+ },
+ {
+  "code": "002241",
+  "name": "歌尔股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002241_2026三季报.json"
+ },
+ {
+  "code": "002248",
+  "name": "华东数控",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002248_2026三季报.json"
+ },
+ {
   "code": "600724",
   "name": "宁波富达",
   "period_label": "2026 三季报",
