@@ -160,6 +160,86 @@
   "file": "000920_2026三季报.json"
  },
  {
+  "code": "000930",
+  "name": "中粮科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "000930_2026三季报.json"
+ },
+ {
+  "code": "000950",
+  "name": "重药控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000950_2026三季报.json"
+ },
+ {
+  "code": "000962",
+  "name": "东方钽业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000962_2026三季报.json"
+ },
+ {
+  "code": "000970",
+  "name": "中科三环",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000970_2026三季报.json"
+ },
+ {
+  "code": "000975",
+  "name": "山金国际",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000975_2026三季报.json"
+ },
+ {
+  "code": "000985",
+  "name": "大庆华科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000985_2026三季报.json"
+ },
+ {
+  "code": "000999",
+  "name": "华润三九",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "000999_2026三季报.json"
+ },
+ {
+  "code": "001203",
+  "name": "大中矿业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "001203_2026三季报.json"
+ },
+ {
+  "code": "001219",
+  "name": "青岛食品",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "001219_2026三季报.json"
+ },
+ {
+  "code": "001270",
+  "name": "铖昌科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "001270_2026三季报.json"
+ },
+ {
   "code": "600724",
   "name": "宁波富达",
   "period_label": "2026 三季报",
