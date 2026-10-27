@@ -320,6 +320,86 @@
   "file": "002055_2026三季报.json"
  },
  {
+  "code": "002056",
+  "name": "横店东磁",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002056_2026三季报.json"
+ },
+ {
+  "code": "002060",
+  "name": "广东建工",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002060_2026三季报.json"
+ },
+ {
+  "code": "002063",
+  "name": "远光软件",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002063_2026三季报.json"
+ },
+ {
+  "code": "002080",
+  "name": "中材科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002080_2026三季报.json"
+ },
+ {
+  "code": "002098",
+  "name": "浔兴股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002098_2026三季报.json"
+ },
+ {
+  "code": "002105",
+  "name": "信隆健康",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002105_2026三季报.json"
+ },
+ {
+  "code": "002119",
+  "name": "康强电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002119_2026三季报.json"
+ },
+ {
+  "code": "002136",
+  "name": "安 纳 达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002136_2026三季报.json"
+ },
+ {
+  "code": "002162",
+  "name": "悦心健康",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002162_2026三季报.json"
+ },
+ {
+  "code": "002186",
+  "name": "全 聚 德",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "002186_2026三季报.json"
+ },
+ {
   "code": "600724",
   "name": "宁波富达",
   "period_label": "2026 三季报",
