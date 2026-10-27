@@ -240,6 +240,86 @@
   "file": "001270_2026三季报.json"
  },
  {
+  "code": "001312",
+  "name": "福恩股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "001312_2026三季报.json"
+ },
+ {
+  "code": "001324",
+  "name": "长青科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "001324_2026三季报.json"
+ },
+ {
+  "code": "001325",
+  "name": "元创股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "001325_2026三季报.json"
+ },
+ {
+  "code": "001376",
+  "name": "百通能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "warn",
+  "file": "001376_2026三季报.json"
+ },
+ {
+  "code": "001380",
+  "name": "华纬科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "001380_2026三季报.json"
+ },
+ {
+  "code": "001388",
+  "name": "信通电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "001388_2026三季报.json"
+ },
+ {
+  "code": "002005",
+  "name": "德豪润达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002005_2026三季报.json"
+ },
+ {
+  "code": "002019",
+  "name": "亿帆医药",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002019_2026三季报.json"
+ },
+ {
+  "code": "002028",
+  "name": "思源电气",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002028_2026三季报.json"
+ },
+ {
+  "code": "002055",
+  "name": "ST得润",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-27",
+  "tone": "bad",
+  "file": "002055_2026三季报.json"
+ },
+ {
   "code": "600724",
   "name": "宁波富达",
   "period_label": "2026 三季报",
