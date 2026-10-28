@@ -480,6 +480,86 @@
   "file": "002332_2026三季报.json"
  },
  {
+  "code": "002333",
+  "name": "罗普斯金",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002333_2026三季报.json"
+ },
+ {
+  "code": "002346",
+  "name": "柘中股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002346_2026三季报.json"
+ },
+ {
+  "code": "002351",
+  "name": "漫步者",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002351_2026三季报.json"
+ },
+ {
+  "code": "002367",
+  "name": "康力电梯",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002367_2026三季报.json"
+ },
+ {
+  "code": "002370",
+  "name": "亚太药业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002370_2026三季报.json"
+ },
+ {
+  "code": "002380",
+  "name": "科远智慧",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002380_2026三季报.json"
+ },
+ {
+  "code": "002382",
+  "name": "蓝帆医疗",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002382_2026三季报.json"
+ },
+ {
+  "code": "002386",
+  "name": "天原股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002386_2026三季报.json"
+ },
+ {
+  "code": "002393",
+  "name": "力生制药",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002393_2026三季报.json"
+ },
+ {
+  "code": "002403",
+  "name": "爱仕达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002403_2026三季报.json"
+ },
+ {
   "code": "000688",
   "name": "国城矿业",
   "period_label": "2026 三季报",
