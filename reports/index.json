@@ -400,6 +400,86 @@
   "file": "002159_2026三季报.json"
  },
  {
+  "code": "002163",
+  "name": "海南发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002163_2026三季报.json"
+ },
+ {
+  "code": "002184",
+  "name": "海得控制",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002184_2026三季报.json"
+ },
+ {
+  "code": "002189",
+  "name": "中光学",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002189_2026三季报.json"
+ },
+ {
+  "code": "002245",
+  "name": "蔚蓝锂芯",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002245_2026三季报.json"
+ },
+ {
+  "code": "002261",
+  "name": "拓维信息",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002261_2026三季报.json"
+ },
+ {
+  "code": "002271",
+  "name": "东方雨虹",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002271_2026三季报.json"
+ },
+ {
+  "code": "002281",
+  "name": "光迅科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "good",
+  "file": "002281_2026三季报.json"
+ },
+ {
+  "code": "002306",
+  "name": "ST云网",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002306_2026三季报.json"
+ },
+ {
+  "code": "002313",
+  "name": "日海智能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002313_2026三季报.json"
+ },
+ {
+  "code": "002332",
+  "name": "仙琚制药",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002332_2026三季报.json"
+ },
+ {
   "code": "000688",
   "name": "国城矿业",
   "period_label": "2026 三季报",
