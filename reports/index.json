@@ -80,6 +80,86 @@
   "file": "000637_2026三季报.json"
  },
  {
+  "code": "000639",
+  "name": "ST西王",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "000639_2026三季报.json"
+ },
+ {
+  "code": "000701",
+  "name": "厦门信达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000701_2026三季报.json"
+ },
+ {
+  "code": "000703",
+  "name": "恒逸石化",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "000703_2026三季报.json"
+ },
+ {
+  "code": "000728",
+  "name": "国元证券",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000728_2026三季报.json"
+ },
+ {
+  "code": "000736",
+  "name": "中交发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "000736_2026三季报.json"
+ },
+ {
+  "code": "000815",
+  "name": "美利云",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000815_2026三季报.json"
+ },
+ {
+  "code": "000828",
+  "name": "东莞控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000828_2026三季报.json"
+ },
+ {
+  "code": "000829",
+  "name": "天音控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000829_2026三季报.json"
+ },
+ {
+  "code": "000850",
+  "name": "华茂股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000850_2026三季报.json"
+ },
+ {
+  "code": "000903",
+  "name": "ST云动",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000903_2026三季报.json"
+ },
+ {
   "code": "000688",
   "name": "国城矿业",
   "period_label": "2026 三季报",
