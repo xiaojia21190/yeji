@@ -240,6 +240,86 @@
   "file": "001229_2026三季报.json"
  },
  {
+  "code": "001255",
+  "name": "博菲电气",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "001255_2026三季报.json"
+ },
+ {
+  "code": "001285",
+  "name": "瑞立科密",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "001285_2026三季报.json"
+ },
+ {
+  "code": "001288",
+  "name": "运机集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "001288_2026三季报.json"
+ },
+ {
+  "code": "001308",
+  "name": "康冠科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "001308_2026三季报.json"
+ },
+ {
+  "code": "001309",
+  "name": "德明利",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "001309_2026三季报.json"
+ },
+ {
+  "code": "001319",
+  "name": "铭科精技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "001319_2026三季报.json"
+ },
+ {
+  "code": "001338",
+  "name": "永顺泰",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "001338_2026三季报.json"
+ },
+ {
+  "code": "001896",
+  "name": "豫能控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "001896_2026三季报.json"
+ },
+ {
+  "code": "002004",
+  "name": "华邦健康",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002004_2026三季报.json"
+ },
+ {
+  "code": "002030",
+  "name": "达安基因",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002030_2026三季报.json"
+ },
+ {
   "code": "000688",
   "name": "国城矿业",
   "period_label": "2026 三季报",
