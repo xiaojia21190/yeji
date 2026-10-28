@@ -560,6 +560,86 @@
   "file": "002403_2026三季报.json"
  },
  {
+  "code": "002421",
+  "name": "达实智能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002421_2026三季报.json"
+ },
+ {
+  "code": "002429",
+  "name": "兆驰股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002429_2026三季报.json"
+ },
+ {
+  "code": "002452",
+  "name": "长高电气",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002452_2026三季报.json"
+ },
+ {
+  "code": "002466",
+  "name": "天齐锂业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002466_2026三季报.json"
+ },
+ {
+  "code": "002482",
+  "name": "广田集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002482_2026三季报.json"
+ },
+ {
+  "code": "002544",
+  "name": "普天科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002544_2026三季报.json"
+ },
+ {
+  "code": "002553",
+  "name": "南方精工",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002553_2026三季报.json"
+ },
+ {
+  "code": "002573",
+  "name": "清新环境",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002573_2026三季报.json"
+ },
+ {
+  "code": "002591",
+  "name": "恒大高新",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002591_2026三季报.json"
+ },
+ {
+  "code": "002598",
+  "name": "ST章鼓",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002598_2026三季报.json"
+ },
+ {
   "code": "000688",
   "name": "国城矿业",
   "period_label": "2026 三季报",
