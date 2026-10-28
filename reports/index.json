@@ -320,6 +320,86 @@
   "file": "002030_2026三季报.json"
  },
  {
+  "code": "600547",
+  "name": "山东黄金",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "600547_2026三季报.json"
+ },
+ {
+  "code": "002059",
+  "name": "云南旅游",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002059_2026三季报.json"
+ },
+ {
+  "code": "002065",
+  "name": "东华软件",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002065_2026三季报.json"
+ },
+ {
+  "code": "002069",
+  "name": "獐子岛",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002069_2026三季报.json"
+ },
+ {
+  "code": "002085",
+  "name": "万丰奥威",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002085_2026三季报.json"
+ },
+ {
+  "code": "002100",
+  "name": "天康生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002100_2026三季报.json"
+ },
+ {
+  "code": "002109",
+  "name": "ST兴化",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002109_2026三季报.json"
+ },
+ {
+  "code": "002141",
+  "name": "贤丰控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "002141_2026三季报.json"
+ },
+ {
+  "code": "002154",
+  "name": "报 喜 鸟",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002154_2026三季报.json"
+ },
+ {
+  "code": "002159",
+  "name": "三特索道",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "002159_2026三季报.json"
+ },
+ {
   "code": "000688",
   "name": "国城矿业",
   "period_label": "2026 三季报",
