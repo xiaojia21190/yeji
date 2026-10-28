@@ -1,5 +1,85 @@
 [
  {
+  "code": "000020",
+  "name": "深华发Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000020_2026三季报.json"
+ },
+ {
+  "code": "000090",
+  "name": "天健集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000090_2026三季报.json"
+ },
+ {
+  "code": "000155",
+  "name": "川能动力",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000155_2026三季报.json"
+ },
+ {
+  "code": "000411",
+  "name": "英特集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "000411_2026三季报.json"
+ },
+ {
+  "code": "000498",
+  "name": "山东路桥",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000498_2026三季报.json"
+ },
+ {
+  "code": "000519",
+  "name": "中兵红箭",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "000519_2026三季报.json"
+ },
+ {
+  "code": "000520",
+  "name": "凤凰航运",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "000520_2026三季报.json"
+ },
+ {
+  "code": "000560",
+  "name": "我爱我家",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "000560_2026三季报.json"
+ },
+ {
+  "code": "000561",
+  "name": "烽火电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000561_2026三季报.json"
+ },
+ {
+  "code": "000637",
+  "name": "茂化实华",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000637_2026三季报.json"
+ },
+ {
   "code": "000688",
   "name": "国城矿业",
   "period_label": "2026 三季报",
