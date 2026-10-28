@@ -160,6 +160,86 @@
   "file": "000903_2026三季报.json"
  },
  {
+  "code": "000908",
+  "name": "石药景峰",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "000908_2026三季报.json"
+ },
+ {
+  "code": "000919",
+  "name": "金陵药业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "000919_2026三季报.json"
+ },
+ {
+  "code": "000921",
+  "name": "海信家电",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000921_2026三季报.json"
+ },
+ {
+  "code": "000960",
+  "name": "锡业股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "000960_2026三季报.json"
+ },
+ {
+  "code": "000969",
+  "name": "安泰科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "000969_2026三季报.json"
+ },
+ {
+  "code": "000989",
+  "name": "九芝堂",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "good",
+  "file": "000989_2026三季报.json"
+ },
+ {
+  "code": "001216",
+  "name": "华瓷股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "001216_2026三季报.json"
+ },
+ {
+  "code": "001217",
+  "name": "华尔泰",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "001217_2026三季报.json"
+ },
+ {
+  "code": "001223",
+  "name": "欧克科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "warn",
+  "file": "001223_2026三季报.json"
+ },
+ {
+  "code": "001229",
+  "name": "魅视科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-28",
+  "tone": "bad",
+  "file": "001229_2026三季报.json"
+ },
+ {
   "code": "000688",
   "name": "国城矿业",
   "period_label": "2026 三季报",
