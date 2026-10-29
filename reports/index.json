@@ -1,5 +1,85 @@
 [
  {
+  "code": "002714",
+  "name": "牧原股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002714_2026三季报.json"
+ },
+ {
+  "code": "002606",
+  "name": "大连电瓷",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002606_2026三季报.json"
+ },
+ {
+  "code": "002627",
+  "name": "三峡旅游",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002627_2026三季报.json"
+ },
+ {
+  "code": "002628",
+  "name": "成都路桥",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002628_2026三季报.json"
+ },
+ {
+  "code": "002629",
+  "name": "仁智股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002629_2026三季报.json"
+ },
+ {
+  "code": "002631",
+  "name": "德尔未来",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002631_2026三季报.json"
+ },
+ {
+  "code": "002637",
+  "name": "赞宇科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002637_2026三季报.json"
+ },
+ {
+  "code": "002703",
+  "name": "浙江世宝",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002703_2026三季报.json"
+ },
+ {
+  "code": "002713",
+  "name": "东易日盛",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002713_2026三季报.json"
+ },
+ {
+  "code": "002718",
+  "name": "友邦吊顶",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002718_2026三季报.json"
+ },
+ {
   "code": "000020",
   "name": "深华发Ａ",
   "period_label": "2026 三季报",
