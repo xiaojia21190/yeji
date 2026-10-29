@@ -160,6 +160,86 @@
   "file": "002833_2026三季报.json"
  },
  {
+  "code": "002836",
+  "name": "新宏泽",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002836_2026三季报.json"
+ },
+ {
+  "code": "002859",
+  "name": "洁美科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002859_2026三季报.json"
+ },
+ {
+  "code": "002866",
+  "name": "传艺科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002866_2026三季报.json"
+ },
+ {
+  "code": "002869",
+  "name": "金溢科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002869_2026三季报.json"
+ },
+ {
+  "code": "002876",
+  "name": "三利谱",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002876_2026三季报.json"
+ },
+ {
+  "code": "002879",
+  "name": "长缆科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002879_2026三季报.json"
+ },
+ {
+  "code": "002901",
+  "name": "大博医疗",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002901_2026三季报.json"
+ },
+ {
+  "code": "002941",
+  "name": "新疆交建",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002941_2026三季报.json"
+ },
+ {
+  "code": "002943",
+  "name": "宇晶股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002943_2026三季报.json"
+ },
+ {
+  "code": "002947",
+  "name": "恒铭达",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002947_2026三季报.json"
+ },
+ {
   "code": "000020",
   "name": "深华发Ａ",
   "period_label": "2026 三季报",
