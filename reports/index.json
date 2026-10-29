@@ -80,6 +80,86 @@
   "file": "002718_2026三季报.json"
  },
  {
+  "code": "002766",
+  "name": "索菱股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002766_2026三季报.json"
+ },
+ {
+  "code": "002769",
+  "name": "普路通",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002769_2026三季报.json"
+ },
+ {
+  "code": "002782",
+  "name": "可立克",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002782_2026三季报.json"
+ },
+ {
+  "code": "002785",
+  "name": "万里石",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002785_2026三季报.json"
+ },
+ {
+  "code": "002796",
+  "name": "世嘉科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002796_2026三季报.json"
+ },
+ {
+  "code": "002811",
+  "name": "郑中设计",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002811_2026三季报.json"
+ },
+ {
+  "code": "002818",
+  "name": "富森美",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002818_2026三季报.json"
+ },
+ {
+  "code": "002825",
+  "name": "纳尔股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002825_2026三季报.json"
+ },
+ {
+  "code": "002828",
+  "name": "贝肯能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002828_2026三季报.json"
+ },
+ {
+  "code": "002833",
+  "name": "弘亚数控",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002833_2026三季报.json"
+ },
+ {
   "code": "000020",
   "name": "深华发Ａ",
   "period_label": "2026 三季报",
