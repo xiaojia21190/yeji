@@ -240,6 +240,86 @@
   "file": "002947_2026三季报.json"
  },
  {
+  "code": "002956",
+  "name": "西麦食品",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "002956_2026三季报.json"
+ },
+ {
+  "code": "002991",
+  "name": "甘源食品",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "002991_2026三季报.json"
+ },
+ {
+  "code": "003017",
+  "name": "大洋生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "003017_2026三季报.json"
+ },
+ {
+  "code": "003023",
+  "name": "彩虹集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "003023_2026三季报.json"
+ },
+ {
+  "code": "003037",
+  "name": "三和管桩",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "003037_2026三季报.json"
+ },
+ {
+  "code": "300048",
+  "name": "合康新能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "300048_2026三季报.json"
+ },
+ {
+  "code": "300051",
+  "name": "琏升科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "300051_2026三季报.json"
+ },
+ {
+  "code": "300076",
+  "name": "*ST宁视",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "warn",
+  "file": "300076_2026三季报.json"
+ },
+ {
+  "code": "300086",
+  "name": "康芝药业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "300086_2026三季报.json"
+ },
+ {
+  "code": "300129",
+  "name": "泰胜风能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-29",
+  "tone": "bad",
+  "file": "300129_2026三季报.json"
+ },
+ {
   "code": "000020",
   "name": "深华发Ａ",
   "period_label": "2026 三季报",
