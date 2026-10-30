@@ -552,6 +552,86 @@
   "file": "001311_2026三季报.json"
  },
  {
+  "code": "001313",
+  "name": "粤海饲料",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "001313_2026三季报.json"
+ },
+ {
+  "code": "001314",
+  "name": "亿道信息",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "001314_2026三季报.json"
+ },
+ {
+  "code": "001317",
+  "name": "三羊马",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "001317_2026三季报.json"
+ },
+ {
+  "code": "001358",
+  "name": "兴欣新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "001358_2026三季报.json"
+ },
+ {
+  "code": "001366",
+  "name": "播恩集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "001366_2026三季报.json"
+ },
+ {
+  "code": "001373",
+  "name": "翔腾新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "001373_2026三季报.json"
+ },
+ {
+  "code": "001382",
+  "name": "新亚电缆",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "001382_2026三季报.json"
+ },
+ {
+  "code": "001390",
+  "name": "古麒绒材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "001390_2026三季报.json"
+ },
+ {
+  "code": "001393",
+  "name": "维通利",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "001393_2026三季报.json"
+ },
+ {
+  "code": "001399",
+  "name": "惠科股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "001399_2026三季报.json"
+ },
+ {
   "code": "002714",
   "name": "牧原股份",
   "period_label": "2026 三季报",
