@@ -392,6 +392,86 @@
   "file": "000862_2026三季报.json"
  },
  {
+  "code": "000878",
+  "name": "云南铜业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000878_2026三季报.json"
+ },
+ {
+  "code": "000902",
+  "name": "新洋丰",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000902_2026三季报.json"
+ },
+ {
+  "code": "000912",
+  "name": "泸天化",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000912_2026三季报.json"
+ },
+ {
+  "code": "000922",
+  "name": "佳电股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000922_2026三季报.json"
+ },
+ {
+  "code": "000923",
+  "name": "河钢资源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000923_2026三季报.json"
+ },
+ {
+  "code": "000958",
+  "name": "电投产融",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000958_2026三季报.json"
+ },
+ {
+  "code": "000972",
+  "name": "中基健康",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000972_2026三季报.json"
+ },
+ {
+  "code": "000973",
+  "name": "佛塑科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000973_2026三季报.json"
+ },
+ {
+  "code": "000993",
+  "name": "闽东电力",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000993_2026三季报.json"
+ },
+ {
+  "code": "001208",
+  "name": "华菱线缆",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "001208_2026三季报.json"
+ },
+ {
   "code": "002714",
   "name": "牧原股份",
   "period_label": "2026 三季报",
