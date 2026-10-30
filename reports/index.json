@@ -312,6 +312,86 @@
   "file": "000751_2026三季报.json"
  },
  {
+  "code": "000032",
+  "name": "深桑达Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000032_2026三季报.json"
+ },
+ {
+  "code": "000766",
+  "name": "通化金马",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000766_2026三季报.json"
+ },
+ {
+  "code": "000779",
+  "name": "甘咨询",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000779_2026三季报.json"
+ },
+ {
+  "code": "000788",
+  "name": "北大医药",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000788_2026三季报.json"
+ },
+ {
+  "code": "000791",
+  "name": "甘肃能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000791_2026三季报.json"
+ },
+ {
+  "code": "000801",
+  "name": "四川九洲",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000801_2026三季报.json"
+ },
+ {
+  "code": "000820",
+  "name": "神雾节能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000820_2026三季报.json"
+ },
+ {
+  "code": "000826",
+  "name": "*ST启环",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000826_2026三季报.json"
+ },
+ {
+  "code": "000831",
+  "name": "中国稀土",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000831_2026三季报.json"
+ },
+ {
+  "code": "000862",
+  "name": "银星能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000862_2026三季报.json"
+ },
+ {
   "code": "002714",
   "name": "牧原股份",
   "period_label": "2026 三季报",
