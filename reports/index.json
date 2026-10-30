@@ -1,5 +1,85 @@
 [
  {
+  "code": "300308",
+  "name": "中际旭创",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "300308_2026三季报.json"
+ },
+ {
+  "code": "000019",
+  "name": "深粮控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000019_2026三季报.json"
+ },
+ {
+  "code": "000036",
+  "name": "华联控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000036_2026三季报.json"
+ },
+ {
+  "code": "000042",
+  "name": "中洲控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000042_2026三季报.json"
+ },
+ {
+  "code": "000045",
+  "name": "深纺织Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000045_2026三季报.json"
+ },
+ {
+  "code": "000062",
+  "name": "深圳华强",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000062_2026三季报.json"
+ },
+ {
+  "code": "000063",
+  "name": "中兴通讯",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000063_2026三季报.json"
+ },
+ {
+  "code": "000068",
+  "name": "华控赛格",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000068_2026三季报.json"
+ },
+ {
+  "code": "000088",
+  "name": "盐 田 港",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000088_2026三季报.json"
+ },
+ {
+  "code": "000099",
+  "name": "中信海直",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000099_2026三季报.json"
+ },
+ {
   "code": "002714",
   "name": "牧原股份",
   "period_label": "2026 三季报",
