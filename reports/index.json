@@ -160,6 +160,86 @@
   "file": "000547_2026三季报.json"
  },
  {
+  "code": "000566",
+  "name": "海南海药",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000566_2026三季报.json"
+ },
+ {
+  "code": "000567",
+  "name": "海德股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000567_2026三季报.json"
+ },
+ {
+  "code": "000570",
+  "name": "苏常柴Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000570_2026三季报.json"
+ },
+ {
+  "code": "000571",
+  "name": "新大洲Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000571_2026三季报.json"
+ },
+ {
+  "code": "000572",
+  "name": "海马汽车",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000572_2026三季报.json"
+ },
+ {
+  "code": "000593",
+  "name": "德龙汇能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000593_2026三季报.json"
+ },
+ {
+  "code": "000628",
+  "name": "高新发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000628_2026三季报.json"
+ },
+ {
+  "code": "000632",
+  "name": "ST三木",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000632_2026三季报.json"
+ },
+ {
+  "code": "000633",
+  "name": "合金投资",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000633_2026三季报.json"
+ },
+ {
+  "code": "000650",
+  "name": "仁和药业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000650_2026三季报.json"
+ },
+ {
   "code": "002714",
   "name": "牧原股份",
   "period_label": "2026 三季报",
