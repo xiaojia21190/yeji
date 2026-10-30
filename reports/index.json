@@ -80,6 +80,86 @@
   "file": "000099_2026三季报.json"
  },
  {
+  "code": "000159",
+  "name": "国际实业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000159_2026三季报.json"
+ },
+ {
+  "code": "000407",
+  "name": "胜利股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000407_2026三季报.json"
+ },
+ {
+  "code": "000429",
+  "name": "粤高速Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000429_2026三季报.json"
+ },
+ {
+  "code": "000503",
+  "name": "国新健康",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000503_2026三季报.json"
+ },
+ {
+  "code": "000505",
+  "name": "京粮控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000505_2026三季报.json"
+ },
+ {
+  "code": "000506",
+  "name": "招金黄金",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000506_2026三季报.json"
+ },
+ {
+  "code": "000521",
+  "name": "长虹美菱",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000521_2026三季报.json"
+ },
+ {
+  "code": "000526",
+  "name": "学大教育",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000526_2026三季报.json"
+ },
+ {
+  "code": "000534",
+  "name": "万泽股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000534_2026三季报.json"
+ },
+ {
+  "code": "000547",
+  "name": "航天发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000547_2026三季报.json"
+ },
+ {
   "code": "002714",
   "name": "牧原股份",
   "period_label": "2026 三季报",
