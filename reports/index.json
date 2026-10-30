@@ -240,6 +240,78 @@
   "file": "000650_2026三季报.json"
  },
  {
+  "code": "000651",
+  "name": "格力电器",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000651_2026三季报.json"
+ },
+ {
+  "code": "000663",
+  "name": "永安林业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000663_2026三季报.json"
+ },
+ {
+  "code": "000670",
+  "name": "盈方微",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000670_2026三季报.json"
+ },
+ {
+  "code": "000681",
+  "name": "视觉中国",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000681_2026三季报.json"
+ },
+ {
+  "code": "000698",
+  "name": "ST沈化",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "bad",
+  "file": "000698_2026三季报.json"
+ },
+ {
+  "code": "000710",
+  "name": "贝瑞基因",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000710_2026三季报.json"
+ },
+ {
+  "code": "000722",
+  "name": "湖南发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000722_2026三季报.json"
+ },
+ {
+  "code": "000731",
+  "name": "四川美丰",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000731_2026三季报.json"
+ },
+ {
+  "code": "000751",
+  "name": "锌业股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-30",
+  "tone": "warn",
+  "file": "000751_2026三季报.json"
+ },
+ {
   "code": "002714",
   "name": "牧原股份",
   "period_label": "2026 三季报",
