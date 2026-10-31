@@ -320,6 +320,86 @@
   "file": "000755_2026三季报.json"
  },
  {
+  "code": "000757",
+  "name": "浩物股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000757_2026三季报.json"
+ },
+ {
+  "code": "000767",
+  "name": "晋控电力",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000767_2026三季报.json"
+ },
+ {
+  "code": "000782",
+  "name": "恒申新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000782_2026三季报.json"
+ },
+ {
+  "code": "000793",
+  "name": "ST华闻",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000793_2026三季报.json"
+ },
+ {
+  "code": "000796",
+  "name": "凯撒旅业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000796_2026三季报.json"
+ },
+ {
+  "code": "000809",
+  "name": "和展能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000809_2026三季报.json"
+ },
+ {
+  "code": "000816",
+  "name": "智慧农业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000816_2026三季报.json"
+ },
+ {
+  "code": "000823",
+  "name": "超声电子",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000823_2026三季报.json"
+ },
+ {
+  "code": "000833",
+  "name": "粤桂股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000833_2026三季报.json"
+ },
+ {
+  "code": "000838",
+  "name": "*ST发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000838_2026三季报.json"
+ },
+ {
   "code": "300308",
   "name": "中际旭创",
   "period_label": "2026 三季报",
