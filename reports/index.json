@@ -480,6 +480,86 @@
   "file": "000926_2026三季报.json"
  },
  {
+  "code": "000928",
+  "name": "中钢国际",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000928_2026三季报.json"
+ },
+ {
+  "code": "000951",
+  "name": "中国重汽",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "good",
+  "file": "000951_2026三季报.json"
+ },
+ {
+  "code": "000957",
+  "name": "中通客车",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "good",
+  "file": "000957_2026三季报.json"
+ },
+ {
+  "code": "000968",
+  "name": "蓝焰控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000968_2026三季报.json"
+ },
+ {
+  "code": "000997",
+  "name": "新 大 陆",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000997_2026三季报.json"
+ },
+ {
+  "code": "001201",
+  "name": "东瑞股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "001201_2026三季报.json"
+ },
+ {
+  "code": "001202",
+  "name": "炬申股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "001202_2026三季报.json"
+ },
+ {
+  "code": "001206",
+  "name": "依依股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "001206_2026三季报.json"
+ },
+ {
+  "code": "001210",
+  "name": "金房能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "001210_2026三季报.json"
+ },
+ {
+  "code": "001226",
+  "name": "拓山重工",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "001226_2026三季报.json"
+ },
+ {
   "code": "300308",
   "name": "中际旭创",
   "period_label": "2026 三季报",
