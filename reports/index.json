@@ -240,6 +240,86 @@
   "file": "000677_2026三季报.json"
  },
  {
+  "code": "000686",
+  "name": "东北证券",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000686_2026三季报.json"
+ },
+ {
+  "code": "000691",
+  "name": "亚太实业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000691_2026三季报.json"
+ },
+ {
+  "code": "000702",
+  "name": "正虹科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000702_2026三季报.json"
+ },
+ {
+  "code": "000707",
+  "name": "双环科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000707_2026三季报.json"
+ },
+ {
+  "code": "000723",
+  "name": "美锦能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000723_2026三季报.json"
+ },
+ {
+  "code": "000729",
+  "name": "燕京啤酒",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000729_2026三季报.json"
+ },
+ {
+  "code": "000735",
+  "name": "罗 牛 山",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000735_2026三季报.json"
+ },
+ {
+  "code": "000738",
+  "name": "航发控制",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000738_2026三季报.json"
+ },
+ {
+  "code": "000752",
+  "name": "*ST西发",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000752_2026三季报.json"
+ },
+ {
+  "code": "000755",
+  "name": "山西高速",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000755_2026三季报.json"
+ },
+ {
   "code": "300308",
   "name": "中际旭创",
   "period_label": "2026 三季报",
