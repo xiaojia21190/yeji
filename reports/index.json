@@ -400,6 +400,86 @@
   "file": "000838_2026三季报.json"
  },
  {
+  "code": "000839",
+  "name": "国安股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000839_2026三季报.json"
+ },
+ {
+  "code": "000858",
+  "name": "五 粮 液",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000858_2026三季报.json"
+ },
+ {
+  "code": "000859",
+  "name": "国风新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000859_2026三季报.json"
+ },
+ {
+  "code": "000890",
+  "name": "法尔胜",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000890_2026三季报.json"
+ },
+ {
+  "code": "000895",
+  "name": "双汇发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000895_2026三季报.json"
+ },
+ {
+  "code": "000906",
+  "name": "浙商中拓",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000906_2026三季报.json"
+ },
+ {
+  "code": "000910",
+  "name": "大亚圣象",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000910_2026三季报.json"
+ },
+ {
+  "code": "000913",
+  "name": "钱江摩托",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000913_2026三季报.json"
+ },
+ {
+  "code": "000917",
+  "name": "电广传媒",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000917_2026三季报.json"
+ },
+ {
+  "code": "000926",
+  "name": "福星股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000926_2026三季报.json"
+ },
+ {
   "code": "300308",
   "name": "中际旭创",
   "period_label": "2026 三季报",
