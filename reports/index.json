@@ -1,5 +1,85 @@
 [
  {
+  "code": "000025",
+  "name": "特  力Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000025_2026三季报.json"
+ },
+ {
+  "code": "000034",
+  "name": "神州数码",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000034_2026三季报.json"
+ },
+ {
+  "code": "000037",
+  "name": "深南电A",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000037_2026三季报.json"
+ },
+ {
+  "code": "000048",
+  "name": "京基智农",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000048_2026三季报.json"
+ },
+ {
+  "code": "000060",
+  "name": "中金岭南",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000060_2026三季报.json"
+ },
+ {
+  "code": "000158",
+  "name": "常山北明",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000158_2026三季报.json"
+ },
+ {
+  "code": "000301",
+  "name": "东方盛虹",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000301_2026三季报.json"
+ },
+ {
+  "code": "000421",
+  "name": "南京公用",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000421_2026三季报.json"
+ },
+ {
+  "code": "000426",
+  "name": "兴业银锡",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000426_2026三季报.json"
+ },
+ {
+  "code": "000428",
+  "name": "华天酒店",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000428_2026三季报.json"
+ },
+ {
   "code": "300308",
   "name": "中际旭创",
   "period_label": "2026 三季报",
