@@ -160,6 +160,86 @@
   "file": "000581_2026三季报.json"
  },
  {
+  "code": "000586",
+  "name": "汇源通信",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000586_2026三季报.json"
+ },
+ {
+  "code": "000589",
+  "name": "贵州轮胎",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000589_2026三季报.json"
+ },
+ {
+  "code": "000591",
+  "name": "太阳能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000591_2026三季报.json"
+ },
+ {
+  "code": "000598",
+  "name": "兴蓉环境",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000598_2026三季报.json"
+ },
+ {
+  "code": "000600",
+  "name": "建投能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000600_2026三季报.json"
+ },
+ {
+  "code": "000603",
+  "name": "盛达资源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "good",
+  "file": "000603_2026三季报.json"
+ },
+ {
+  "code": "000608",
+  "name": "阳光股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000608_2026三季报.json"
+ },
+ {
+  "code": "000630",
+  "name": "铜陵有色",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000630_2026三季报.json"
+ },
+ {
+  "code": "000631",
+  "name": "顺发恒能",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000631_2026三季报.json"
+ },
+ {
+  "code": "000677",
+  "name": "ST海龙",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000677_2026三季报.json"
+ },
+ {
   "code": "300308",
   "name": "中际旭创",
   "period_label": "2026 三季报",
