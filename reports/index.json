@@ -80,6 +80,86 @@
   "file": "000428_2026三季报.json"
  },
  {
+  "code": "000504",
+  "name": "南华生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000504_2026三季报.json"
+ },
+ {
+  "code": "000529",
+  "name": "广弘控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000529_2026三季报.json"
+ },
+ {
+  "code": "000532",
+  "name": "华金资本",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000532_2026三季报.json"
+ },
+ {
+  "code": "000537",
+  "name": "绿发电力",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000537_2026三季报.json"
+ },
+ {
+  "code": "000541",
+  "name": "佛山照明",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000541_2026三季报.json"
+ },
+ {
+  "code": "000546",
+  "name": "金圆股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000546_2026三季报.json"
+ },
+ {
+  "code": "000554",
+  "name": "泰山石油",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000554_2026三季报.json"
+ },
+ {
+  "code": "000558",
+  "name": "天府文旅",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000558_2026三季报.json"
+ },
+ {
+  "code": "000565",
+  "name": "渝三峡Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "000565_2026三季报.json"
+ },
+ {
+  "code": "000581",
+  "name": "威孚高科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "000581_2026三季报.json"
+ },
+ {
   "code": "300308",
   "name": "中际旭创",
   "period_label": "2026 三季报",
