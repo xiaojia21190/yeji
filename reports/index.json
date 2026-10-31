@@ -560,6 +560,86 @@
   "file": "001226_2026三季报.json"
  },
  {
+  "code": "001231",
+  "name": "农心科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "001231_2026三季报.json"
+ },
+ {
+  "code": "001233",
+  "name": "海安集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "001233_2026三季报.json"
+ },
+ {
+  "code": "001234",
+  "name": "泰慕士",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "001234_2026三季报.json"
+ },
+ {
+  "code": "001259",
+  "name": "利仁科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "001259_2026三季报.json"
+ },
+ {
+  "code": "001268",
+  "name": "联合精密",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "001268_2026三季报.json"
+ },
+ {
+  "code": "001278",
+  "name": "一彬科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "001278_2026三季报.json"
+ },
+ {
+  "code": "001316",
+  "name": "润贝航科",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "good",
+  "file": "001316_2026三季报.json"
+ },
+ {
+  "code": "001318",
+  "name": "阳光乳业",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "001318_2026三季报.json"
+ },
+ {
+  "code": "001331",
+  "name": "胜通能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "warn",
+  "file": "001331_2026三季报.json"
+ },
+ {
+  "code": "001333",
+  "name": "光华股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-10-31",
+  "tone": "bad",
+  "file": "001333_2026三季报.json"
+ },
+ {
   "code": "300308",
   "name": "中际旭创",
   "period_label": "2026 三季报",
