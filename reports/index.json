@@ -80,6 +80,86 @@
   "file": "000153_2026三季报.json"
  },
  {
+  "code": "000166",
+  "name": "申万宏源",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000166_2026三季报.json"
+ },
+ {
+  "code": "000401",
+  "name": "金隅冀东",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000401_2026三季报.json"
+ },
+ {
+  "code": "000402",
+  "name": "金 融 街",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000402_2026三季报.json"
+ },
+ {
+  "code": "000420",
+  "name": "吉林化纤",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000420_2026三季报.json"
+ },
+ {
+  "code": "000422",
+  "name": "湖北宜化",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000422_2026三季报.json"
+ },
+ {
+  "code": "000507",
+  "name": "珠海港",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000507_2026三季报.json"
+ },
+ {
+  "code": "000509",
+  "name": "华塑控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000509_2026三季报.json"
+ },
+ {
+  "code": "000510",
+  "name": "新金路",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000510_2026三季报.json"
+ },
+ {
+  "code": "000533",
+  "name": "顺钠股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000533_2026三季报.json"
+ },
+ {
+  "code": "000551",
+  "name": "创元科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000551_2026三季报.json"
+ },
+ {
   "code": "000025",
   "name": "特  力Ａ",
   "period_label": "2026 三季报",
