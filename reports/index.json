@@ -1,5 +1,85 @@
 [
  {
+  "code": "000006",
+  "name": "深振业Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000006_2026三季报.json"
+ },
+ {
+  "code": "000012",
+  "name": "南  玻Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000012_2026三季报.json"
+ },
+ {
+  "code": "000017",
+  "name": "深中华A",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000017_2026三季报.json"
+ },
+ {
+  "code": "000027",
+  "name": "深圳能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000027_2026三季报.json"
+ },
+ {
+  "code": "000031",
+  "name": "大悦城",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000031_2026三季报.json"
+ },
+ {
+  "code": "000035",
+  "name": "中国天楹",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000035_2026三季报.json"
+ },
+ {
+  "code": "000049",
+  "name": "德赛电池",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000049_2026三季报.json"
+ },
+ {
+  "code": "000055",
+  "name": "方大集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000055_2026三季报.json"
+ },
+ {
+  "code": "000066",
+  "name": "中国长城",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000066_2026三季报.json"
+ },
+ {
+  "code": "000153",
+  "name": "丰原药业",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000153_2026三季报.json"
+ },
+ {
   "code": "000025",
   "name": "特  力Ａ",
   "period_label": "2026 三季报",
