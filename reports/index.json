@@ -472,6 +472,86 @@
   "file": "000955_2026三季报.json"
  },
  {
+  "code": "000963",
+  "name": "华东医药",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000963_2026三季报.json"
+ },
+ {
+  "code": "000966",
+  "name": "长源电力",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000966_2026三季报.json"
+ },
+ {
+  "code": "000967",
+  "name": "盈峰环境",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000967_2026三季报.json"
+ },
+ {
+  "code": "000977",
+  "name": "浪潮信息",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000977_2026三季报.json"
+ },
+ {
+  "code": "000983",
+  "name": "山西焦煤",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000983_2026三季报.json"
+ },
+ {
+  "code": "000995",
+  "name": "皇台酒业",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000995_2026三季报.json"
+ },
+ {
+  "code": "000998",
+  "name": "隆平高科",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000998_2026三季报.json"
+ },
+ {
+  "code": "001205",
+  "name": "盛航股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "001205_2026三季报.json"
+ },
+ {
+  "code": "001209",
+  "name": "洪兴股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "001209_2026三季报.json"
+ },
+ {
+  "code": "001221",
+  "name": "悍高集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "001221_2026三季报.json"
+ },
+ {
   "code": "000025",
   "name": "特  力Ａ",
   "period_label": "2026 三季报",
