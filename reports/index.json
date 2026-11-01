@@ -240,6 +240,78 @@
   "file": "000678_2026三季报.json"
  },
  {
+  "code": "000683",
+  "name": "博源化工",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000683_2026三季报.json"
+ },
+ {
+  "code": "000690",
+  "name": "宝新能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000690_2026三季报.json"
+ },
+ {
+  "code": "000692",
+  "name": "惠天热电",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000692_2026三季报.json"
+ },
+ {
+  "code": "000709",
+  "name": "河钢股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000709_2026三季报.json"
+ },
+ {
+  "code": "000717",
+  "name": "中南股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000717_2026三季报.json"
+ },
+ {
+  "code": "000720",
+  "name": "新能泰山",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000720_2026三季报.json"
+ },
+ {
+  "code": "000726",
+  "name": "鲁  泰Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000726_2026三季报.json"
+ },
+ {
+  "code": "000737",
+  "name": "北方铜业",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000737_2026三季报.json"
+ },
+ {
+  "code": "000756",
+  "name": "新华制药",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000756_2026三季报.json"
+ },
+ {
   "code": "000025",
   "name": "特  力Ａ",
   "period_label": "2026 三季报",
