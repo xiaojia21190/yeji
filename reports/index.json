@@ -312,6 +312,86 @@
   "file": "000756_2026三季报.json"
  },
  {
+  "code": "000629",
+  "name": "钒钛股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000629_2026三季报.json"
+ },
+ {
+  "code": "000758",
+  "name": "中色股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "good",
+  "file": "000758_2026三季报.json"
+ },
+ {
+  "code": "000759",
+  "name": "中百集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000759_2026三季报.json"
+ },
+ {
+  "code": "000777",
+  "name": "中核科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000777_2026三季报.json"
+ },
+ {
+  "code": "000785",
+  "name": "居然智家",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000785_2026三季报.json"
+ },
+ {
+  "code": "000799",
+  "name": "酒鬼酒",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000799_2026三季报.json"
+ },
+ {
+  "code": "000811",
+  "name": "冰轮环境",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000811_2026三季报.json"
+ },
+ {
+  "code": "000812",
+  "name": "陕西金叶",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000812_2026三季报.json"
+ },
+ {
+  "code": "000818",
+  "name": "航锦科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000818_2026三季报.json"
+ },
+ {
+  "code": "000868",
+  "name": "安凯客车",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000868_2026三季报.json"
+ },
+ {
   "code": "000025",
   "name": "特  力Ａ",
   "period_label": "2026 三季报",
