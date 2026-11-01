@@ -392,6 +392,86 @@
   "file": "000868_2026三季报.json"
  },
  {
+  "code": "000875",
+  "name": "电投绿能",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000875_2026三季报.json"
+ },
+ {
+  "code": "000885",
+  "name": "城发环境",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000885_2026三季报.json"
+ },
+ {
+  "code": "000886",
+  "name": "海南高速",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000886_2026三季报.json"
+ },
+ {
+  "code": "000892",
+  "name": "欢瑞世纪",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000892_2026三季报.json"
+ },
+ {
+  "code": "000893",
+  "name": "亚钾国际",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000893_2026三季报.json"
+ },
+ {
+  "code": "000905",
+  "name": "厦门港务",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000905_2026三季报.json"
+ },
+ {
+  "code": "000925",
+  "name": "众合科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000925_2026三季报.json"
+ },
+ {
+  "code": "000937",
+  "name": "冀中能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000937_2026三季报.json"
+ },
+ {
+  "code": "000949",
+  "name": "新乡化纤",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "good",
+  "file": "000949_2026三季报.json"
+ },
+ {
+  "code": "000955",
+  "name": "欣龙控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000955_2026三季报.json"
+ },
+ {
   "code": "000025",
   "name": "特  力Ａ",
   "period_label": "2026 三季报",
