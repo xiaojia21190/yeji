@@ -160,6 +160,86 @@
   "file": "000551_2026三季报.json"
  },
  {
+  "code": "000557",
+  "name": "西部创业",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000557_2026三季报.json"
+ },
+ {
+  "code": "000582",
+  "name": "北部湾港",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000582_2026三季报.json"
+ },
+ {
+  "code": "000597",
+  "name": "东北制药",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000597_2026三季报.json"
+ },
+ {
+  "code": "000607",
+  "name": "华媒控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000607_2026三季报.json"
+ },
+ {
+  "code": "000609",
+  "name": "*ST中迪",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000609_2026三季报.json"
+ },
+ {
+  "code": "000659",
+  "name": "珠海中富",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000659_2026三季报.json"
+ },
+ {
+  "code": "000665",
+  "name": "湖北广电",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000665_2026三季报.json"
+ },
+ {
+  "code": "000668",
+  "name": "荣丰控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000668_2026三季报.json"
+ },
+ {
+  "code": "000672",
+  "name": "上峰材料",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "000672_2026三季报.json"
+ },
+ {
+  "code": "000678",
+  "name": "襄阳轴承",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "000678_2026三季报.json"
+ },
+ {
   "code": "000025",
   "name": "特  力Ａ",
   "period_label": "2026 三季报",
