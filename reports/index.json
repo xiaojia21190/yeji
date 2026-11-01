@@ -552,6 +552,86 @@
   "file": "001221_2026三季报.json"
  },
  {
+  "code": "001227",
+  "name": "兰州银行",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "001227_2026三季报.json"
+ },
+ {
+  "code": "001228",
+  "name": "永泰运",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "001228_2026三季报.json"
+ },
+ {
+  "code": "001236",
+  "name": "弘业期货",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "001236_2026三季报.json"
+ },
+ {
+  "code": "001248",
+  "name": "华润新能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "001248_2026三季报.json"
+ },
+ {
+  "code": "001267",
+  "name": "汇绿生态",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "001267_2026三季报.json"
+ },
+ {
+  "code": "001277",
+  "name": "速达股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "001277_2026三季报.json"
+ },
+ {
+  "code": "001279",
+  "name": "强邦新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "warn",
+  "file": "001279_2026三季报.json"
+ },
+ {
+  "code": "001280",
+  "name": "中国铀业",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "001280_2026三季报.json"
+ },
+ {
+  "code": "001282",
+  "name": "三联锻造",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "001282_2026三季报.json"
+ },
+ {
+  "code": "001286",
+  "name": "陕西能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-01",
+  "tone": "bad",
+  "file": "001286_2026三季报.json"
+ },
+ {
   "code": "000025",
   "name": "特  力Ａ",
   "period_label": "2026 三季报",
