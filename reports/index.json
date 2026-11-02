@@ -240,6 +240,86 @@
   "file": "000538_2026三季报.json"
  },
  {
+  "code": "000544",
+  "name": "中原环保",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000544_2026三季报.json"
+ },
+ {
+  "code": "000545",
+  "name": "金浦钛业",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000545_2026三季报.json"
+ },
+ {
+  "code": "000552",
+  "name": "甘肃能化",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000552_2026三季报.json"
+ },
+ {
+  "code": "000553",
+  "name": "安道麦A",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000553_2026三季报.json"
+ },
+ {
+  "code": "000555",
+  "name": "神州信息",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000555_2026三季报.json"
+ },
+ {
+  "code": "000564",
+  "name": "供销大集",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000564_2026三季报.json"
+ },
+ {
+  "code": "000568",
+  "name": "泸州老窖",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000568_2026三季报.json"
+ },
+ {
+  "code": "000573",
+  "name": "粤宏远Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000573_2026三季报.json"
+ },
+ {
+  "code": "000576",
+  "name": "甘化科工",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000576_2026三季报.json"
+ },
+ {
+  "code": "000590",
+  "name": "古汉医药",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000590_2026三季报.json"
+ },
+ {
   "code": "000006",
   "name": "深振业Ａ",
   "period_label": "2026 三季报",
