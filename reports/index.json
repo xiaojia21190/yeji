@@ -320,6 +320,86 @@
   "file": "000590_2026三季报.json"
  },
  {
+  "code": "000592",
+  "name": "平潭发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000592_2026三季报.json"
+ },
+ {
+  "code": "000596",
+  "name": "古井贡酒",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000596_2026三季报.json"
+ },
+ {
+  "code": "000599",
+  "name": "青岛双星",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000599_2026三季报.json"
+ },
+ {
+  "code": "000612",
+  "name": "焦作万方",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "good",
+  "file": "000612_2026三季报.json"
+ },
+ {
+  "code": "000617",
+  "name": "中油资本",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000617_2026三季报.json"
+ },
+ {
+  "code": "000619",
+  "name": "海螺新材",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000619_2026三季报.json"
+ },
+ {
+  "code": "000620",
+  "name": "盈新发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000620_2026三季报.json"
+ },
+ {
+  "code": "000623",
+  "name": "吉林敖东",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000623_2026三季报.json"
+ },
+ {
+  "code": "000626",
+  "name": "远大控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000626_2026三季报.json"
+ },
+ {
+  "code": "000652",
+  "name": "泰达股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000652_2026三季报.json"
+ },
+ {
   "code": "000006",
   "name": "深振业Ａ",
   "period_label": "2026 三季报",
