@@ -160,6 +160,86 @@
   "file": "000338_2026三季报.json"
  },
  {
+  "code": "000400",
+  "name": "许继电气",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000400_2026三季报.json"
+ },
+ {
+  "code": "000410",
+  "name": "沈阳机床",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000410_2026三季报.json"
+ },
+ {
+  "code": "000415",
+  "name": "渤海租赁",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000415_2026三季报.json"
+ },
+ {
+  "code": "000417",
+  "name": "合百集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000417_2026三季报.json"
+ },
+ {
+  "code": "000425",
+  "name": "徐工机械",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000425_2026三季报.json"
+ },
+ {
+  "code": "000517",
+  "name": "荣安地产",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000517_2026三季报.json"
+ },
+ {
+  "code": "000518",
+  "name": "四环生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000518_2026三季报.json"
+ },
+ {
+  "code": "000523",
+  "name": "红棉股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000523_2026三季报.json"
+ },
+ {
+  "code": "000531",
+  "name": "穗恒运Ａ",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000531_2026三季报.json"
+ },
+ {
+  "code": "000538",
+  "name": "云南白药",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000538_2026三季报.json"
+ },
+ {
   "code": "000006",
   "name": "深振业Ａ",
   "period_label": "2026 三季报",
