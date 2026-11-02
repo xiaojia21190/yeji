@@ -400,6 +400,86 @@
   "file": "000652_2026三季报.json"
  },
  {
+  "code": "000656",
+  "name": "金科股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000656_2026三季报.json"
+ },
+ {
+  "code": "000661",
+  "name": "长春高新",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000661_2026三季报.json"
+ },
+ {
+  "code": "000676",
+  "name": "智度股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000676_2026三季报.json"
+ },
+ {
+  "code": "000679",
+  "name": "大连友谊",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000679_2026三季报.json"
+ },
+ {
+  "code": "000680",
+  "name": "山推股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000680_2026三季报.json"
+ },
+ {
+  "code": "000685",
+  "name": "中山公用",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000685_2026三季报.json"
+ },
+ {
+  "code": "000695",
+  "name": "滨海能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000695_2026三季报.json"
+ },
+ {
+  "code": "000700",
+  "name": "模塑科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "bad",
+  "file": "000700_2026三季报.json"
+ },
+ {
+  "code": "000705",
+  "name": "浙江震元",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000705_2026三季报.json"
+ },
+ {
+  "code": "000716",
+  "name": "黑芝麻",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-02",
+  "tone": "warn",
+  "file": "000716_2026三季报.json"
+ },
+ {
   "code": "000006",
   "name": "深振业Ａ",
   "period_label": "2026 三季报",
