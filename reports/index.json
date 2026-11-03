@@ -400,6 +400,86 @@
   "file": "600115_2026三季报.json"
  },
  {
+  "code": "600117",
+  "name": "西宁特钢",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600117_2026三季报.json"
+ },
+ {
+  "code": "600120",
+  "name": "浙江东方",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600120_2026三季报.json"
+ },
+ {
+  "code": "600121",
+  "name": "郑州煤电",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600121_2026三季报.json"
+ },
+ {
+  "code": "600125",
+  "name": "铁龙物流",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600125_2026三季报.json"
+ },
+ {
+  "code": "600127",
+  "name": "金健米业",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600127_2026三季报.json"
+ },
+ {
+  "code": "600128",
+  "name": "苏豪弘业",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600128_2026三季报.json"
+ },
+ {
+  "code": "600130",
+  "name": "波导股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600130_2026三季报.json"
+ },
+ {
+  "code": "600137",
+  "name": "浪莎股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600137_2026三季报.json"
+ },
+ {
+  "code": "600141",
+  "name": "兴发集团",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600141_2026三季报.json"
+ },
+ {
+  "code": "600149",
+  "name": "廊坊发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600149_2026三季报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 三季报",
