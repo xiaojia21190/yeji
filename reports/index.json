@@ -240,6 +240,86 @@
   "file": "600015_2026三季报.json"
  },
  {
+  "code": "600016",
+  "name": "民生银行",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600016_2026三季报.json"
+ },
+ {
+  "code": "600020",
+  "name": "中原高速",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600020_2026三季报.json"
+ },
+ {
+  "code": "600021",
+  "name": "上海电力",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600021_2026三季报.json"
+ },
+ {
+  "code": "600022",
+  "name": "山东钢铁",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600022_2026三季报.json"
+ },
+ {
+  "code": "600029",
+  "name": "南方航空",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600029_2026三季报.json"
+ },
+ {
+  "code": "600036",
+  "name": "招商银行",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600036_2026三季报.json"
+ },
+ {
+  "code": "600052",
+  "name": "东望时代",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600052_2026三季报.json"
+ },
+ {
+  "code": "600058",
+  "name": "五矿发展",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600058_2026三季报.json"
+ },
+ {
+  "code": "600071",
+  "name": "凤凰光学",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600071_2026三季报.json"
+ },
+ {
+  "code": "600072",
+  "name": "中船科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600072_2026三季报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 三季报",
