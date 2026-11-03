@@ -80,6 +80,86 @@
   "file": "000725_2026三季报.json"
  },
  {
+  "code": "000797",
+  "name": "中国武夷",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "000797_2026三季报.json"
+ },
+ {
+  "code": "000876",
+  "name": "新 希 望",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "000876_2026三季报.json"
+ },
+ {
+  "code": "000901",
+  "name": "航天科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "000901_2026三季报.json"
+ },
+ {
+  "code": "002044",
+  "name": "美年健康",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "002044_2026三季报.json"
+ },
+ {
+  "code": "002175",
+  "name": "*ST东智",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "002175_2026三季报.json"
+ },
+ {
+  "code": "002185",
+  "name": "华天科技",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "002185_2026三季报.json"
+ },
+ {
+  "code": "002384",
+  "name": "东山精密",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "002384_2026三季报.json"
+ },
+ {
+  "code": "002932",
+  "name": "*ST明德",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "002932_2026三季报.json"
+ },
+ {
+  "code": "300068",
+  "name": "ST南都",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "300068_2026三季报.json"
+ },
+ {
+  "code": "300118",
+  "name": "东方日升",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "300118_2026三季报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 三季报",
