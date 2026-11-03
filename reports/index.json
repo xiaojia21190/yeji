@@ -480,6 +480,86 @@
   "file": "600149_2026三季报.json"
  },
  {
+  "code": "600150",
+  "name": "中国船舶",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600150_2026三季报.json"
+ },
+ {
+  "code": "600153",
+  "name": "建发股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600153_2026三季报.json"
+ },
+ {
+  "code": "600155",
+  "name": "华创云信",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600155_2026三季报.json"
+ },
+ {
+  "code": "600157",
+  "name": "永泰能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600157_2026三季报.json"
+ },
+ {
+  "code": "600159",
+  "name": "大龙地产",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600159_2026三季报.json"
+ },
+ {
+  "code": "600162",
+  "name": "香江控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600162_2026三季报.json"
+ },
+ {
+  "code": "600165",
+  "name": "宁科生物",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600165_2026三季报.json"
+ },
+ {
+  "code": "600166",
+  "name": "福田汽车",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600166_2026三季报.json"
+ },
+ {
+  "code": "600169",
+  "name": "ST太重",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600169_2026三季报.json"
+ },
+ {
+  "code": "600170",
+  "name": "上海建工",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600170_2026三季报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 三季报",
