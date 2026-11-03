@@ -320,6 +320,86 @@
   "file": "600072_2026三季报.json"
  },
  {
+  "code": "600073",
+  "name": "光明肉业",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600073_2026三季报.json"
+ },
+ {
+  "code": "600080",
+  "name": "ST金花",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600080_2026三季报.json"
+ },
+ {
+  "code": "600085",
+  "name": "同仁堂",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600085_2026三季报.json"
+ },
+ {
+  "code": "600097",
+  "name": "开创国际",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600097_2026三季报.json"
+ },
+ {
+  "code": "600099",
+  "name": "林海股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600099_2026三季报.json"
+ },
+ {
+  "code": "600100",
+  "name": "同方股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600100_2026三季报.json"
+ },
+ {
+  "code": "600106",
+  "name": "重庆路桥",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600106_2026三季报.json"
+ },
+ {
+  "code": "600109",
+  "name": "国金证券",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "good",
+  "file": "600109_2026三季报.json"
+ },
+ {
+  "code": "600114",
+  "name": "东睦股份",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600114_2026三季报.json"
+ },
+ {
+  "code": "600115",
+  "name": "中国东航",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600115_2026三季报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 三季报",
