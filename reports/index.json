@@ -160,6 +160,86 @@
   "file": "300118_2026三季报.json"
  },
  {
+  "code": "300274",
+  "name": "阳光电源",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "300274_2026三季报.json"
+ },
+ {
+  "code": "300521",
+  "name": "爱司凯",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "300521_2026三季报.json"
+ },
+ {
+  "code": "301018",
+  "name": "申菱环境",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "301018_2026三季报.json"
+ },
+ {
+  "code": "600000",
+  "name": "浦发银行",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600000_2026三季报.json"
+ },
+ {
+  "code": "600004",
+  "name": "白云机场",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600004_2026三季报.json"
+ },
+ {
+  "code": "600007",
+  "name": "中国国贸",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600007_2026三季报.json"
+ },
+ {
+  "code": "600008",
+  "name": "首创环保",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600008_2026三季报.json"
+ },
+ {
+  "code": "600009",
+  "name": "上海机场",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600009_2026三季报.json"
+ },
+ {
+  "code": "600012",
+  "name": "皖通高速",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600012_2026三季报.json"
+ },
+ {
+  "code": "600015",
+  "name": "华夏银行",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600015_2026三季报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 三季报",
