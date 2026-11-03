@@ -560,6 +560,86 @@
   "file": "600170_2026三季报.json"
  },
  {
+  "code": "600171",
+  "name": "上海贝岭",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600171_2026三季报.json"
+ },
+ {
+  "code": "600172",
+  "name": "黄河旋风",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600172_2026三季报.json"
+ },
+ {
+  "code": "600177",
+  "name": "雅戈尔",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600177_2026三季报.json"
+ },
+ {
+  "code": "600180",
+  "name": "*ST瑞茂",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600180_2026三季报.json"
+ },
+ {
+  "code": "600182",
+  "name": "S佳通",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600182_2026三季报.json"
+ },
+ {
+  "code": "600186",
+  "name": "莲花控股",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "good",
+  "file": "600186_2026三季报.json"
+ },
+ {
+  "code": "600187",
+  "name": "*ST国中",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "warn",
+  "file": "600187_2026三季报.json"
+ },
+ {
+  "code": "600188",
+  "name": "兖矿能源",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600188_2026三季报.json"
+ },
+ {
+  "code": "600191",
+  "name": "华资实业",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600191_2026三季报.json"
+ },
+ {
+  "code": "600199",
+  "name": "金种子酒",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-03",
+  "tone": "bad",
+  "file": "600199_2026三季报.json"
+ },
+ {
   "code": "000002",
   "name": "万  科Ａ",
   "period_label": "2026 三季报",
