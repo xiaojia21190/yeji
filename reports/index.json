@@ -1,5 +1,13 @@
 [
  {
+  "code": "688981",
+  "name": "中芯国际",
+  "period_label": "2026 三季报",
+  "generated": "2026-11-12",
+  "tone": "warn",
+  "file": "688981_2026三季报.json"
+ },
+ {
   "code": "688235",
   "name": "百济神州",
   "period_label": "2026 三季报",
